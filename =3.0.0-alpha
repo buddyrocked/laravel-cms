@@ -1,0 +1,11 @@
+[30;43mWarning: This development build of composer is over 30 days old. It is recommended to update it by running "/usr/local/bin/composer self-update" to get the latest version.[39;49m
+Using version [32m~2.0[39m for [32mcviebrock/eloquent-sluggable[39m
+[32m./composer.json has been updated[39m
+[32mLoading composer repositories with package information[39m
+[32mUpdating dependencies (including require-dev)[39m
+  - Installing [32mcviebrock/eloquent-sluggable[39m ([33m2.0.5[39m)
+    Downloading: [33mconnection...[39m    Downloading: [33m100%[39m         
+
+[32mWriting lock file[39m
+[32mGenerating autoload files[39m
+Generating optimized class loader

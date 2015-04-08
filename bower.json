@@ -1,0 +1,8 @@
+{
+  "name": "budihariyana-studio",
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "nprogress": "~0.1.6",
+    "eonasdan-bootstrap-datetimepicker": "~4.0.0"
+  }
+}

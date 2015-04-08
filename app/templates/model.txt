@@ -1,0 +1,9 @@
+<?php
+
+class $NAME$ extends \Eloquent {
+	protected $fillable = [];
+
+	public static $rules = [
+			//'name'=>'required',
+	];
+}

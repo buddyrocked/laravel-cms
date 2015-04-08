@@ -1,0 +1,1 @@
+{{ HTML::script('packages/mrjuliuss/syntara/assets/js/dashboard/base.js') }}
