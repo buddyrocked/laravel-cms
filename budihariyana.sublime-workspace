@@ -4,28 +4,92 @@
 		"selected_items":
 		[
 			[
-				"com",
-				"comments"
-			],
-			[
-				"fo",
-				"font-family"
-			],
-			[
 				"mar",
 				"margin"
 			],
 			[
-				"bo",
-				"border"
+				"fon",
+				"font-family"
 			],
 			[
-				"blo",
-				"blog-author"
+				"ma",
+				"margin-right"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"be",
+				"BebasNeueRegular"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"med",
+				"media-list"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"ti",
+				"title-section"
+			],
+			[
+				"1b",
+				"1ba1e2"
+			],
+			[
+				"borde",
+				"border-top"
 			],
 			[
 				"co",
 				"color"
+			],
+			[
+				"b",
+				"border-left"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"hom",
+				"home-about"
+			],
+			[
+				"op",
+				"opensans-semibold"
+			],
+			[
+				"com",
+				"comment-list"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"blo",
+				"blog-author"
 			],
 			[
 				"post",
@@ -104,10 +168,6 @@
 				"active"
 			],
 			[
-				"fon",
-				"font-size"
-			],
-			[
 				"Fon",
 				"font-family"
 			],
@@ -124,10 +184,6 @@
 				"blog-item"
 			],
 			[
-				"bor",
-				"border"
-			],
-			[
 				"s",
 				"solid"
 			],
@@ -136,16 +192,8 @@
 				"inline-block"
 			],
 			[
-				"ma",
-				"margin"
-			],
-			[
 				"tra",
 				"transparent"
-			],
-			[
-				"be",
-				"before"
 			],
 			[
 				"m",
@@ -174,10 +222,6 @@
 			[
 				"rgb",
 				"rgba()"
-			],
-			[
-				"bac",
-				"background"
 			],
 			[
 				"nav",
@@ -416,10 +460,6 @@
 				"man_accounts"
 			],
 			[
-				"ti",
-				"this"
-			],
-			[
 				"auth",
 				"authUrl"
 			],
@@ -474,222 +514,53 @@
 			[
 				"curen",
 				"currentUser"
-			],
-			[
-				"group",
-				"groups"
-			],
-			[
-				"men",
-				"menu"
-			],
-			[
-				"gro",
-				"group_id"
-			],
-			[
-				"menu",
-				"menu"
-			],
-			[
-				"active",
-				"active-menu"
-			],
-			[
-				"add",
-				"addClass"
-			],
-			[
-				"pag",
-				"paginate"
-			],
-			[
-				"Post",
-				"Post"
-			],
-			[
-				"font",
-				"font_color"
-			],
-			[
-				"res",
-				"result"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "public/assets/css/front.css",
+			"file": "/home/budihariyana/Public/bkom/app/src/GA_Service.php",
 			"settings":
 			{
-				"buffer_size": 30551,
+				"buffer_size": 5180,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "public/assets/css/style.css",
+			"file": "/home/budihariyana/Public/bkom/public/assets/css/front.css",
 			"settings":
 			{
-				"buffer_size": 36106,
+				"buffer_size": 46042,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/budi-layout/frontend.blade.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/layouts/budi-layout/frontend.blade.php",
 			"settings":
 			{
-				"buffer_size": 17618,
+				"buffer_size": 18877,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/FrontEndController.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/albums/edit.blade.php",
 			"settings":
 			{
-				"buffer_size": 1993,
+				"buffer_size": 2292,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/HomeController.php",
+			"file": "/home/budihariyana/Public/bkom/public/assets/js/budi-layout2.js",
 			"settings":
 			{
-				"buffer_size": 7731,
+				"buffer_size": 23953,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/home/budihariyana/Downloads/TiltedContentSlideshow/css/component.css",
-			"settings":
-			{
-				"buffer_size": 14313,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/frontend/home.blade.php",
-			"settings":
-			{
-				"buffer_size": 8156,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/frontend/blog.blade.php",
-			"settings":
-			{
-				"buffer_size": 2856,
-				"line_ending": "Unix",
-				"name": "@extends('layouts.budi-layout.frontend')"
-			}
-		},
-		{
-			"file": "app/views/frontend/read.blade.php",
-			"settings":
-			{
-				"buffer_size": 3808,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/frontend/service.blade.php",
-			"settings":
-			{
-				"buffer_size": 5669,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/frontend/portfolio.blade.php",
-			"settings":
-			{
-				"buffer_size": 3386,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/frontend/about.blade.php",
-			"settings":
-			{
-				"buffer_size": 1578,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/routes.php",
-			"settings":
-			{
-				"buffer_size": 13811,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/models/Post.php",
-			"settings":
-			{
-				"buffer_size": 675,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/home/budihariyana/Public/spddagh.dev/assets/js/jquery.fixedheadertable.js",
-			"settings":
-			{
-				"buffer_size": 22145,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/app.php",
-			"settings":
-			{
-				"buffer_size": 25035,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/PostsController.php",
-			"settings":
-			{
-				"buffer_size": 10468,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/posts/index.blade.php",
-			"settings":
-			{
-				"buffer_size": 4499,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/packages/mrjuliuss/syntara/config.php",
-			"settings":
-			{
-				"buffer_size": 426,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/config/packages/mrjuliuss/syntara/permissions.php",
-			"settings":
-			{
-				"buffer_size": 4716,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/assets/js/main.js",
-			"settings":
-			{
-				"buffer_size": 128,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/assets/app.js",
+			"file": "/home/budihariyana/Public/bkom/public/assets/app.js",
 			"settings":
 			{
 				"buffer_size": 3653,
@@ -697,78 +568,98 @@
 			}
 		},
 		{
-			"file": "app/views/layouts/budi-layout/layout.blade.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/layouts/budi-layout/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 9142,
+				"buffer_size": 9139,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/models/Category.php",
+			"file": "/home/budihariyana/Public/bkom/app/controllers/FrontEndController.php",
 			"settings":
 			{
-				"buffer_size": 123,
+				"buffer_size": 2716,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/CategoryController.php",
+			"file": "/home/budihariyana/Public/bkom/app/controllers/MediasController.php",
 			"settings":
 			{
-				"buffer_size": 3690,
+				"buffer_size": 6199,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "vendor/mrjuliuss/syntara/src/filters.php",
+			"file": "/home/budihariyana/Public/bkom/app/controllers/PostsController.php",
 			"settings":
 			{
-				"buffer_size": 3109,
+				"buffer_size": 10566,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/viewComposers/CommentViewComposer.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 167,
+				"buffer_size": 17758,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/viewComposers/NavigationViewComposer.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/portfolio.blade.php",
 			"settings":
 			{
-				"buffer_size": 1922,
+				"buffer_size": 3571,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "<?php\n\nuse Illuminate\\View\\View;\n\nclass SidebarBlogViewComposer {\n\n	public function compose(View $view){\n		$data = [];\n		$data['popular_posts'] = static::getPopularPosts();\n		$data['categories'] = static::getCategories();\n		$data['comments'] = static::getLatestComments();\n		$view->sidebar = $data;\n	}\n\n	public static function getPopularPosts(){\n		$posts = Post::orderBy('read', 'DESC')->take(5)->get();\n		return $posts;\n	}\n\n	public static function getCategories(){\n		$categories = Category::all();\n		return $categories;\n	}\n\n	public static function getLatestComments(){\n		$comments = Comment::orderBy('id', 'DESC')->take(5)->get();\n		return $comments;\n	}\n}",
-			"file": "app/viewComposers/SidebarBlogViewComposer.php",
-			"file_size": 658,
-			"file_write_time": 1428421215000000,
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/service.blade.php",
 			"settings":
 			{
-				"buffer_size": 656,
-				"line_ending": "Unix",
-				"name": "<?php"
-			}
-		},
-		{
-			"file": "app/start/global.php",
-			"settings":
-			{
-				"buffer_size": 4159,
+				"buffer_size": 5316,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/views/layouts/budi-layout/sidebarBlog.blade.php",
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/about.blade.php",
 			"settings":
 			{
-				"buffer_size": 2026,
+				"buffer_size": 6188,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/read.blade.php",
+			"settings":
+			{
+				"buffer_size": 14372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/budihariyana/Public/bkom/app/views/frontend/blog.blade.php",
+			"settings":
+			{
+				"buffer_size": 2964,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/frontend/home.blade.php",
+			"settings":
+			{
+				"buffer_size": 8623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/assets/vendor/animate.css/animate.css",
+			"settings":
+			{
+				"buffer_size": 68796,
 				"line_ending": "Unix"
 			}
 		}
@@ -801,19 +692,56 @@
 	},
 	"file_history":
 	[
+		"/home/budihariyana/Public/budihariyana.com/app/views/adminDefault.blade.php",
+		"/home/budihariyana/Public/bkom/public/assets/vendor/nivo-slider/css/default/default.css",
+		"/home/budihariyana/Downloads/DirectionAwareHoverEffect/DirectionAwareHoverEffect/css/style.css",
+		"/home/budihariyana/Downloads/DirectionAwareHoverEffect/DirectionAwareHoverEffect/index.html",
+		"/home/budihariyana/Downloads/nivo-slider/nivo-slider/demo/demo.html",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/service.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/controllers/AlbumController.php",
+		"/home/budihariyana/Public/budihariyana.com/.gitignore",
+		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/frontend.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/models/PostTag.php",
+		"/home/budihariyana/Public/budihariyana.com/app/models/Tag.php",
+		"/home/budihariyana/Public/budihariyana.com/app/routes.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/posts/index.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/controllers/FrontEndController.php",
+		"/home/budihariyana/Public/budihariyana.com/app/controllers/PostsController.php",
+		"/home/budihariyana/Public/budihariyana.com/app/start/global.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/sidebarBlog.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/tag.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/read.blade.php",
+		"/home/budihariyana/Downloads/AnimatedResponsiveImageGrid/AnimatedResponsiveImageGrid/index3.html",
+		"/home/budihariyana/Public/budihariyana.com/public/assets/css/front.css",
+		"/home/budihariyana/Public/budihariyana.com/.gitattributes",
+		"/home/budihariyana/Public/budihariyana.com/public/assets/css/style.css",
+		"/home/budihariyana/Public/budihariyana.com/app/controllers/HomeController.php",
+		"/home/budihariyana/Downloads/TiltedContentSlideshow/css/component.css",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/home.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/blog.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/portfolio.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/about.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/models/Post.php",
+		"/home/budihariyana/Public/spddagh.dev/assets/js/jquery.fixedheadertable.js",
+		"/home/budihariyana/Public/budihariyana.com/app/config/app.php",
+		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/config.php",
+		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/permissions.php",
+		"/home/budihariyana/Public/budihariyana.com/public/assets/js/main.js",
+		"/home/budihariyana/Public/budihariyana.com/public/assets/app.js",
+		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/layout.blade.php",
+		"/home/budihariyana/Public/budihariyana.com/app/models/Category.php",
+		"/home/budihariyana/Public/budihariyana.com/app/controllers/CategoryController.php",
+		"/home/budihariyana/Public/budihariyana.com/vendor/mrjuliuss/syntara/src/filters.php",
+		"/home/budihariyana/Public/budihariyana.com/app/viewComposers/CommentViewComposer.php",
+		"/home/budihariyana/Public/budihariyana.com/app/viewComposers/NavigationViewComposer.php",
+		"/home/budihariyana/Public/budihariyana.com/app/viewComposers/SidebarBlogViewComposer.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/StaffsController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/SchedulesController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/models/Schedule.php",
-		"/home/budihariyana/Public/budihariyana.com/app/start/global.php",
 		"/home/budihariyana/Public/budihariyana.com/app/classes/bindings.php",
-		"/home/budihariyana/Public/budihariyana.com/app/viewComposers/NavigationViewComposer.php",
-		"/home/budihariyana/Public/budihariyana.com/app/viewComposers/CommentViewComposer.php",
-		"/home/budihariyana/Public/budihariyana.com/app/controllers/PostsController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/posts/edit.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/posts/new.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/posts/create.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/models/Post.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/posts/index.blade.php",
 		"/media/budihariyana/Data/Tools/keren/bootstrap-3.0.2/cmds/portfolio.html",
 		"/media/budihariyana/Data/Tools/keren/bootstrap-3.0.2/cmds/css/carousel.css",
 		"/home/budihariyana/Public/mib-project-accounting/system/application/views/header.php",
@@ -829,11 +757,7 @@
 		"/home/budihariyana/Public/simsekarwangi/index.php",
 		"/home/budihariyana/Public/simsekarwangi/modules/setting/pengguna.php",
 		"/home/budihariyana/Public/budihariyana.com/public/assets/js/budi-layout2.js",
-		"/home/budihariyana/Public/budihariyana.com/public/assets/app.js",
-		"/home/budihariyana/Public/budihariyana.com/app/views/adminDefault.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/src/GA_Service.php",
-		"/home/budihariyana/Public/budihariyana.com/app/controllers/CategoryController.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/layout.blade.php",
 		"/media/budihariyana/Data/Tools/keren/bootstrap-3.0.2/cmds/css/style2.css",
 		"/home/budihariyana/Public/accounting/index.php",
 		"/home/budihariyana/Public/spddagh.dev/index.php",
@@ -847,34 +771,27 @@
 		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/menu-item.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/google.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/PositionsController.php",
-		"/home/budihariyana/Public/budihariyana.com/public/assets/css/style.css",
 		"/home/budihariyana/Public/company-profile/themes/budihariyana-chicken/views/layouts/site.php",
 		"/home/budihariyana/Public/company-profile/protected/views/post/detail.php",
 		"/home/budihariyana/Downloads/bootstrap-3.0.2/cmds/css/portfolio.css",
 		"/home/budihariyana/Downloads/bootstrap-3.0.2/cmds/css/carousel.css",
 		"/home/budihariyana/Downloads/bootstrap-3.0.2/cmds/portfolio.html",
 		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/navigation.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/public/assets/js/main.js",
 		"/home/budihariyana/Public/budihariyana.com/public/assets/js/daterangepicker.js",
 		"/home/budihariyana/Public/budihariyana.com/app/views/navigation.blade.php",
 		"/home/budihariyana/Public/company-profile/themes/budihariyana-anw/views/layouts/site.php",
 		"/home/budihariyana/Public/budihariyana.com/app/models/GroupMenu.php",
 		"/home/budihariyana/Public/budihariyana.com/composer.json",
 		"/home/budihariyana/Public/budihariyana.com/app/src/GA_Utils.php",
-		"/home/budihariyana/Public/budihariyana.com/app/routes.php",
 		"/home/budihariyana/Public/budihariyana.com/public/assets/vendor/ammap/themes/dark.js",
 		"/home/budihariyana/Public/budihariyana.com/public/assets/vendor/amcharts/amcharts.js",
 		"/home/budihariyana/Public/budihariyana.com/public/assets/vendor/ammap/ammap.js",
 		"/home/budihariyana/Public/budihariyana.com/vendor/google/apiclient/src/Google/Client.php",
 		"/home/budihariyana/Public/slim-api/authorize.php",
 		"/home/budihariyana/Public/slim-api/resource.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/app.php",
 		"/home/budihariyana/Downloads/laravel_google_analytics-master/app/views/report.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/controllers/FrontEndController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/BaseController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/report.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/layouts/budi-layout/frontend.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/frontend/home.blade.php",
 		"/home/budihariyana/Downloads/laravel_google_analytics-master/app/views/home.blade.php",
 		"/home/budihariyana/Downloads/laravel_google_analytics-master/app/views/login.blade.php",
 		"/home/budihariyana/Public/slim-api/token.php",
@@ -889,50 +806,24 @@
 		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_15_083003_create_post_albums_table.php",
 		"/home/budihariyana/Public/budihariyana.com/app/models/User.php",
 		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_15_124548_create_staffs_table.php",
-		"/home/budihariyana/Public/budihariyana.com/app/controllers/AlbumController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/CommentsController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/GalleryController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/MediasController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/SettingController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/TagController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/controllers/UserController.php",
-		"/home/budihariyana/Public/budihariyana.com/app/controllers/HomeController.php",
 		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_19_074956_add_read_to_posts_table.php",
 		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_15_033243_add_headline_is_comment_date_posting_comment_expired_to_posts_table.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/permissions.php",
 		"/home/budihariyana/Public/budihariyana.com/app/views/staffs/index.blade.php",
 		"/home/budihariyana/Public/budihariyana.com/app/filters.php",
 		"/home/budihariyana/Public/budihariyana.com/app/classes/GetMenuItem.php",
 		"/home/budihariyana/Public/budihariyana.com/app/classes/Helpers.php",
 		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_20_023407_create_group_menus_table.php",
-		"/home/budihariyana/Public/budihariyana.com/app/models/MediaItem.php",
-		"/home/budihariyana/Public/budihariyana.com/app/database/migrations/2015_02_20_022513_create_user_menus_table.php",
-		"/home/budihariyana/Public/budihariyana.com/app/models/UserMenu.php",
-		"/home/budihariyana/Public/spddagh.dev/protected/controllers/SiteController.php",
-		"/home/budihariyana/Public/spddagh.dev/protected/views/layouts/main.php",
-		"/home/budihariyana/Public/spddagh.dev/assets/css/ace-custom.min.css",
-		"/home/budihariyana/Public/spddagh.dev/assets/css/report-grid.css",
-		"/home/budihariyana/Public/budihariyana.com/app/start/local.php",
-		"/home/budihariyana/Public/pre-qualification-tender-processing/src/PrequalificationTender/GeneralBundle/Controller/ProjectController.php",
-		"/home/budihariyana/Public/spddagh.dev/protected/views/site/kadep.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/view.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/local/app.php",
-		"/home/budihariyana/Public/spddagh.dev/assets/js/ace.min.js",
-		"/home/budihariyana/Public/budihariyana.com/app/views/posts/show.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/views.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/config.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/breadcrumbs.php",
-		"/home/budihariyana/Public/budihariyana.com/app/config/packages/mrjuliuss/syntara/validator.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/hello.php",
-		"/home/budihariyana/Public/budihariyana.com/app/models/Album.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/albums/create.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/category/create.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/albums/edit.blade.php",
-		"/home/budihariyana/Public/budihariyana.com/app/views/albums/index.blade.php"
+		"/home/budihariyana/Public/budihariyana.com/app/models/MediaItem.php"
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 43.0
 	},
 	"find_in_files":
 	{
@@ -966,6 +857,43 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"scale",
+			"{\n",
+			".blog",
+			"media",
+			"scale",
+			"1ba1e2",
+			"animated",
+			"1ba1e2",
+			"#about",
+			"home-service",
+			"#blog",
+			"newsti",
+			"headline",
+			"container-masonry",
+			"masonry",
+			"slider",
+			"default",
+			"nivo",
+			"from ",
+			"news-content-title",
+			"news-content",
+			"37B3F0",
+			"2980B9",
+			"text-info",
+			"welcome",
+			"2c97de",
+			".title",
+			"51BCF0",
+			"5C5C5C",
+			"home-about-image",
+			"semi",
+			"#0dc0c0",
+			"-text",
+			"holder",
+			"ho",
+			"blog-side",
+			"blog-related",
 			"$data",
 			".title",
 			"blog-pic",
@@ -1056,44 +984,7 @@
 			"<i class=\"fa fa-calendar\"></i> ",
 			"valuea",
 			"categoryA",
-			"buildChartGoogle",
-			"textClass = typeof textClass !== 'undefined' ? textClass : 'text-big';",
-			"buildChartGoogle",
-			"renderData",
-			"sub-",
-			"active-menu",
-			"sub-group",
-			"ga",
-			"ttp://www.amcharts.com/lib",
-			"cdn.amcharts.com",
-			"n buildChartG",
-			"n buildChart",
-			"buildChart",
-			"post ca",
-			"white",
-			"js map by amcharts",
-			"map",
-			"AmChartsPie",
-			"ajax",
-			"buildChartGoogle",
-			"loadJs",
-			"#ea",
-			"#",
-			"#ea",
-			"report",
-			"properties",
-			"budih",
-			"getLoginUrl",
-			"login",
-			"groupOrderby",
-			"<input name=\"daterange\"",
-			"dater",
-			"columnHeaders",
-			"max_result",
-			"Google_IO",
-			"Google_CurlIO",
-			"sess",
-			"login"
+			"buildChartGoogle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1101,6 +992,16 @@
 		"regex": false,
 		"replace_history":
 		[
+			"999",
+			"ccc",
+			"animatedx",
+			"dddddd",
+			"1ba1e2",
+			"37B3F0",
+			"2980B9",
+			"2c97de",
+			"#1ba1e2",
+			"#3498DB",
 			"$sidebar",
 			"0dc0c0",
 			"#0dc0c0",
@@ -1218,17 +1119,7 @@
 			"",
 			"\"http://",
 			"DATE_FORMAT(p.created,'%m')",
-			"p.created",
-			"(edit_form.",
-			"",
-			"font",
-			"",
-			"inline",
-			"center",
-			"margin: 1px;",
-			"margin: 2px;",
-			"margin: 5px;",
-			"rgb(65, 186, 216)"
+			"p.created"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1239,297 +1130,23 @@
 	"groups":
 	[
 		{
-			"selected": 7,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "public/assets/css/front.css",
+					"file": "/home/budihariyana/Public/bkom/app/src/GA_Service.php",
 					"settings":
 					{
-						"buffer_size": 30551,
+						"buffer_size": 5180,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								28690,
-								28690
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 25085.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/assets/css/style.css",
-					"settings":
-					{
-						"buffer_size": 36106,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								348,
-								348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 231.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/budi-layout/frontend.blade.php",
-					"settings":
-					{
-						"buffer_size": 17618,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4693,
-								4693
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1005.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/FrontEndController.php",
-					"settings":
-					{
-						"buffer_size": 1993,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1739,
-								1739
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 699.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/controllers/HomeController.php",
-					"settings":
-					{
-						"buffer_size": 7731,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								139,
-								139
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4446.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "/home/budihariyana/Downloads/TiltedContentSlideshow/css/component.css",
-					"settings":
-					{
-						"buffer_size": 14313,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								892,
-								892
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 850.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "app/views/frontend/home.blade.php",
-					"settings":
-					{
-						"buffer_size": 8156,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5474,
-								5474
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 937.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/views/frontend/blog.blade.php",
-					"settings":
-					{
-						"buffer_size": 2856,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2626,
-								2626
-							]
-						],
-						"settings":
-						{
-							"auto_name": "@extends('layouts.budi-layout.frontend')",
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1020.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "app/views/frontend/read.blade.php",
-					"settings":
-					{
-						"buffer_size": 3808,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3775,
-								3775
-							]
-						],
-						"settings":
-						{
-							"auto_name": "",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 1005.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/views/frontend/service.blade.php",
-					"settings":
-					{
-						"buffer_size": 5669,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4068,
-								4068
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1470.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/views/frontend/portfolio.blade.php",
-					"settings":
-					{
-						"buffer_size": 3386,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3380,
-								3380
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1544,19 +1161,47 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
-					"file": "app/views/frontend/about.blade.php",
+					"buffer": 1,
+					"file": "/home/budihariyana/Public/bkom/public/assets/css/front.css",
 					"settings":
 					{
-						"buffer_size": 1578,
+						"buffer_size": 46042,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1557,
-								1557
+								36815,
+								36815
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34281.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/budihariyana/Public/bkom/app/views/layouts/budi-layout/frontend.blade.php",
+					"settings":
+					{
+						"buffer_size": 18877,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5689,
+								5689
 							]
 						],
 						"settings":
@@ -1564,6 +1209,250 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 19.0,
+						"translation.y": 1814.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/budihariyana/Public/bkom/app/views/albums/edit.blade.php",
+					"settings":
+					{
+						"buffer_size": 2292,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1722,
+								1722
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 63.0,
+						"translation.y": 490.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/budihariyana/Public/bkom/public/assets/js/budi-layout2.js",
+					"settings":
+					{
+						"buffer_size": 23953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								851,
+								851
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 13494.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/budihariyana/Public/bkom/public/assets/app.js",
+					"settings":
+					{
+						"buffer_size": 3653,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								778,
+								778
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/budihariyana/Public/bkom/app/views/layouts/budi-layout/layout.blade.php",
+					"settings":
+					{
+						"buffer_size": 9139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2147,
+								2147
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 452.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/budihariyana/Public/bkom/app/controllers/FrontEndController.php",
+					"settings":
+					{
+						"buffer_size": 2716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								874,
+								874
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/home/budihariyana/Public/bkom/app/controllers/MediasController.php",
+					"settings":
+					{
+						"buffer_size": 6199,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								383,
+								383
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 134.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/home/budihariyana/Public/bkom/app/controllers/PostsController.php",
+					"settings":
+					{
+						"buffer_size": 10566,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/home.blade.php",
+					"settings":
+					{
+						"buffer_size": 17758,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9304,
+								9304
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 638.0,
+						"translation.y": 3604.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/portfolio.blade.php",
+					"settings":
+					{
+						"buffer_size": 3571,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								392,
+								392
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1573,18 +1462,18 @@
 				},
 				{
 					"buffer": 12,
-					"file": "app/routes.php",
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/service.blade.php",
 					"settings":
 					{
-						"buffer_size": 13811,
+						"buffer_size": 5316,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								813,
-								813
+								105,
+								105
 							]
 						],
 						"settings":
@@ -1594,25 +1483,25 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 221.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 13,
-					"file": "app/models/Post.php",
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/about.blade.php",
 					"settings":
 					{
-						"buffer_size": 675,
+						"buffer_size": 6188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								264,
-								264
+								6182,
+								6182
 							]
 						],
 						"settings":
@@ -1628,25 +1517,24 @@
 				},
 				{
 					"buffer": 14,
-					"file": "/home/budihariyana/Public/spddagh.dev/assets/js/jquery.fixedheadertable.js",
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/read.blade.php",
 					"settings":
 					{
-						"buffer_size": 22145,
+						"buffer_size": 14372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								408,
+								408
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1656,18 +1544,18 @@
 				},
 				{
 					"buffer": 15,
-					"file": "app/config/app.php",
+					"file": "/home/budihariyana/Public/bkom/app/views/frontend/blog.blade.php",
 					"settings":
 					{
-						"buffer_size": 25035,
+						"buffer_size": 2964,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								424,
-								424
+								407,
+								407
 							]
 						],
 						"settings":
@@ -1676,415 +1564,61 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 104.0,
+						"translation.y": 12.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 16,
-					"file": "app/controllers/PostsController.php",
+					"file": "app/views/frontend/home.blade.php",
 					"settings":
 					{
-						"buffer_size": 10468,
+						"buffer_size": 8623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								2596,
+								2596
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 0.0,
-						"translation.y": 141.0,
+						"translation.x": 161.0,
+						"translation.y": 775.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 17,
-					"file": "app/views/posts/index.blade.php",
+					"file": "public/assets/vendor/animate.css/animate.css",
 					"settings":
 					{
-						"buffer_size": 4499,
+						"buffer_size": 68796,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								304,
+								304
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1470.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 18,
-					"file": "app/config/packages/mrjuliuss/syntara/config.php",
-					"settings":
-					{
-						"buffer_size": 426,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 19,
-					"file": "app/config/packages/mrjuliuss/syntara/permissions.php",
-					"settings":
-					{
-						"buffer_size": 4716,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1652,
-								1652
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 8,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 493.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 20,
-					"file": "public/assets/js/main.js",
-					"settings":
-					{
-						"buffer_size": 128,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "public/assets/app.js",
-					"settings":
-					{
-						"buffer_size": 3653,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 949.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 22,
-					"file": "app/views/layouts/budi-layout/layout.blade.php",
-					"settings":
-					{
-						"buffer_size": 9142,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3077,
-								3077
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 11.0,
-						"translation.y": 831.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "app/models/Category.php",
-					"settings":
-					{
-						"buffer_size": 123,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "app/controllers/CategoryController.php",
-					"settings":
-					{
-						"buffer_size": 3690,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								377,
-								377
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 25,
-					"file": "vendor/mrjuliuss/syntara/src/filters.php",
-					"settings":
-					{
-						"buffer_size": 3109,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3108,
-								3108
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1439.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 26,
-					"file": "app/viewComposers/CommentViewComposer.php",
-					"settings":
-					{
-						"buffer_size": 167,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 27,
-					"file": "app/viewComposers/NavigationViewComposer.php",
-					"settings":
-					{
-						"buffer_size": 1922,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 61.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 28,
-					"file": "app/viewComposers/SidebarBlogViewComposer.php",
-					"settings":
-					{
-						"buffer_size": 656,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								239,
-								239
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<?php",
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 29,
-					"file": "app/start/global.php",
-					"settings":
-					{
-						"buffer_size": 4159,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4156,
-								4156
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1823.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 30,
-					"file": "app/views/layouts/budi-layout/sidebarBlog.blade.php",
-					"settings":
-					{
-						"buffer_size": 2026,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1722,
-								1722
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 636.0,
+						"translation.y": 23707.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

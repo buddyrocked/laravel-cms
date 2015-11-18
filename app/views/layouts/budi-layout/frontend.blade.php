@@ -107,20 +107,10 @@
         <footer>
             <div id="footer-top">
                 <div class="container">
-                    <div class="col-md-3">
+                    
+                    <div class="col-md-12">
                         <div class="footer-title">
-                            Latest Tweet
-                        </div>
-                        <div id="map-info" style="width:100%; height:200px;"></div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="footer-title">
-                            Instagram
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="footer-title">
-                            Contact Me
+                            Contact <span>Me</span>
                         </div>
                         <form id="form-contact" class="form">
                             <div class="row">

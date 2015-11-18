@@ -17,7 +17,7 @@ Route::get('/about-me', array('as'=>'about', 'uses'=>'FrontEndController@about')
 Route::get('/service', array('as'=>'service', 'uses'=>'FrontEndController@service'));
 Route::get('/portfolio', array('as'=>'portfolio', 'uses'=>'FrontEndController@portfolio'));
 Route::get('/blog/{category?}', array('as'=>'blog', 'uses'=>'FrontEndController@blog'));
-Route::get('/{slug?}', array('as'=>'read', 'uses'=>'FrontEndController@read'));
+Route::get('/read/{slug?}', array('as'=>'read', 'uses'=>'FrontEndController@read'));
 Route::get('/tag/{tag?}', array('as'=>'tag', 'uses'=>'FrontEndController@tag'));
 Route::get('/contact', array('as'=>'contact', 'uses'=>'FrontEndController@contact'));
 

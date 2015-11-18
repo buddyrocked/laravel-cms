@@ -31,11 +31,9 @@
         					<i class="fa fa-diamond"></i>
         				</div>
         				<div class="service-item-content col-md-12">
-        					<div>
-	        					<div class="service-item-title">
-	        						INFORMARTION SYSTEM
-	        					</div>
-	        				</div>
+        					<div class="service-item-title">
+        						INFORMARTION SYSTEM
+        					</div>
 	        				<div>
         						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
         					</div>

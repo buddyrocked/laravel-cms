@@ -126,7 +126,7 @@ a:hover {
 	background: #FFF;
 	display: block;
 	min-height: 200px;
-  padding-bottom: 50px;
+  padding: 150px 0 50px 0;
 }
 
 .title-section {
@@ -155,6 +155,36 @@ a:hover {
     font-size: 0.8em;
 }
 
+.title-section2-container {
+    margin: 0px 0 50px 0;
+}
+
+.title-section2 {
+    display: inline-block;
+    font-size: 3em;
+    font-family: 'BebasNeueRegular';
+    position: relative;
+}
+
+.title-section2 span {
+    border-bottom: 4px solid #0dc0c0;
+    font-size: 0.7em;
+    vertical-align: top;
+    line-height: 0.7em;
+    padding: 0px;
+    position: relative;
+    top: -6px;
+    right: 0px;
+}
+
+.title-section2.inverse {
+    color: #fff;
+}
+
+.title-section2.inverse span {
+    border-color: #02BABA;
+}
+
 .text-mute {
     color: #ababab;
 }
@@ -173,6 +203,15 @@ a:hover {
 
 .text-10x {
     font-size: 10em !important;
+}
+
+.no-padding {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nivo-caption {
+    opacity: 1 !important;
 }
 
 #trigger {
@@ -616,8 +655,8 @@ a:hover {
 .home-service-item-title {
     border-bottom: 2px solid #0dc0c0;
     display: inline-block;
+    font-family: 'opensans-semibold';
     font-size: 1.1em;
-    font-weight: bold;
     margin: 10px;
     text-transform: uppercase;
 }
@@ -667,6 +706,7 @@ a:hover {
     color: #FFF;
     font-size: 3em;
     text-align: center;
+    padding: 30px;
 }
 
 .service-item-content {
@@ -688,7 +728,11 @@ a:hover {
 .service-item-title {
     color: #0dc0c0;
     font-size: 1.5em;
-    margin: 10px 0;
+    padding: 0px;
+}
+
+.service-item-content > div {
+    padding: 10px;
 }
 
 .layer {
@@ -890,14 +934,28 @@ a:hover {
 }
 
 #home-about {
-    background: #0dc0c0;
+    background: #fff url(img/25x.jpg) center center no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     border-bottom: 1px solid #F1F1F1;
     overflow: hidden;
-    padding: 100px 0 0 0;
+    padding: 0px;
 }
 
 .home-about-image {
-    overflow: hidden;
+    background: rgba(0,0,0,0);
+    display: block;
+    min-height: 600px;
+}
+
+.home-about-image img {
+    height: 100% !important;
+}
+
+.home-about-content {
+    background: #0dc0c0;
+    padding: 100px 30px;
+    min-height: 600px;
 }
 
 .home-about-content > .title{
@@ -908,14 +966,14 @@ a:hover {
 }
 
 .home-about-content > .content {
-    color: #FFF;
+    color: #fff;
     font-size: 1.1em;
-    margin: 20px 0 0 0;
+    padding: 0px;
 }
 
 .zoom {
     position: relative;
-    bottom: -65px;
+    bottom: -100px;
     width: 100%;
 
     webkit-transition: all 1s ease-in-out;
@@ -1696,12 +1754,23 @@ footer {
 }
 
 .footer-title {
-    border-bottom: 2px solid #0dc0c0;
     color: #FFF;
     display: inline-block;
-    font-size: 1.2em;
+    font-size: 3em;
     font-family: 'BebasNeueRegular';
     margin:25px 0;
+    position: relative;
+}
+
+.footer-title span {
+    border-bottom: 4px solid #0dc0c0;
+    font-size: 0.7em;
+    vertical-align: top;
+    line-height: 0.7em;
+    padding: 0px;
+    position: relative;
+    top: -6px;
+    right: 0px;
 }
 
 #form-contact {
@@ -1709,28 +1778,28 @@ footer {
 }
 
 #form-contact label {
-    color: #ccc;
+    color: #fff;
     display: none;
     text-transform: uppercase;
 }
 
 #form-contact .input-group-addon {
-    background: #2a3037;
-    border: none;
-    border-radius: 0px;
-    color: #0dc0c0;
+    background: #21252b;
+    border: 2px solid #fff;
+    border-right: none;
+    color: #fff;
 }
 
-#form-contact input, #form-contact textarea {
-    background: #2a3037;
-    border-color: #1d2226 #2a3037 #2a3037;
-    border:1px;
-    border-radius: 0px;
+#form-contact input[type="text"], #form-contact textarea {
+    background: #21252b;
+    border: 2px solid #fff;
+    border-left: none;
     box-shadow: none;
     color: #0dc0c0;
 }
 
 #form-contact textarea {
+    border-left: 2px solid #fff;
     min-height: 100px;
 }
 

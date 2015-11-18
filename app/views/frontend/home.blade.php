@@ -51,16 +51,21 @@
         	</div>
         </div>
         <div class="section" id="home-about">
-        	<div class="container">
+        	<div class="">
         		<div class="row">
-        			<div class="col-md-8">
-        				<div class="home-about-image animated" data-anim="bounceInUp">
-        					{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoom', 'data-big'=>'assets/images/img1.png']) }}
+        			<div class="col-md-8 no-padding">
+        				<div class="home-about-image animatedx" data-anim="bounceInUp">
+        					{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoomx', 'data-big'=>'assets/images/img1.png']) }}
         				</div>
         			</div>
-        			<div class="col-md-4">
+        			<div class="col-md-4 no-padding">
         				<div class="home-about-content">
-        					<div class="title animated" data-anim="bounceInDown">Welcome To My page</div>
+        					<div class="title-section2-container animated" data-anim="fadeInDown">
+				        		<div class="title-section2 inverse">
+			                        Welcome To My <span>Page</span>
+			                    </div>
+					        	<div class="text-white text-semibold">We Design, Develop & Integrations.</div>
+					        </div>
         					<div class="content animated" data-anim="bounceInRight">
         						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
         						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
@@ -77,9 +82,11 @@
         </div>
         <div class="section" id="home-service">
         	<div>
-	        	<div class="title-section animated" data-anim="fadeInDown">
-	        		<div class="line">What I Do</div>
-		        	<div class="text-mute">We Design, Develop & Integrations.</div>
+	        	<div class="title-section2-container center animated" data-anim="fadeInDown">
+	        		<div class="title-section2">
+                        What I <span>Do</span>
+                    </div>
+		        	<div class="text-mute text-semibold">We Design, Develop & Integrations.</div>
 		        </div>
 		        <div class="container">
 		        	<div class="row">
@@ -153,9 +160,11 @@
     </div>
     <div class="section" id="home-partner">
         <div class="container">
-	    	<div class="title-section animated" data-anim="fadeInDown">
-	    		<div class="line">My Clients</div>
-	        	<div class="text-mute">My Partner & Clients.</div>
+	    	<div class="title-section2-container center animated" data-anim="fadeInDown">
+	        		<div class="title-section2">
+                        My <span>Clients</span>
+                    </div>
+	        	<div class="text-mute text-semibold">My Partner & Clients.</div>
 	        </div>
 	        <ul class="partner-list  animated" data-anim="fadeInUp">
 	        	<li>
