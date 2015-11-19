@@ -1,9 +1,11 @@
 @extends('layouts.budi-layout.frontend')
 @section('content')
 	<div class="section" id="blog">
-	<div class="title-section animated" data-anim="fadeInDown">
-		<div class="text-main line">My Blog</div>
-    	<div class="text-mute">All about programming & life.</div>
+	<div class="title-section2-container center animated" data-anim="fadeInDown">
+    		<div class="title-section2">
+                Our <span>Blog</span>
+            </div>
+    	<div class="text-mute text-semibold">Programming, Life & Enterprenership.</div>
     </div>
     <div class="container">
     	<div class="row">
@@ -19,7 +21,7 @@
 	    					</ul>
 	    					<div class="blog-picture-container">
 		    					<div class="blog-picture blog-picture-full animated" data-anim="bounceInDown">
-		    						{{ HTML::image('posts/'.$post->image, $post->title, ['data-src'=>'holder.js/100%x400/auto/#0dd0c0:#ffffff/text:image']) }}
+		    						{{ HTML::image('posts/'.$post->image, $post->title, ['data-src'=>'holder.js/100%x400/auto/#e1e1e1:#ffffff/text:image']) }}
 		    					</div>
 	    						<div class="blog-category">
 	    							<i class="fa fa-html5"></i>
@@ -74,7 +76,7 @@
 		    						<div class="col-md-4 animated" data-anim="bounceIn">
 		    							<div class="blog-item-masonry">
 		    								<div class="picture">
-			    								{{ HTML::image('posts/thumb_'.$post->image, $post->title, ['data-src'=>'holder.js/100%x150/auto/#0dd0c0:#ffffff/text:image']) }}	
+			    								{{ HTML::image('posts/thumb_'.$post->image, $post->title, ['data-src'=>'holder.js/100%x150/auto/#e1e1e1:#ffffff/text:image']) }}	
 			    							</div>
 			    							<div class="title">
 			    								{{ HTML::link(URL::route('read', $post->slug), $post->title) }}

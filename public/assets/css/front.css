@@ -1461,7 +1461,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .blog-sidebar .title {
     background: #F0F0F0;
-    color: #fcda04;
+    color: #666e70;
     font-family: 'BebasNeueRegular';
     font-size: 2em;
     height: 55px;
@@ -1481,8 +1481,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-sidebar .title > span:before {
-    border-left:27px solid #0dd0c0;
-    border-bottom:27px solid #0dd0c0;
+    border-left:27px solid #fcda01;
+    border-bottom:27px solid #fcda01;
     border-top:27px solid transparent;
     border-right:27px solid transparent;
     content: '';

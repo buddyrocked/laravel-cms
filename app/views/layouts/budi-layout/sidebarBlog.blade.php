@@ -24,7 +24,7 @@
 				<div class="row">
 					<div class="col-md-2 col-xs-2">
 						<div class="blog-sidebar-img">
-							{{ HTML::image('posts/thumb_'.$post->image, $post->title, ['data-src'=>'holder.js/60x60/#0dd0c0:#ffffff/text:image']) }}
+							{{ HTML::image('posts/thumb_'.$post->image, $post->title, ['data-src'=>'holder.js/60x60/#e1e1e1:#ffffff/text:image']) }}
 						</div>
 					</div>
 					<div class="col-md-10 col-xs-10">
