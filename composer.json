@@ -11,10 +11,11 @@
 		"barryvdh/laravel-elfinder": "0.1.*",
 		"mrjuliuss/syntara": "dev-master",
 		"sammyk/laravel-facebook-sdk": "~1.1",
-		"lavary/laravel-menu": "1.*",
+		"lavary/laravel-menu": "1.5.0",
 		"way/generators": "~2.0",
 		"intervention/image": "~2.1",
-		"google/apiclient": "dev-master",
+		"phpseclib/phpseclib": "0.3.*",
+		"google/apiclient": "1.1.*",
 		"cviebrock/eloquent-sluggable": "~2.0"
 	},
 	"repositories": [

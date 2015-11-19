@@ -9,16 +9,16 @@
                         <div class="col-md-8">
                             <div class="home-motto">
                                 <div data-svg="headline" class="hides">
-                                    <span class="text-width">Budi Hariyana</span>
+                                    <span class="text-width">B-dev</span>
                                     <h2 class="rw-sentence">
-                                        <span>Web</span>
+                                        <span>We Are</span>
                                         <div class="rw-words rw-words-1">
-                                            <span>Designer</span>
-                                            <span>Developer</span>
-                                            <span>Designer</span>
-                                            <span>Developer</span>
-                                            <span>Designer</span>
-                                            <span>Developer</span>
+                                            <span>Software Solutions</span>
+                                            <span>Hardware Solutions</span>
+                                            <span>Hosting Provider</span>
+                                            <span>Graphic Designer</span>
+                                            <span>Computer Trainer</span>
+                                            <span>Hosting Provider</span>
                                         </div>
                                     </h2>
                                 </div>
@@ -37,40 +37,36 @@
         		<div class="row">
         			<div class="col-md-8">
         				<div id="mini-profile" class="animated" data-anim="fadeInLeft">
-        					<div class="text-main text-bigger">Hello, my name Budi Hariyana.</div> 
-        					<div class="text-mute">I am web designer and Web Developer from Bandung, Indonesia.</div>
+        					<div class="text-main text-bigger">Hello, we are b-dev.</div> 
+        					<div class="text-mute">We are information technology solutions.</div>
         				</div>
         			</div>
         			<div class="col-md-4">
         				<div id="mini-photo" class="animated text-center" data-anim="fadeInRight">
-        					<a href="#" class="btn btn-main"><i class="fa fa-arrow-circle-down"></i> about me</a>
-        					<a href="#" class="btn btn-main"><i class="fa fa-envelope"></i> contact me</a>
+        					
         				</div>
         			</div>
         		</div>
         	</div>
         </div>
         <div class="section" id="home-about">
-        	<div class="">
+        	<div class="container">
         		<div class="row">
-        			<div class="col-md-8 no-padding">
-        				<div class="home-about-image animatedx" data-anim="bounceInUp">
-        					{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoomx', 'data-big'=>'assets/images/img1.png']) }}
+        			<div class="col-md-8">
+        				<div class="home-about-image animated" data-anim="bounceInUp">
+        					{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoom', 'data-big'=>'assets/images/img1.png']) }}
         				</div>
         			</div>
-        			<div class="col-md-4 no-padding">
+        			<div class="col-md-4">
         				<div class="home-about-content">
         					<div class="title-section2-container animated" data-anim="fadeInDown">
 				        		<div class="title-section2 inverse">
-			                        Welcome To My <span>Page</span>
+			                        Welcome <span>To Our Page</span>
 			                    </div>
 					        	<div class="text-white text-semibold">We Design, Develop & Integrations.</div>
 					        </div>
         					<div class="content animated" data-anim="bounceInRight">
-        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
-        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
-        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
-        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
+        						PT. Berkah Developer Solution adalah sebuah perusahaan yang bergerak di bidang teknologi informasi. PT. Berkah Developer Solution memiliki core bisnis utama yaitu Pengembangan perangkat lunak dan website, Perbaikan hardware, Sewa Hosting, Desain grafis, Pelatihan komputer.
         					</div>
         					<div class="animated" data-anim="bounceInUp">
         						{{ HTML::image('assets/images/arrow3.png', '', ['id'=>'', 'class'=>'']) }}
@@ -84,7 +80,7 @@
         	<div>
 	        	<div class="title-section2-container center animated" data-anim="fadeInDown">
 	        		<div class="title-section2">
-                        What I <span>Do</span>
+                        What <span>We Do</span>
                     </div>
 		        	<div class="text-mute text-semibold">We Design, Develop & Integrations.</div>
 		        </div>
@@ -93,49 +89,57 @@
 		        		<div class="col-md-4">
 		        			<div class="home-service-item row animated" data-anim="fadeInLeft">
 		        				<div class="home-service-item-icon col-md-2 col-xs-2">
-		        					<i class="fa fa-diamond"></i>
+		        					<i class="fa fa-cube"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
 		        					<div class="home-service-item-title">
-		        						Content Management System
+		        						BDev	
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
+		        						Software Development
 		        					</div>
 		        				</div>
 		        			</div>
 		        			<div class="home-service-item row animated" data-anim="fadeInLeft">
 		        				<div class="home-service-item-icon col-md-2 col-xs-2">
-		        					<i class="fa fa-user-md"></i>
+		        					<i class="fa fa-server"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
 		        					<div class="home-service-item-title">
-		        						E-commerce
+		        						BSupport
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
+		        						Hardware & Network Solutions
 		        					</div>
 		        				</div>
 		        			</div>
 		        		</div>
 		        		<div class="col-md-4">
-		        			<div class="home-service-item animated" data-anim="fadeInUp">
-		        				<div class="home-service-img perspective-container">
-		        					{{ HTML::image('assets/images/img1.png', '', ['class'=>'perspective']) }}
+		        			<div class="home-service-item row animated" data-anim="fadeInUp">
+		        				<div class="home-service-item-icon col-md-2 col-xs-2">
+		        					<i class="fa fa-cloud"></i>
+		        				</div>
+		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        					<div class="home-service-item-title">
+		        						BCloud
+		        					</div>
+			        				<div class="home-service-item-text">
+		        						Hosting Provider
+		        					</div>
 		        				</div>
 		        			</div>
 		        		</div>
 		        		<div class="col-md-4">
 		        			<div class="home-service-item row animated" data-anim="fadeInRight">
 		        				<div class="home-service-item-icon col-md-2 col-xs-2">
-		        					<i class="fa fa-html5"></i>
+		        					<i class="fa fa-camera"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
 		        					<div class="home-service-item-title">
-		        						Information System
+		        						BDism
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
+		        						Graphic Design
 		        					</div>
 		        				</div>
 		        			</div>
@@ -145,10 +149,10 @@
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
 		        					<div class="home-service-item-title">
-		        						Branding & Design
+		        						BDemy
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Donec sed odio dui. malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus.
+		        						Computer & Software Training
 		        					</div>
 		        				</div>
 		        			</div>
@@ -162,9 +166,9 @@
         <div class="container">
 	    	<div class="title-section2-container center animated" data-anim="fadeInDown">
 	        		<div class="title-section2">
-                        My <span>Clients</span>
+                        Our <span>Clients</span>
                     </div>
-	        	<div class="text-mute text-semibold">My Partner & Clients.</div>
+	        	<div class="text-mute text-semibold">Our Partners & Clients.</div>
 	        </div>
 	        <ul class="partner-list  animated" data-anim="fadeInUp">
 	        	<li>

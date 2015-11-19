@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-        <title>Budi Hariyana - Web Developer</title>
+        <title>B-DEV - PT. Berkah Developer Solutions</title>
 
         <!-- Bootstrap core CSS -->
         {{ HTML::style('assets/css/normalize.css') }}
@@ -41,10 +41,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted">Call Me : </span> 087825770432
+                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted"> 087825770432</span> 
                             </div>
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted">Email Me : </span> budihariyana@gmail.com
+                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted"> contact@b-dev.biz</span> 
                             </div>
                         </div>
                     </div>
@@ -52,7 +52,7 @@
                 <div class="navbar" role="navigation" id="navigations">
                     <div class="container">
                         <a class="navbar-brand center" href="#">                       
-                            {{ HTML::image('images/logo-b.png') }}
+                            {{ HTML::image('images/logo-bdev.png') }}
                         </a>
                         <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2x">
                             <li class="current">
@@ -107,10 +107,41 @@
         <footer>
             <div id="footer-top">
                 <div class="container">
-                    
-                    <div class="col-md-12">
+                    <div class="col-md-6">
                         <div class="footer-title">
-                            Contact <span>Me</span>
+                            Our <span>Office</span>
+                        </div>
+                        <div id="footer-address">
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fa fa-building fa-2x"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    Jln. Kh. Soleh Iskandar Km. 8 No. 10 <br />
+                                    Kota Bogor Jawa Barat
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fa fa-phone fa-2x"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    022 - 654 567 <br />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-1">
+                                    <i class="fa fa-envelope fa-2x"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    contact@b-dev.biz <br />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="footer-title">
+                            Contact <span>Us</span>
                         </div>
                         <form id="form-contact" class="form">
                             <div class="row">

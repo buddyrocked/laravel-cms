@@ -57,7 +57,7 @@ return array(
 			'host'      => 'localhost',
 			'database'  => 'budihariyana-studio',
 			'username'  => 'root',
-			'password'  => 'root',
+			'password'  => '1z2x3c4v5b',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',

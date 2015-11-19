@@ -662,6 +662,47 @@ define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "image
 
 	
 
+	
+
+	
+
+	$(".scrolling-y").mCustomScrollbar({
+		axis:"y", 
+		theme:"blue", 
+		advanced:{
+			autoExpandHorizontalScroll:true
+		},
+		scrollButtons:{ 
+			scrollAmount: 100
+		},
+		keyboard:{ scrollAmount: 50 }
+	});
+	
+
+	function requestData(chart){
+		if($(myfirstchart).length > 0){			
+		    $.ajax({
+		    	type: "GET",
+		    	url: countPostByCategory
+		    })
+		    .done(function( data ) {
+		      chart.setData(data);
+		    })
+		    .fail(function() {
+		      alert( "error occured" );
+		    });	
+		}
+  	}
+
+	//MORRIS
+	var chart = Morris.Donut({
+		element: 'myfirstchart',
+		data: [0, 0],
+		colors : ['#23c6c8', '#1ABC9C', '#34495E']
+	});
+
+	requestData(chart);
+
 	var chartDataArticles = loadJSON(baseUrl+'/dashboard/category/countArticles');	
 	buildChart(chartDataArticles, "chart-articles", "Jumlah Artikel", "Artikel", "#777777");
 	renderData(chartDataArticles, "data-articles");
@@ -789,45 +830,6 @@ define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "image
 
 		e.preventDefault();
 	});
-
-	
-
-	$(".scrolling-y").mCustomScrollbar({
-		axis:"y", 
-		theme:"blue", 
-		advanced:{
-			autoExpandHorizontalScroll:true
-		},
-		scrollButtons:{ 
-			scrollAmount: 100
-		},
-		keyboard:{ scrollAmount: 50 }
-	});
-	
-
-	function requestData(chart){
-		if($(myfirstchart).length > 0){			
-		    $.ajax({
-		    	type: "GET",
-		    	url: countPostByCategory
-		    })
-		    .done(function( data ) {
-		      chart.setData(data);
-		    })
-		    .fail(function() {
-		      alert( "error occured" );
-		    });	
-		}
-  	}
-
-	//MORRIS
-	var chart = Morris.Donut({
-		element: 'myfirstchart',
-		data: [0, 0],
-		colors : ['#23c6c8', '#1ABC9C', '#34495E']
-	});
-
-	requestData(chart);
 
 	
 
