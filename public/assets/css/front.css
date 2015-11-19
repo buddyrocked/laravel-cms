@@ -109,7 +109,7 @@ body {
 }
 
 a {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 a:hover {
@@ -142,8 +142,8 @@ a:hover {
 }
 
 .title-section div.line {
-    border-bottom: 2px solid #fcda04;
-    color: #fcda04;
+    border-bottom: 2px solid #fcce04;
+    color: #fcce04;
     display: inline-block;
     font-weight: bold;
     margin-bottom: 5px;
@@ -167,7 +167,7 @@ a:hover {
 }
 
 .title-section2 span {
-    border-bottom: 4px solid #fcda04;
+    border-bottom: 4px solid #fcce04;
     font-size: 0.7em;
     vertical-align: top;
     line-height: 0.7em;
@@ -259,8 +259,8 @@ a:hover {
 }
 
 #navbar-info {
-    background: #fcda04;
-    border-top: 2px solid #fcda04;
+    background: #fcce04;
+    border-top: 2px solid #fcce04;
     color: #FFF;
     font-family: 'BebasNeueRegular';
     font-size: 1em;
@@ -319,7 +319,7 @@ a:hover {
 
 .nav.navbar-nav li.current a, .nav.navbar-nav.small-nav li.current a, .nav.navbar-nav.small-nav li a:hover {
   background: transparent;
-  color: #fcda04 !important;
+  color: #fcce04 !important;
 }
 
 .navbar-brand {
@@ -330,7 +330,7 @@ a:hover {
 }
 
 .navbar-brand a {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .navbar-brand .fa-circle {
@@ -362,7 +362,7 @@ a:hover {
 }
 
 .logo {
-    background: #fcda04;
+    background: #fcce04;
     color: #222;
     display: inline-block;
     font-size: 2em;
@@ -399,7 +399,7 @@ a:hover {
 
 .btn-main {
     color: #FFF !important;
-    background: #fcda04 !important;
+    background: #fcce04 !important;
 }
 
 .text-bold {
@@ -411,7 +411,7 @@ a:hover {
 }
 
 .text-main {
-  color: #fcda04;
+  color: #fcce04;
 }
 
 .main-content {
@@ -422,7 +422,7 @@ a:hover {
 /* HOME
 -------------------------------------------------- */
 #contact-home {
-    background: #fcda04;
+    background: #fcce04;
     display: none;
     height: 30px;
     width: 100%;
@@ -503,7 +503,7 @@ a:hover {
   /*text-shadow: 1px 1px 1px rgba(255,255,255,0.8);*/
 }
 .rw-sentence span{
-  color: #fcda04;
+  color: #fcce04;
   font-size: 250%;
   font-weight: normal;
 }
@@ -625,7 +625,7 @@ a:hover {
 }
 
 .home-service-item-icon {
-    background: #fcda04;
+    background: #fcce04;
     color: #FFF;
     display: inline-block;
     float: left;
@@ -637,7 +637,7 @@ a:hover {
 
 .home-service-item-content:after {
     content: '';
-    border-left: 10px solid #fcda04;
+    border-left: 10px solid #fcce04;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     position: absolute;
@@ -657,7 +657,7 @@ a:hover {
 }
 
 .home-service-item-title {
-    border-bottom: 2px solid #fcda04;
+    border-bottom: 2px solid #fcce04;
     display: inline-block;
     font-family: 'opensans-semibold';
     font-size: 1.1em;
@@ -706,7 +706,7 @@ a:hover {
 }
 
 .service-item-icon {
-    background: #fcda04;
+    background: #fcce04;
     color: #FFF;
     font-size: 3em;
     text-align: center;
@@ -732,7 +732,7 @@ a:hover {
 }
 
 .service-item-title {
-    color: #fcda04;
+    color: #fcce04;
     font-size: 1.5em;
     padding: 0px;
 }
@@ -764,14 +764,14 @@ a:hover {
 }
 
 .layer-title {
-    color: #fcda04;
+    color: #fcce04;
     display: none;
     font-family: 'BebasNeueRegular';
     font-size: 1.5em;
 }
 
 .layer-content {
-    background: #fcda04;
+    background: #fcce04;
     color: #FFF;
     margin: 0 10px;
     padding: 10px;
@@ -789,8 +789,8 @@ a:hover {
 }
 
 .layer-1 > .layer-info {
-    border-left: 2px solid #fcda04;
-    border-bottom: 2px solid #fcda04;
+    border-left: 2px solid #fcce04;
+    border-bottom: 2px solid #fcce04;
     height: 300px;
     position: absolute;
     top: 135px;
@@ -800,7 +800,7 @@ a:hover {
 
 .layer-1 > .layer-info:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -821,7 +821,7 @@ a:hover {
 
 .layer-1 .layer-content:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -842,8 +842,8 @@ a:hover {
 }
 
 .layer-2 > .layer-info {
-    border-right: 2px solid #fcda04;
-    border-bottom: 2px solid #fcda04;
+    border-right: 2px solid #fcce04;
+    border-bottom: 2px solid #fcce04;
     height: 300px;
     position: absolute;
     top:70px;
@@ -853,7 +853,7 @@ a:hover {
 
 .layer-2 > .layer-info:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -873,7 +873,7 @@ a:hover {
 
 .layer-2 .layer-content:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -894,7 +894,7 @@ a:hover {
 }
 
 .layer-3 > .layer-info {
-    border-right: 2px solid #fcda04;
+    border-right: 2px solid #fcce04;
     height: 220px;
     position: absolute;
     right: 400px;
@@ -903,7 +903,7 @@ a:hover {
 
 .layer-3 > .layer-info:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -923,7 +923,7 @@ a:hover {
 
 .layer-3 .layer-content:before {
     content: '';
-    background: #fcda04;
+    background: #fcce04;
     border: 1px solid #FFF;
     border-radius: 50%;
     display: inline-block;
@@ -959,7 +959,7 @@ a:hover {
 }
 
 .home-about-content {
-    background: #fcda04;
+    background: #fcce04;
     padding: 100px 30px;
     min-height: 600px;
 }
@@ -1004,8 +1004,8 @@ a:hover {
 
 .about-pic {
     border: 10px solid #F0F0F0;
-    border-top: 10px solid #fcda04;
-    border-left: 10px solid #fcda04;
+    border-top: 10px solid #fcce04;
+    border-left: 10px solid #fcce04;
     border-radius: 50%;
     display: inline-block;
     height: 300px;
@@ -1022,8 +1022,8 @@ a:hover {
 
 .about-pic:hover {
     border: 10px solid #F0F0F0;
-    border-bottom: 10px solid #fcda04;
-    border-right: 10px solid #fcda04;
+    border-bottom: 10px solid #fcce04;
+    border-right: 10px solid #fcce04;
 }
 
 .about-pic img {
@@ -1331,8 +1331,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 .blog-share li a {
     background: #fff;
-    border: 1px solid #fcda04;
-    color: #fcda04;
+    border: 1px solid #fcce04;
+    color: #fcce04;
     display: inline-block;
     font-size: 2em;
     line-height: 1.6em;
@@ -1342,8 +1342,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-share li a:hover {
-    background: #fcda04 !important;
-    border: 1px solid #fcda04 !important;
+    background: #fcce04 !important;
+    border: 1px solid #fcce04 !important;
     color: #FFF !important;
 
     webkit-transition: all 0.5s ease-in-out;
@@ -1380,7 +1380,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-category {
-    background: #fcda04;
+    background: #fcce04;
     border: 4px solid #FFF;
     color: #FFF;
     font-size: 2.4em;
@@ -1400,7 +1400,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-title {
-    color: #fcda04;
+    color: #fcce04;
     display: block;
     font-family: 'BebasNeueRegular';
     font-size: 2.5em;
@@ -1417,7 +1417,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-detail-item i {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .blog-category i {
@@ -1442,15 +1442,15 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-link a {
-    border:1px solid #fcda04;
+    border:1px solid #fcce04;
     border-radius: 30px;
-    color: #fcda04;
+    color: #fcce04;
     height: 100%;
     padding: 8px 10px 10px 10px;
 }
 
 .blog-link a:hover {
-    background: #fcda04 !important;
+    background: #fcce04 !important;
     color: #fff;
 }
 
@@ -1470,7 +1470,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-sidebar .title > span {
-    background: #fcda04;
+    background: #fcce04;
     color: whitesmoke;
     display: inline-block;
     height: 55px;
@@ -1530,23 +1530,23 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-sidebar-text a:hover {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .blog-sidebar-text a span {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .blog-author {
     background: #fff;
-    border-top: 2px solid #fcda04;
+    border-top: 2px solid #fcce04;
     margin: 0 0 30px 0;
     min-height: 140px;
     padding: 20px;
 }
 
 .blog-author-img {
-    border: 4px solid #fcda04;
+    border: 4px solid #fcce04;
     border-radius: 50%;
     height: 100px;
     overflow: hidden;
@@ -1564,7 +1564,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-related .title {
-    color: #fcda04;
+    color: #fcce04;
     font-family: 'BebasNeueRegular';
     font-size: 2em;
     margin: 0 0 10px 0;
@@ -1588,7 +1588,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .blog-item-masonry > .title a:hover {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .blog-item-masonry > .picture {
@@ -1608,7 +1608,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
     font-family: 'BebasNeueRegular';
     font-size: 2em;
     margin: 0 0 20px 0;
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .comment-item {
@@ -1622,7 +1622,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .comment-avatar img {
-    border: 4px solid #fcda04;
+    border: 4px solid #fcce04;
     border-radius: 50%;
     display: inline-block;
     height: 80px;
@@ -1695,17 +1695,17 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 #form-comment .input-group-addon {
     background: transparent;
-    border-color: #fcda04;
+    border-color: #fcce04;
     border-radius: 0px;
-    color: #fcda04;
+    color: #fcce04;
 }
 
 #form-comment input, #form-comment textarea {
     background: transparent;
-    border: 1px solid #fcda04;
+    border: 1px solid #fcce04;
     border-radius: 0px;
     box-shadow: none;
-    color: #fcda04;
+    color: #fcce04;
 }
 
 #form-comment textarea {
@@ -1713,7 +1713,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .tag-color {
-    background: #fcda04;
+    background: #fcce04;
     border-radius: 2px;
     color: #FFF;
     padding: 3px 8px;
@@ -1734,12 +1734,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 }
 
 .pagination li a {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 .pagination li.active span {
-    background: #fcda04 !important;
-    border: 1px solid #fcda04;
+    background: #fcce04 !important;
+    border: 1px solid #fcce04;
 }
 
 footer {  
@@ -1757,7 +1757,7 @@ footer {
 #footer-bottom {
     background: #21252b;
     border-top: 1px solid #2e343a; 
-    border-bottom: 3px solid #fcda04;
+    border-bottom: 3px solid #fcce04;
     min-height: 60px;
 }
 
@@ -1771,7 +1771,7 @@ footer {
 }
 
 .footer-title span {
-    border-bottom: 4px solid #fcda04;
+    border-bottom: 4px solid #fcce04;
     font-size: 0.7em;
     vertical-align: top;
     line-height: 0.7em;
@@ -1786,7 +1786,7 @@ footer {
 }
 
 #footer-address i {
-    color: #fcda04;
+    color: #fcce04;
 }
 
 #footer-address > div {
@@ -1805,21 +1805,21 @@ footer {
 
 #form-contact .input-group-addon {
     background: #21252b;
-    border: 1px solid #fcda04;
+    border: 1px solid #fcce04;
     border-right: none;
-    color: #fcda04;
+    color: #fcce04;
 }
 
 #form-contact input[type="text"], #form-contact textarea {
     background: #21252b;
-    border: 1px solid #fcda04;
+    border: 1px solid #fcce04;
     border-left: none;
     box-shadow: none;
-    color: #fcda04;
+    color: #fcce04;
 }
 
 #form-contact textarea {
-    border-left: 1px solid #fcda04;
+    border-left: 1px solid #fcce04;
     min-height: 100px;
 }
 
@@ -1927,39 +1927,39 @@ footer {
 }
 /*PERSONAL*/
 .personal .title{        
-    background: #fcda04;    
+    background: #fcce04;    
 }
 .personal .content,.personal .pt-footer{
-    background: #fcda04;
+    background: #fcce04;
 }
 .personal .content:after{ 
-  border-top-color: #fcda04;  
+  border-top-color: #fcce04;  
 }
 .personal .pt-footer:after{
     border-top-color: #FFFFFF;
 }
 /*PROFESSIONAL*/
 .professional .title{
-    background: #fcda04;
+    background: #fcce04;
 }
 .professional .content,.professional .pt-footer{
-    background: #fcda04;
+    background: #fcce04;
 }
 .professional .content:after{ 
-  border-top-color: #fcda04;  
+  border-top-color: #fcce04;  
 }
 .professional .pt-footer:after{
     border-top-color: #FFFFFF;
 }
 /*BUSINESS*/
 .business .title{
-    background: #fcda04;
+    background: #fcce04;
 }
 .business .content,.business .pt-footer{
-    background: #fcda04;
+    background: #fcce04;
 }
 .business .content:after{ 
-  border-top-color: #fcda04;  
+  border-top-color: #fcce04;  
 }
 .business .pt-footer:after {  
   border-top-color: #FFFFFF;  
