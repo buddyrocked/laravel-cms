@@ -15,11 +15,11 @@
 						<figure class="effect-zoe animated" data-anim="zoomIn">
 							<img src="assets/images/2.jpg" alt="img25"/>
 							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
+								<h2>BKOM <span>Bandung</span></h2>
 								<p class="icon-links">
 									<a href="#"><i class="fa fa-desktop"></i></a>
 								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+								<p class="description">Website BKOM Bandung is a Portal news and information center of BKOM Bandung. built with Yii Framework.</p>
 							</figcaption>			
 						</figure>
 						<figure class="effect-zoe animated" data-anim="zoomIn">
@@ -35,31 +35,31 @@
 						<figure class="effect-zoe animated" data-anim="zoomIn">
 							<img src="assets/images/3.png" alt="img25"/>
 							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
+								<h2>PT. <span>ARKINDO</span></h2>
 								<p class="icon-links">
 									<a href="#"><i class="fa fa-desktop"></i></a>
 								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+								<p class="description">Automation Document Tender & Prequalification processing.</p>
 							</figcaption>			
 						</figure>
 						<figure class="effect-zoe animated" data-anim="zoomIn">
 							<img src="assets/images/4.jpg" alt="img25"/>
 							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
+								<h2>Poltekkes <span>Bandung</span></h2>
 								<p class="icon-links">
 									<a href="#"><i class="fa fa-desktop"></i></a>
 								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+								<p class="description">Attendance Application For Employee of Poltekkes Bandung.</p>
 							</figcaption>			
 						</figure>
 						<figure class="effect-zoe animated" data-anim="zoomIn">
 							<img src="assets/images/5.jpg" alt="img25"/>
 							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
+								<h2>KPPN <span>Sukabumi</span></h2>
 								<p class="icon-links">
 									<a href="#"><i class="fa fa-desktop"></i></a>
 								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
+								<p class="description">Web Portal, news & information center about KPPN Sukabumi.</p>
 							</figcaption>			
 						</figure>
 						<figure class="effect-zoe animated" data-anim="zoomIn">
@@ -97,7 +97,7 @@
         		{{ HTML::image('images/client3.png', '', ['class'=>'grayscale']) }}
         	</li>
         	<li>
-        		{{ HTML::image('images/client4.png', '', ['class'=>'grayscale']) }}
+        		{{ HTML::image('images/bkom.jpg', '', ['class'=>'grayscale']) }}
         	</li>
         	<li>
         		{{ HTML::image('images/client5.png', '', ['class'=>'grayscale']) }}

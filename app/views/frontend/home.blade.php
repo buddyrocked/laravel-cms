@@ -181,7 +181,7 @@
 	        		{{ HTML::image('images/client3.png', '', ['class'=>'grayscale']) }}
 	        	</li>
 	        	<li>
-	        		{{ HTML::image('images/client4.png', '', ['class'=>'grayscale']) }}
+	        		{{ HTML::image('images/bkom.jpg', '', ['class'=>'grayscale']) }}
 	        	</li>
 	        	<li>
 	        		{{ HTML::image('images/client5.png', '', ['class'=>'grayscale']) }}

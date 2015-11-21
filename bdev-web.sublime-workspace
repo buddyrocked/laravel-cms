@@ -5,7 +5,11 @@
 		[
 			[
 				"mar",
-				"margin"
+				"margin-right"
+			],
+			[
+				"p",
+				"padding"
 			],
 			[
 				"fon",
@@ -510,10 +514,6 @@
 			[
 				"use",
 				"username"
-			],
-			[
-				"curen",
-				"currentUser"
 			]
 		]
 	},
@@ -523,7 +523,159 @@
 			"file": "app/views/frontend/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 8600,
+				"buffer_size": 7992,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/blog.blade.php",
+			"settings":
+			{
+				"buffer_size": 2793,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/config/app.php",
+			"settings":
+			{
+				"buffer_size": 25073,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/read.blade.php",
+			"settings":
+			{
+				"buffer_size": 11463,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/layouts/budi-layout/sidebarBlog.blade.php",
+			"settings":
+			{
+				"buffer_size": 2348,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/service.blade.php",
+			"settings":
+			{
+				"buffer_size": 14367,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/about.blade.php",
+			"settings":
+			{
+				"buffer_size": 1324,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/portfolio.blade.php",
+			"settings":
+			{
+				"buffer_size": 4182,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/front.css",
+			"settings":
+			{
+				"buffer_size": 36891,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/signin.css",
+			"settings":
+			{
+				"buffer_size": 1349,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/style.css",
+			"settings":
+			{
+				"buffer_size": 36106,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rini/Downloads/pallet.html",
+			"settings":
+			{
+				"buffer_size": 1039,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/login.css",
+			"settings":
+			{
+				"buffer_size": 136,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rini/Videos/flat-pricing-table (1)/css/style.css",
+			"settings":
+			{
+				"buffer_size": 3526,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/rini/Downloads/pricing-tables/pricing-tables-with-switcher/css/style.css",
+			"settings":
+			{
+				"buffer_size": 19669,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/rini/Downloads/pricing-tables/pricing-tables-with-switcher/index.html",
+			"settings":
+			{
+				"buffer_size": 18740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/exam-simulator/backend/themes/adminLTE/layouts/frontendLayout.php",
+			"settings":
+			{
+				"buffer_size": 6622,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/exam-simulator/backend/themes/adminLTE/layouts/loginLayout.php",
+			"settings":
+			{
+				"buffer_size": 10040,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/rini/Videos/flat-pricing-table (1)/index.html",
+			"settings":
+			{
+				"buffer_size": 4155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/budi-layout/frontend.blade.php",
+			"settings":
+			{
+				"buffer_size": 18721,
 				"line_ending": "Windows"
 			}
 		},
@@ -572,7 +724,8 @@
 	},
 	"expanded_folders":
 	[
-		"/D/xampp/htdocs/bdev-web"
+		"/D/xampp/htdocs/bdev-web",
+		"/D/xampp/htdocs/bdev-web/app"
 	],
 	"file_history":
 	[
@@ -741,6 +894,28 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"home-about-image",
+			"fcce04",
+			"fcda04",
+			"class=\"\"></div>",
+			"range tooltip",
+			"0dc0c0",
+			"0dd0c0",
+			"blog-side",
+			"$",
+			"EB6379",
+			"E3536C",
+			"53CFE9",
+			"3EC6E0",
+			"82DACA",
+			"78CFBF",
+			"cd-pricing-wrapper",
+			"service-item-content",
+			"whet ",
+			"contact",
+			"mini-profile",
+			"navbar",
+			"ome-about-image",
 			"To",
 			"scale",
 			"{\n",
@@ -846,29 +1021,7 @@
 			"ea5a5a",
 			"buildChartGoogle",
 			"max-",
-			"n chartGoogle",
-			"upper-menu",
-			"chevr",
-			"knob",
-			".row",
-			"box-ma",
-			"ea5a5a",
-			"upper-me",
-			"upper-m",
-			".box-header",
-			"renderdata",
-			"count",
-			"renderData",
-			"buildChartGoogle",
-			"renderData",
-			"morris",
-			"graph",
-			"graphs",
-			"buildChartGoogle",
-			"orderbys",
-			"<i class=\"fa fa-calendar\"></i> ",
-			"valuea",
-			"categoryA"
+			"n chartGoogle"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -876,6 +1029,14 @@
 		"regex": false,
 		"replace_history":
 		[
+			"fcc804",
+			"fcce04",
+			"class=\"\">xxxxxxxxxxxxxxxx</div>",
+			"",
+			"fcda04",
+			"e1e1e1",
+			"Rp.",
+			"fcda04",
 			"999",
 			"ccc",
 			"animatedx",
@@ -995,15 +1156,7 @@
 			"info.getPath()",
 			"info.getPath2()",
 			"{% if info.path2 is defined and info.path2 != '' %}",
-			"xxx",
-			"-06-",
-			".cxx",
-			"",
-			"(edit_form.",
-			"",
-			"\"http://",
-			"DATE_FORMAT(p.created,'%m')",
-			"p.created"
+			"xxx"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1014,7 +1167,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -1023,15 +1176,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8600,
+						"buffer_size": 7992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2461,
-								2461
+								7792,
+								7784
 							]
 						],
 						"settings":
@@ -1039,14 +1192,573 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 758.0,
+						"translation.y": 2968.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/views/frontend/blog.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 446.0,
+						"translation.y": 460.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/config/app.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 25073,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1124,
+								1124
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/frontend/read.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11463,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/views/layouts/budi-layout/sidebarBlog.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2348,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1032,
+								1038
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 359.0,
+						"translation.y": 149.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/frontend/service.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7381,
+								7653
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2446.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/frontend/about.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1324,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								334
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/views/frontend/portfolio.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4182,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3885,
+								3885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1353.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
+					"buffer": 8,
+					"file": "public/assets/css/front.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36891,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								18626,
+								18626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 16822.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "public/assets/css/signin.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1349,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 1186.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/assets/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 36106,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/rini/Downloads/pallet.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1039,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								476,
+								476
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "public/assets/css/login.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 136,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/rini/Videos/flat-pricing-table (1)/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3526,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1010,
+								3526
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2615.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/rini/Downloads/pricing-tables/pricing-tables-with-switcher/css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19669,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2465,
+								2465
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1973.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/rini/Downloads/pricing-tables/pricing-tables-with-switcher/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								583,
+								6581
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3232.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/D/xampp/htdocs/exam-simulator/backend/themes/adminLTE/layouts/frontendLayout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 843.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/D/xampp/htdocs/exam-simulator/backend/themes/adminLTE/layouts/loginLayout.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10040,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2426.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Users/rini/Videos/flat-pricing-table (1)/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								294,
+								4060
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1586.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "app/views/layouts/budi-layout/frontend.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2655,
+								2655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
 					"file": "public/assets/vendor/animate.css/animate.css",
 					"semi_transient": false,
 					"settings":
@@ -1069,10 +1781,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 23707.0,
+						"translation.y": 25101.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 20,
 					"type": "text"
 				}
 			]
@@ -1080,7 +1792,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 34.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -1117,7 +1829,7 @@
 	"project": "bdev-web.sublime-project",
 	"replace":
 	{
-		"height": 64.0
+		"height": 80.0
 	},
 	"save_all_on_build": true,
 	"select_file":

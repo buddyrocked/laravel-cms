@@ -12,16 +12,16 @@
     		<div class="col-md-8">
     			<div class="blog-lists">
 		    		@foreach($posts as $post)
-		    			<div class="col-md-12">
+		    			<div class="col-md-12 animated" data-anim="bounceInDown">
 		    				<div class="blog-item">
-		    					<ul class="blog-share animated" data-anim="bounceInLeft">
+		    					<ul class="blog-share">
 		    						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 		    						<li><a href="#"><i class="fa fa-twitter"></i></a></li>
 		    						<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
 		    						<li><a href="#"><i class="fa fa-reddit"></i></a></li>
 		    					</ul>
 		    					<div class="blog-picture-container">
-			    					<div class="blog-picture animated" data-anim="bounceInDown">
+			    					<div class="blog-picture">
 			    						{{ HTML::image('posts/'.$post->image, $post->title, ['data-src'=>'holder.js/100%x400/#e1e1e1:#ffffff/text:image']) }}
 			    					</div>
 		    						<div class="blog-category">
@@ -29,8 +29,8 @@
 		    						</div>
 			    				</div>
 		    					<div class="blog-detail">
-		    						<div class="animated" data-anim="bounceInLeft">
-			    						<h2 class="blog-title animated" data-anim="bounceInLeft">
+		    						<div>
+			    						<h2 class="blog-title">
 			    							{{ HTML::link(URL::route('read', $post->slug), $post->title) }}
 			    						</h2>
 			    						<div class="blog-detail-item">
@@ -53,7 +53,7 @@
 				    					</div>
 				    				</div>
 		    						<div class="blog-link">		    							
-		    							{{ HTML::link(URL::route('read', $post->slug), 'read more', ['class'=>'pull-right animated', 'data-anim'=>'bounceInRight']) }}
+		    							{{ HTML::link(URL::route('read', $post->slug), 'read more', ['class'=>'pull-right']) }}
 		    						</div>
 		    					</div>
 		    				</div>

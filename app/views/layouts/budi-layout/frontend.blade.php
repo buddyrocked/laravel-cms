@@ -41,10 +41,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted"> 087825770432</span> 
+                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted"> {{ Config::get('cms.phone') }}</span> 
                             </div>
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted"> contact@b-dev.biz</span> 
+                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted"> {{ Config::get('cms.email') }}</span> 
                             </div>
                         </div>
                     </div>
@@ -52,36 +52,36 @@
                 <div class="navbar" role="navigation" id="navigations">
                     <div class="container">
                         <a class="navbar-brand center" href="#">                       
-                            {{ HTML::image('images/logo-bdev.png') }}
+                            {{ HTML::image('images/blogo.png') }}
                         </a>
                         <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2x">
-                            <li class="current">
+                            <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
                                     <span data-hover="Home">Home</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="@if (Route::currentRouteName() == 'service') current @endif">
                                 <a href="{{ URL::route('service') }}" class="hover-effect">
                                     <span data-hover="Product & Services">Product & Services</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="@if (Route::currentRouteName() == 'about') current @endif">
                                 <a href="{{ URL::route('about') }}" id="link-services" class="hover-effect">
                                     <span data-hover="About Us">About Us</span>
                                 </a>
                             </li>
-                            <li class="">
+                            <li  class="@if (Route::currentRouteName() == 'portfolio') current @endif">
                                 <a href="{{ URL::route('portfolio') }}" class="hover-effect">
                                     <span data-hover="Portfolio">Portfolio</span>
                                 </a>
                             </li>
-                            <li class="">
+                            <li class="@if (Route::currentRouteName() == 'blog') current @endif">
                                 <a href="{{ URL::route('blog') }}" class="hover-effect">
                                     <span data-hover="Blog">Blog</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#article" class="hover-effect">
+                            <li class="@if (Route::currentRouteName() == 'contact') current @endif">
+                                <a href="{{ URL::route('blog') }}" class="hover-effect">
                                     <span data-hover="Contact Us">Contact Us</span>
                                 </a>
                             </li>
@@ -126,7 +126,7 @@
                                     <i class="fa fa-phone fa-2x"></i>
                                 </div>
                                 <div class="col-xs-11">
-                                    022 - 654 567 <br />
+                                    {{ Config::get('cms.phone') }} <br />
                                 </div>
                             </div>
                             <div class="row">
@@ -134,7 +134,7 @@
                                     <i class="fa fa-envelope fa-2x"></i>
                                 </div>
                                 <div class="col-xs-11">
-                                    contact@b-dev.biz <br />
+                                    {{ Config::get('cms.email') }} <br />
                                 </div>
                             </div>
                         </div>
