@@ -55,7 +55,7 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'localhost',
-			'database'  => 'budihariyana-studio',
+			'database'  => 'bdev',
 			'username'  => 'root',
 			'password'  => '1z2x3c4v5b',
 			'charset'   => 'utf8',

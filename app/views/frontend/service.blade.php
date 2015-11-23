@@ -10,86 +10,121 @@
         </div>
         <div class="container">
         	<div class="row">
-        		<div class="col-md-6">
-        			<div class="service-item row animated" data-anim="fadeInLeft">
-        				<div class="service-item-icon text-10x col-md-12">
-        					<i class="fa fa-cube"></i>
-        				</div>
-        				<div class="service-item-content col-md-12">
-        					<div>
-	        					<div class="service-item-title text-center">
-	        						BDev (Software Development)
-	        					</div>
-	        				</div>
-	        				<div>
-        						Bdev adalah unit usaha PT. Berkah Developer Solution yang bergerak di bidang pembuatan dan pengembangan perangkat lunak. Selain membuat dan mengembangkat perangkat lunak, BDev juga melayani jasa pembuatan website dan aplikasi mobile. Focus utama BDev adalah menjadi solusi penyedia sistem informasi yang handal untuk kegiatan bisnis maupun perorangan.
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        		<div class="col-md-6">
-        			<div class="service-item row animated" data-anim="fadeInUp">
-        				<div class="service-item-icon text-10x col-md-12">
-        					<i class="fa fa-server"></i>
-        				</div>
-        				<div class="service-item-content col-md-12">
-        					<div class="service-item-title text-center">
-        						BSupport (Hardware & Network Solutions)
-        					</div>
-	        				<div>
-        						BSupport adalah Unit usaha PT Berkah Developer Solution yang menyediakan jasa pengadaan, perbaikan dan perawatan untuk perangkat keras dan perangakat lunak. Bsupport melayani perbaikan dan perawatan untuk Komputer, Laptop, Printer, Scanner, dan jaringan untuk keperluan personal maupun perusahaan.
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="service-item row animated" data-anim="fadeInLeft">
-                        <div class="service-item-icon text-10x col-md-12">
-                            <i class="fa fa-cloud"></i>
-                        </div>
-                        <div class="service-item-content col-md-12">
-                            <div>
-                                <div class="service-item-title text-center">
-                                    BCloud (Hosting Provider)
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="home-service-item row animated" data-anim="fadeInLeft">
+                                <div class="home-service-item-icon col-md-3 col-xs-3">
+                                    <i class="fa fa-cube fa-2x"></i>
+                                </div>
+                                <div class="home-service-item-content col-md-9 col-xs-9">
+                                    <div class="home-service-img">
+                                        {{ HTML::image('assets/images/bdev.jpg', '', ['id'=>'', 'class'=>'']) }}
+                                    </div>
                                 </div>
                             </div>
-                            <div>
-                               Bcloud adalah unit usaha PT. Berkah Developer Solution yang bergerak di bidang penyedia layanan hosting, domain dan Virtual Private Server(VPS). Bcloud menyediakan paket hosting yang sesuai dengan kebutuhan pengguna, mulai dari pengguna perorangan, UMKM, maupun perusahaan menengah keatas. BCloud menyediakan Virtual Private Server(VPS) untuk kegiatan bisnis maupun perorangan.
+                        </div>
+                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
+                            <div class="home-service-item-title text-bigger">
+                                Bdev
+                            </div>
+                            <div class="home-service-item-text">
+                                Bdev adalah unit usaha PT. Berkah Developer Solution yang bergerak di bidang pembuatan dan pengembangan perangkat lunak. Selain membuat dan mengembangkat perangkat lunak, BDev juga melayani jasa pembuatan website dan aplikasi mobile. Focus utama BDev adalah menjadi solusi penyedia sistem informasi yang handal untuk kegiatan bisnis maupun perorangan.
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="service-item row animated" data-anim="fadeInUp">
-                        <div class="service-item-icon text-10x col-md-12">
-                            <i class="fa fa-camera"></i>
-                        </div>
-                        <div class="service-item-content col-md-12">
-                            <div class="service-item-title text-center">
-                                BDism (Graphic Design)
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="home-service-item row animated" data-anim="fadeInLeft">
+                                <div class="home-service-item-icon col-md-3 col-xs-3">
+                                    <i class="fa fa-server fa-2x"></i>
+                                </div>
+                                <div class="home-service-item-content col-md-9 col-xs-9">
+                                    <div class="home-service-img">
+                                        {{ HTML::image('assets/images/bsupport.jpg', '', ['id'=>'', 'class'=>'']) }}
+                                    </div>
+                                </div>
                             </div>
-                            <div>
+                        </div>
+                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
+                            <div class="home-service-item-title text-bigger">
+                                Bsupport
+                            </div>
+                            <div class="home-service-item-text">
+                                BSupport adalah Unit usaha PT Berkah Developer Solution yang menyediakan jasa pengadaan, perbaikan dan perawatan untuk perangkat keras dan perangakat lunak. Bsupport melayani perbaikan dan perawatan untuk Komputer, Laptop, Printer, Scanner, dan jaringan untuk keperluan personal maupun perusahaan.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        		<div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="home-service-item row animated" data-anim="fadeInLeft">
+                                <div class="home-service-item-icon col-md-3 col-xs-3">
+                                    <i class="fa fa-cloud fa-2x"></i>
+                                </div>
+                                <div class="home-service-item-content col-md-9 col-xs-9">
+                                    <div class="home-service-img">
+                                        {{ HTML::image('assets/images/bcloud.jpg', '', ['id'=>'', 'class'=>'']) }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
+                            <div class="home-service-item-title text-bigger">
+                                Bcloud
+                            </div>
+                            <div class="home-service-item-text">
+                                Bcloud adalah unit usaha PT. Berkah Developer Solution yang bergerak di bidang penyedia layanan hosting, domain dan Virtual Private Server(VPS). Bcloud menyediakan paket hosting yang sesuai dengan kebutuhan pengguna, mulai dari pengguna perorangan, UMKM, maupun perusahaan menengah keatas. BCloud menyediakan Virtual Private Server(VPS) untuk kegiatan bisnis maupun perorangan.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="home-service-item row animated" data-anim="fadeInLeft">
+                                <div class="home-service-item-icon col-md-3 col-xs-3">
+                                    <i class="fa fa-camera fa-2x"></i>
+                                </div>
+                                <div class="home-service-item-content col-md-9 col-xs-9">
+                                    <div class="home-service-img">
+                                        {{ HTML::image('assets/images/bdsim.jpg', '', ['id'=>'', 'class'=>'']) }}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
+                            <div class="home-service-item-title text-bigger">
+                                Bdsim
+                            </div>
+                            <div class="home-service-item-text">
                                 BDism adalah unit usaha PT Berkah Developer Solution yang menyediakan jasa desain untuk keperluan Banner, Poster, dan semua desain.
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="service-item row animated" data-anim="fadeInLeft">
-                        <div class="service-item-icon text-10x col-md-12">
-                            <i class="fa fa-desktop"></i>
-                        </div>
-                        <div class="service-item-content col-md-12">
-                            <div>
-                                <div class="service-item-title text-center">
-                                    BDemy (Computer & Software Training)
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="home-service-item row animated" data-anim="fadeInLeft">
+                                <div class="home-service-item-icon col-md-3 col-xs-3">
+                                    <i class="fa fa-desktop fa-2x"></i>
+                                </div>
+                                <div class="home-service-item-content col-md-9 col-xs-9">
+                                    <div class="home-service-img">
+                                        {{ HTML::image('assets/images/bdemy.jpg', '', ['id'=>'', 'class'=>'']) }}
+                                    </div>
                                 </div>
                             </div>
-                            <div>
+                        </div>
+                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
+                            <div class="home-service-item-title text-bigger">
+                                Bdemy
+                            </div>
+                            <div class="home-service-item-text">
                                 BDemy adalah unit usaha PT Berkah Developer Solution yang memberikan pelatihan dalam bidang teknologi informasi.
                             </div>
                         </div>
@@ -99,60 +134,31 @@
         </div>
     </div>
 </div>
-<div class="section">
-    <div class="container">
-        <div class="layer">
-            <div class="layer-item layer-1 animated" data-anim="fadeInLeft">
-                <div class="layer-content">
-                    Donec sed odio dui. malesuada magna mollis euismod
-                    Donec sed odio dui. malesuada magna mollis euismod
-                </div>
-                <div class="layer-info">
-                    <div class="layer-title">Web Development</div>
-                    
-                    
-                </div>
-                <div class="perspective-container layer-image">
-                    {{ HTML::image('assets/images/img5.png', '', ['class'=>'perspective no-shadow']) }}
-                </div>
-            </div>
-            <div class="layer-item layer-2 animated" data-anim="fadeInRight">
-                <div class="layer-info">
-                    <div class="layer-title">Web Development</div>
-                    <div class="layer-content">
-                        Donec sed odio dui. malesuada magna mollis euismod
-                    </div>
-                    
-                </div>
-                <div class="perspective-container layer-image">
-                    {{ HTML::image('assets/images/img2.png', '', ['class'=>'perspective no-shadow']) }}
-                </div>
-            </div>
-            <div class="layer-item layer-3 animated" data-anim="fadeInDown">
-                <div class="layer-info">
-                    <div class="layer-title">Web Development</div>
-                    <div class="layer-content">
-                        Donec sed odio dui. malesuada magna mollis euismod
-                    </div>
-                    
-                </div>
-                <div class="perspective-container layer-image">
-                    {{ HTML::image('assets/images/img4.png', '', ['class'=>'perspective no-shadow']) }}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 <div class="section">
     <div id="product">
         <div class="title-section2-container center animated" data-anim="fadeInDown">
             <div class="title-section2">
-                Our <span>Web Host</span>
+                Bdev <span>Web Hosting</span>
             </div>
             <div class="text-mute text-semibold">Hosting, Domain & VPS.</div>
         </div>
         <div class="container">
             <div class="row">
+                <div class="col-md-12">
+                    <div class="host-about-content">
+                        <div class="content animated" data-anim="bounceInRight">
+                            <div class="row">
+                                <div class="col-xs-1 text-main">
+                                    <i class="fa fa-cloud fa-4x"></i>
+                                </div>
+                                <div class="col-xs-11">
+                                    Sebagai perusahaan jasa di bidang teknolgi informasi, PT. Berkah Developer Solutions juga menyediakan jasa web hosting, domain dan email. Berikut Paket-paket web hosting yang kami tawarkan :                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-12">
                     <div class="pricing-table group">
                         <div class="row">

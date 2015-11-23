@@ -1,4 +1,4 @@
-define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "imagesloaded", "easypiechart", "init", "selectpicker", "bootstrapSwitch", "nprogress", "morris", "raphael", "datetimepicker", "moment", "serial", "pie", "ammapWh", "mCustomScrollbar", "knob"], function($, jqueryui, swall, tinymce, masonry, tagsInput, imagesLoaded, easyPieChart, init, selectpicker, bootstrapSwitch, NProgress, Morris, Raphael, datetimepicker, moment, AmChartsSerial, AmChartsPie, AmChartsMap, mCustomScrollbar, knob) {
+define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "imagesloaded", "easypiechart", "init", "selectpicker", "bootstrapSwitch", "nprogress", "raphael", "datetimepicker", "moment", "serial", "pie", "ammapWh", "mCustomScrollbar", "knob"], function($, jqueryui, swall, tinymce, masonry, tagsInput, imagesLoaded, easyPieChart, init, selectpicker, bootstrapSwitch, NProgress, Raphael, datetimepicker, moment, AmChartsSerial, AmChartsPie, AmChartsMap, mCustomScrollbar, knob) {
 	
 	$('.alert').addClass('active');
 	setTimeout(function(){$('.alert').fadeOut('slow'); }, 5000);
@@ -680,7 +680,7 @@ define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "image
 	
 
 	function requestData(chart){
-		if($(myfirstchart).length > 0){			
+		if($('#myfirstchart').length > 0){			
 		    $.ajax({
 		    	type: "GET",
 		    	url: countPostByCategory
@@ -694,12 +694,7 @@ define(["jquery", "jqueryui", "swall", "tinymce", "masonry", "tagsInput", "image
 		}
   	}
 
-	//MORRIS
-	var chart = Morris.Donut({
-		element: 'myfirstchart',
-		data: [0, 0],
-		colors : ['#23c6c8', '#1ABC9C', '#34495E']
-	});
+	
 
 	requestData(chart);
 

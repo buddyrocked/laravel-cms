@@ -23,16 +23,6 @@
 							</figcaption>			
 						</figure>
 						<figure class="effect-zoe animated" data-anim="zoomIn">
-							<img src="assets/images/8.jpg" alt="img25"/>
-							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
-								<p class="icon-links">
-									<a href="#"><i class="fa fa-desktop"></i></a>
-								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
-							</figcaption>			
-						</figure>
-						<figure class="effect-zoe animated" data-anim="zoomIn">
 							<img src="assets/images/3.png" alt="img25"/>
 							<figcaption>
 								<h2>PT. <span>ARKINDO</span></h2>
@@ -60,16 +50,6 @@
 									<a href="#"><i class="fa fa-desktop"></i></a>
 								</p>
 								<p class="description">Web Portal, news & information center about KPPN Sukabumi.</p>
-							</figcaption>			
-						</figure>
-						<figure class="effect-zoe animated" data-anim="zoomIn">
-							<img src="assets/images/6.jpg" alt="img25"/>
-							<figcaption>
-								<h2>Creative <span>Zoe</span></h2>
-								<p class="icon-links">
-									<a href="#"><i class="fa fa-desktop"></i></a>
-								</p>
-								<p class="description">Zoe never had the patience of her sisters. She deliberately punched the bear in his face.</p>
 							</figcaption>			
 						</figure>
 					</div>

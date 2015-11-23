@@ -1,8 +1,13 @@
 @extends('layouts.budi-layout.frontend')
 @section('content')
 	<!-- LANDING PAGE -->
+
         <div id="home" class="section">
-            <div id="home-pattern"></div>
+            <div id="home-pattern">
+            	<div id="large-header" class="large-header">
+					<canvas id="demo-canvas"></canvas>
+				</div>
+            </div>
             <div class="home-inner">
                 <div class="">
                     <div class="row">
@@ -54,7 +59,7 @@
         		<div class="row">
         			<div class="col-md-8">
         				<div class="home-about-image animated" data-anim="bounceInUp">
-        					{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoom', 'data-big'=>'assets/images/img1.png']) }}
+        					<!--{{ HTML::image('assets/images/img1.png', '', ['id'=>'gm1', 'class'=>'zoom', 'data-big'=>'assets/images/img1.png']) }} -->
         				</div>
         			</div>
         			<div class="col-md-4">
@@ -92,8 +97,11 @@
 		        					<i class="fa fa-cube"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        					<div class="home-service-img">
+		        						{{ HTML::image('assets/images/bdev.jpg', '', ['id'=>'', 'class'=>'']) }}
+		        					</div>
 		        					<div class="home-service-item-title">
-		        						BDev	
+		        						Bdev
 		        					</div>
 			        				<div class="home-service-item-text">
 		        						Software Development
@@ -105,6 +113,9 @@
 		        					<i class="fa fa-server"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        					<div class="home-service-img">
+		        						{{ HTML::image('assets/images/bsupport.jpg', '', ['id'=>'', 'class'=>'']) }}
+		        					</div>
 		        					<div class="home-service-item-title">
 		        						BSupport
 		        					</div>
@@ -119,7 +130,10 @@
 		        				<div class="home-service-item-icon col-md-2 col-xs-2">
 		        					<i class="fa fa-cloud"></i>
 		        				</div>
-		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        				<div class="home-service-item-content col-md-10 col-xs-10">		        					
+		        					<div class="home-service-img">
+		        						{{ HTML::image('assets/images/bcloud.jpg', '', ['id'=>'', 'class'=>'']) }}
+		        					</div>
 		        					<div class="home-service-item-title">
 		        						BCloud
 		        					</div>
@@ -135,6 +149,9 @@
 		        					<i class="fa fa-camera"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        					<div class="home-service-img">
+		        						{{ HTML::image('assets/images/bdsim.jpg', '', ['id'=>'', 'class'=>'']) }}
+		        					</div>
 		        					<div class="home-service-item-title">
 		        						BDism
 		        					</div>
@@ -148,6 +165,9 @@
 		        					<i class="fa fa-desktop"></i>
 		        				</div>
 		        				<div class="home-service-item-content col-md-10 col-xs-10">
+		        					<div class="home-service-img">
+		        						{{ HTML::image('assets/images/bdemy.jpg', '', ['id'=>'', 'class'=>'']) }}
+		        					</div>
 		        					<div class="home-service-item-title">
 		        						BDemy
 		        					</div>

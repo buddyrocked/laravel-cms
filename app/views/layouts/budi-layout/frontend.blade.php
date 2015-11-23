@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-        <title>B-DEV - PT. Berkah Developer Solutions</title>
+        <title>{{ Config::get('app.siteName') }}</title>
 
         <!-- Bootstrap core CSS -->
         {{ HTML::style('assets/css/normalize.css') }}
@@ -218,9 +218,13 @@
     {{ HTML::script('assets/js/classie.js'); }}
     {{ HTML::script('assets/js/jquery.mlens-1.3.min.js'); }}
     {{ HTML::script('assets/vendor/holderjs/holder.js'); }}
+    {{ HTML::script('assets/js/TweenLite.min.js'); }}
+    {{ HTML::script('assets/js/EasePack.min.js'); }}
+    {{ HTML::script('assets/js/rAF.js'); }}
+    {{ HTML::script('assets/js/demo-1.js'); }}
     
     
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA9x1eyjMKLAln_0LTAkMPcIJFC0M9os&sensor=false">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA9x1eyjMKLAln_0LTAkMPcIJFC0M9os">
         </script>
     <script>
 
@@ -232,9 +236,9 @@
                 sectionElement: $('.section'),
                 containerSectionElement: $('#nav-section'),
                 gmap:{
-                    element: $('#map'),
-                    latitude: -6.897457,
-                    longitude: 106.938772
+                    element: $('#map-section'),
+                    latitude: -6.555209,
+                    longitude:  106.777140
                 },
                 toTopNav:$('.totop'),
                 toBottomNav:$('.tobotom'),
@@ -244,6 +248,9 @@
                 s = this.settings;                
                 this.generateElement();
                 this.bindUIActions();
+                this.generateMap();
+
+                google.maps.event.addDomListener(window, "load", this.generateMap);
             },
 
             generateElement:function(){
@@ -311,15 +318,15 @@
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
 
-                var map = new google.maps.Map(document.getElementById("map-info"), settings);
+                var map = new google.maps.Map(document.getElementById('map-section'), settings);
 
                 var companyMarker = new google.maps.Marker({
                     position: latlng,
                     map: map,
-                    title:"Budi Hariyana Studio \n Jalan Selabintana no.667 Sukabumi 43151"
+                    title:"PT. Berkah Developer Solutions \n Jln. Kh. Soleh Iskandar Km. 8 No. 10 Kota Bogor Jawa Barat"
                 });
 
-                var contentString = '<div class="hexagon-logo" id=""><div class="hexagon-icon"><span class="fa-stack fa-lg font-map"><i class="fa fa-circle fa-stack-2x black"></i><i class="fa fa-rocket fa-stack-1x fa-inverse"></i></span></div></div><div class="center bold">Jl. Selabintana NO.667 SUKABUMI</div>';
+                var contentString = '<div class="hexagon-logo" id=""><div class="hexagon-icon"><span class="fa-stack fa-lg font-map"><i class="fa fa-circle fa-stack-2x black"></i><i class="fa fa-rocket fa-stack-1x fa-inverse"></i></span></div></div><div class="center bold">Jln. Kh. Soleh Iskandar Km. 8 No.10 Kota Bogor Jawa Barat</div>';
                  
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
@@ -328,6 +335,8 @@
                 google.maps.event.addListener(companyMarker, 'click', function() {
                   infowindow.open(map,companyMarker);
                 });
+
+
             },
 
             pasteImage:function(){
