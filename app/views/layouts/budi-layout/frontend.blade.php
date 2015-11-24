@@ -107,36 +107,41 @@
         <footer>
             <div id="footer-top">
                 <div class="container">
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <div class="footer-title">
                             Our <span>Office</span>
                         </div>
                         <div id="footer-address">
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i class="fa fa-building fa-2x"></i>
-                                </div>
-                                <div class="col-xs-11">
-                                    Jln. Kh. Soleh Iskandar Km. 8 No. 10 <br />
-                                    Kota Bogor Jawa Barat
-                                </div>
+                            <div class="">
+                                Jln. Kh. Soleh Iskandar Km. 8 No. 10 <br />
+                                Kota Bogor Jawa Barat
                             </div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i class="fa fa-phone fa-2x"></i>
-                                </div>
-                                <div class="col-xs-11">
-                                    {{ Config::get('cms.phone') }} <br />
-                                </div>
+                            <div class="">
+                                {{ Config::get('cms.phone') }} <br />
                             </div>
-                            <div class="row">
-                                <div class="col-xs-1">
-                                    <i class="fa fa-envelope fa-2x"></i>
-                                </div>
-                                <div class="col-xs-11">
-                                    {{ Config::get('cms.email') }} <br />
-                                </div>
+                            <div class="">
+                                {{ Config::get('cms.email') }} <br />
                             </div>
+                            <div class="">
+                                &nbsp;
+                            </div>
+                            <div class="">
+                                {{ HTML::image('images/logo-text.png') }}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="footer-title">
+                            Other <span>Links</span>
+                        </div>
+                        <div class="footer-link">
+                            <a href="{{ URL::route('home') }}">Help</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="{{ URL::route('home') }}">Frequently Asked Questions</a>
+                        </div>
+                        <div class="footer-link">
+                            <a href="{{ URL::route('home') }}">Login to CPanel</a>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -150,7 +155,7 @@
                                         <label for="email">name</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                            <input type="text" name="name" class="form-control" id="name" placeholder="name">
+                                            <input type="text" name="name" class="form-control" required="required" id="name" placeholder="name">
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +164,7 @@
                                         <label for="email">email</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                            <input type="text" name="email" class="form-control" id="email" placeholder="email">
+                                            <input type="text" name="email" class="form-control" required="required" id="email" placeholder="email">
                                         </div>
                                     </div>
                                 </div>
@@ -168,14 +173,14 @@
                                         <label for="email">email</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-heart"></i></div>
-                                            <input type="text" name="subject" class="form-control" id="subject" placeholder="subject">
+                                            <input type="text" name="subject" class="form-control" required="required" id="subject" placeholder="subject">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="email">name</label>
-                                        <textarea name="content" class="form-control" id="content" placeholder="message"></textarea>
+                                        <textarea name="content" class="form-control" required="required" id="content" placeholder="message"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <input type="submit" class="btn btn-main pull-right" value="send" />

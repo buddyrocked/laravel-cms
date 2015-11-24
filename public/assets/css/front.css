@@ -1788,11 +1788,11 @@ footer {
 		background-size: 700px; 
 		border-bottom: 1px solid #1a1e22;
 		min-height: 350px;
-		padding: 30px 0;
+		padding: 40px 0;
 }
 
 #footer-bottom {
-		background: #21252b;
+		background: #1e2227;
 		border-top: 1px solid #2e343a; 
 		border-bottom: 3px solid #fca704;
 		min-height: 60px;
@@ -1801,7 +1801,7 @@ footer {
 .footer-title {
 		color: #FFF;
 		display: inline-block;
-		font-size: 3em;
+		font-size: 2.5em;
 		font-family: 'BebasNeueRegular';
 		margin:25px 0;
 		position: relative;
@@ -1809,25 +1809,40 @@ footer {
 
 .footer-title span {
 		border-bottom: 4px solid #fca704;
-		font-size: 0.7em;
+		font-size: 0.5em;
 		vertical-align: top;
 		line-height: 0.7em;
 		padding: 0px;
 		position: relative;
-		top: -6px;
+		top: -2px;
 		right: 0px;
 }
 
 #footer-address {
 		color: #fff !important;
+		padding: 0px;
 }
 
 #footer-address i {
-		color: #fca704;
+		color: #fff;
 }
 
 #footer-address > div {
 		margin: 10px 0;
+		padding: 0px;
+}
+
+.footer-link {
+	color: #fff;
+	padding: 5px 0;
+}
+
+.footer-link a {
+	color: #fff;
+}
+
+.footer-link a:hover {
+	color: #fca704;
 }
 
 #form-contact {
@@ -1841,22 +1856,22 @@ footer {
 }
 
 #form-contact .input-group-addon {
-		background: #21252b;
-		border: 1px solid #fca704;
+		background: #1b1d21;
+		border: 1px solid #1b1d21;
 		border-right: none;
-		color: #fca704;
+		color: #fff;
 }
 
 #form-contact input[type="text"], #form-contact textarea {
-		background: #21252b;
-		border: 1px solid #fca704;
+		background: #1b1d21;
+		border: 1px solid #1b1d21;
 		border-left: none;
 		box-shadow: none;
 		color: #fca704;
 }
 
 #form-contact textarea {
-		border-left: 1px solid #fca704;
+		border-left: 1px solid #1b1d21;
 		min-height: 100px;
 }
 

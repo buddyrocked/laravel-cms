@@ -81,8 +81,8 @@
 	<div class="container">
 		<div class="row">
 			@foreach($staffs as $staff)
-			<div class="col-md-3">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
+			<div class="col-md-2">
+				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/profile/thumb_{{ $staff->file }})">
 				  	<div class="hexTop"></div>
 				  	<div class="hexBottom"></div>
 				  	<div class="team-name text-center">
