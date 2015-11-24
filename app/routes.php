@@ -20,6 +20,7 @@ Route::get('/blog/{category?}', array('as'=>'blog', 'uses'=>'FrontEndController@
 Route::get('/read/{slug?}', array('as'=>'read', 'uses'=>'FrontEndController@read'));
 Route::get('/tag/{tag?}', array('as'=>'tag', 'uses'=>'FrontEndController@tag'));
 Route::get('/contact', array('as'=>'contact', 'uses'=>'FrontEndController@contact'));
+Route::post('/email-us', array('as'=>'email-us', 'uses'=>'FrontEndController@emailUs'));
 
 Route::get('/google', array('as'=>'google', 'uses'=>'HomeController@index'));
 Route::get('/google/login', 'HomeController@login');
