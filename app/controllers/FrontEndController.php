@@ -30,7 +30,8 @@ class FrontEndController extends \BaseController {
 	}
 
 	public function about(){
-		$this->layout->content = View::make('frontend.about');	
+		$staffs = Staff::all();
+		$this->layout->content = View::make('frontend.about', compact('staffs'));	
 	}
 
 	public function portfolio(){

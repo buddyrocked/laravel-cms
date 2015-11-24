@@ -12,6 +12,7 @@
 			<div class="row">
     			<div class="col-md-12 center">
     				<div id="map-section">
+    					
 					</div>
     			</div>
     		</div>

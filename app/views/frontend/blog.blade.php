@@ -40,7 +40,7 @@
 			    							<i class="fa fa-calendar"></i> {{ date("d F Y",strtotime($post->created_at)) }}
 			    						</div>
 			    						<div class="blog-detail-item">
-			    							<i class="fa fa-twitch"></i> {{ $post->comments->count() }} comments
+			    							<i class="fa fa-twitch"></i> <a href="{{ URL::route('read', $post->slug) }}#disqus_thread">Link</a> comments
 			    						</div>
 			    						<div class="blog-content">
 			    							{{ $post->headline }}

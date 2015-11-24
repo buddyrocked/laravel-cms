@@ -80,78 +80,20 @@
     </div>
 	<div class="container">
 		<div class="row">
+			@foreach($staffs as $staff)
 			<div class="col-md-3">
 				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
 				  	<div class="hexTop"></div>
 				  	<div class="hexBottom"></div>
 				  	<div class="team-name text-center">
-				  		<div>Anggara Jauhari</div>
-				  		<div>Web Programmer</div>
+				  		<div>{{ $staff->name }}</div>
+				  		<div class="team-position">{{ $staff->position->name }}</div>
 				  		<div class="teamTop"></div>
 				  		<div class="teamBottom"></div>
 				  	</div>
 				</div>				
 			</div>
-			<div class="col-md-3">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
-				  	<div class="hexTop"></div>
-				  	<div class="hexBottom"></div>
-				  	<div class="team-name text-center">
-				  		<div>Budi Hariyana</div>
-				  		<div>Web Programmer</div>
-				  		<div class="teamTop"></div>
-				  		<div class="teamBottom"></div>
-				  	</div>
-				</div>				
-			</div>
-			<div class="col-md-3">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
-				  	<div class="hexTop"></div>
-				  	<div class="hexBottom"></div>
-				  	<div class="team-name text-center">
-				  		<div>Budi Hariyana</div>
-				  		<div>Web Programmer</div>
-				  		<div class="teamTop"></div>
-				  		<div class="teamBottom"></div>
-				  	</div>
-				</div>				
-			</div>	
-			<div class="col-md-3">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
-				  	<div class="hexTop"></div>
-				  	<div class="hexBottom"></div>
-				  	<div class="team-name text-center">
-				  		<div>Budi Hariyana</div>
-				  		<div>Web Programmer</div>
-				  		<div class="teamTop"></div>
-				  		<div class="teamBottom"></div>
-				  	</div>
-				</div>				
-			</div>
-			<div class="col-md-6">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
-				  	<div class="hexTop"></div>
-				  	<div class="hexBottom"></div>
-				  	<div class="team-name text-center">
-				  		<div>Budi Hariyana</div>
-				  		<div>Web Programmer</div>
-				  		<div class="teamTop"></div>
-				  		<div class="teamBottom"></div>
-				  	</div>
-				</div>				
-			</div>	
-			<div class="col-md-6">
-				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg)">
-				  	<div class="hexTop"></div>
-				  	<div class="hexBottom"></div>
-				  	<div class="team-name text-center">
-				  		<div>Budi Hariyana</div>
-				  		<div>Web Programmer</div>
-				  		<div class="teamTop"></div>
-				  		<div class="teamBottom"></div>
-				  	</div>
-				</div>				
-			</div>		
+			@endforeach		
 		</div>
 	</div>
 </div>

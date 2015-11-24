@@ -75,13 +75,13 @@
                                     <span data-hover="Portfolio">Portfolio</span>
                                 </a>
                             </li>
-                            <li class="@if (Route::currentRouteName() == 'blog') current @endif">
+                            <li class="@if (Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'read') current @endif">
                                 <a href="{{ URL::route('blog') }}" class="hover-effect">
                                     <span data-hover="Blog">Blog</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'contact') current @endif">
-                                <a href="{{ URL::route('blog') }}" class="hover-effect">
+                                <a href="{{ URL::route('contact') }}" class="hover-effect">
                                     <span data-hover="Contact Us">Contact Us</span>
                                 </a>
                             </li>
