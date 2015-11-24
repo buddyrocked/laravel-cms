@@ -143,14 +143,14 @@
                         <div class="footer-title">
                             Contact <span>Us</span>
                         </div>
-                        <form id="form-contact" class="form">
+                        {{ Form::open(array('route'=>'email-us', 'method'=>'POST', 'class'=>'form', 'id'=>'form-contact')) }}
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label for="email">name</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                            <input type="text" class="form-control" id="name" placeholder="name">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="name">
                                         </div>
                                     </div>
                                 </div>
@@ -159,7 +159,7 @@
                                         <label for="email">email</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                            <input type="text" class="form-control" id="email" placeholder="email">
+                                            <input type="text" name="email" class="form-control" id="email" placeholder="email">
                                         </div>
                                     </div>
                                 </div>
@@ -168,21 +168,21 @@
                                         <label for="email">email</label>
                                         <div class="input-group">
                                             <div class="input-group-addon"><i class="fa fa-heart"></i></div>
-                                            <input type="text" class="form-control" id="email" placeholder="subject">
+                                            <input type="text" name="subject" class="form-control" id="subject" placeholder="subject">
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <label for="email">name</label>
-                                        <textarea name="message" class="form-control" id="email" placeholder="message"></textarea>
+                                        <textarea name="content" class="form-control" id="content" placeholder="message"></textarea>
                                     </div>
                                     <div class="form-group">
                                         <input type="submit" class="btn btn-main pull-right" value="send" />
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        {{ Form::close() }}
                     </div>
                 </div>
             </div>

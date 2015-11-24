@@ -86,4 +86,13 @@ class FrontEndController extends \BaseController {
 		$this->layout->content = View::make('frontend.contact');	
 	}
 
+	public function emailUs(){
+		Mail::send([], [], function($message)
+		{
+		    $message->to('budihariyana2@gmail.com', 'Admin')->subject('test')->setBody('content');
+		});
+
+		return Redirect::to('/');
+	}
+
 }
