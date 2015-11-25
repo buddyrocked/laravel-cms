@@ -2249,3 +2249,30 @@ footer {
 	height: 600px;
 }
 
+@media (max-width: 768px) {
+	#navigation2 {
+		background: #FFF;
+		border: 1px solid #f0f0f0;
+		border-radius: 4px;
+		margin-right: 0px;
+		max-height: 50px;
+		overflow: hidden;
+
+		-webkit-transition: all 0.6s ease-in-out;
+		-moz-transition: all 0.6s ease-in-out;
+		-o-transition: all 0.6s ease-in-out;
+		-ms-transition: all 0.6s ease-in-out;
+		transition: all 0.6s ease-in-out;
+	}
+
+	#navigation2:hover {
+		max-height: 500px;
+	}
+
+	#navigation2 li {
+		padding: 5px 10px;
+		border-top: 1px solid #f0f0f0;
+		margin-top: -1px;
+	}
+}
+

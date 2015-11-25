@@ -101,7 +101,7 @@ class StaffsController extends \BaseController {
 				$data['file'] = $new_file_name.'.'.$file->getClientOriginalExtension();				
 			endif;
 		endif;
-		Staff::create($data);
+		//Staff::create($data);
 		if(Input::has('user')):
 			// create user
 			$data_user = Input::get('user');

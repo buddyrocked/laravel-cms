@@ -126,7 +126,7 @@
 		        			</div>
 		        		</div>
 		        		<div class="col-md-4">
-		        			<div class="home-service-item row animated" data-anim="fadeInUp">
+		        			<div class="home-service-item row animated" data-anim="fadeInDown">
 		        				<div class="home-service-item-icon col-md-2 col-xs-2">
 		        					<i class="fa fa-cloud"></i>
 		        				</div>

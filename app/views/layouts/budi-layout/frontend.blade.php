@@ -54,7 +54,7 @@
                         <a class="navbar-brand center" href="#">                       
                             {{ HTML::image('images/blogo.png') }}
                         </a>
-                        <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2x">
+                        <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2">
                             <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
                                     <span data-hover="Home">Home</span>
