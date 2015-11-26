@@ -37,7 +37,7 @@ return array(
 	|
 	*/
 
-	'siteName' => 'cms',
+	'siteName' => 'Bdev - PT. Berkah Developer Solutions',
 
 	/*
 	|-------------------------------------------------------------------------

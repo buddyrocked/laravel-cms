@@ -30,7 +30,8 @@ class FrontEndController extends \BaseController {
 	}
 
 	public function about(){
-		$this->layout->content = View::make('frontend.about');	
+		$staffs = Staff::all();
+		$this->layout->content = View::make('frontend.about', compact('staffs'));	
 	}
 
 	public function portfolio(){
@@ -43,16 +44,16 @@ class FrontEndController extends \BaseController {
 		if($category != null):
 			$posts = Category::where('name', '=', $category)->first();
 			$posts = $posts->posts();
-			$posts = $posts->paginate(10);
+			$posts = $posts->paginate(5);
 			$pagination = $posts->links();
 		else:
-			$posts = Post::orderBy('id', 'DESC');
+			$posts = Post::where('status', '=', '1')->orderBy('id', 'DESC');
 			if(Input::has('title')):
 				$posts->where('title','like','%'.Input::get('title').'%');
-				$posts = $posts->paginate(10);
+				$posts = $posts->paginate(5);
 				$pagination = $posts->appends(array('title'=>Input::get('title')))->links();
 			else:
-				$posts = $posts->paginate(10);
+				$posts = $posts->paginate(5);
 				$pagination = $posts->links();
 			endif;
 		endif;
@@ -83,6 +84,15 @@ class FrontEndController extends \BaseController {
 
 	public function contact(){
 		$this->layout->content = View::make('frontend.contact');	
+	}
+
+	public function emailUs(){
+		Mail::send([], [], function($message)
+		{
+		    $message->to('budihariyana2@gmail.com', 'Admin')->subject('test')->setBody('content');
+		});
+
+		return Redirect::to('/');
 	}
 
 }

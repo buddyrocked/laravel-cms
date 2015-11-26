@@ -101,37 +101,39 @@ class StaffsController extends \BaseController {
 				$data['file'] = $new_file_name.'.'.$file->getClientOriginalExtension();				
 			endif;
 		endif;
-		Staff::create($data);
-		if(Input::has('user')):
-			// create user
-			$data_user = Input::get('user');
-	        $user = Sentry::getUserProvider()->create(array(
-	            'email'    => $data_user['email'],
-	            'password' => $data_user['password'],
-	            'username' => $data_user['username'],
-	            'last_name' => (string)'-',
-	            'first_name' => (string)Input::get('name'),
-	        ));
+		
+		//DB::transaction(function(){
+			if(Input::has('user')):
+				// create user
+				$data_user = Input::get('user');
+		        $user = Sentry::getUserProvider()->create(array(
+		            'email'    => $data_user['email'],
+		            'password' => $data_user['password'],
+		            'username' => $data_user['username'],
+		            'last_name' => (string)'-',
+		            'first_name' => (string)Input::get('name'),
+		        ));
 
-	        $data['user_id'] = $user->id;
+		        $data['user_id'] = $user->id;
 
-	    	$activationCode = $user->getActivationCode();
-            if(Config::get('syntara::config.user-activation') === 'auto') {
-                $user->attemptActivation($activationCode);
-            }
+		    	$activationCode = $user->getActivationCode();
+	            if(Config::get('syntara::config.user-activation') === 'auto') {
+	                $user->attemptActivation($activationCode);
+	            }
 
-	    	$groups = Input::get('groups');
-            if(isset($groups) && is_array($groups)) {
-                foreach($groups as $groupId) {
-                    $group = Sentry::getGroupProvider()->findById($groupId);
-                    $user->addGroup($group);
-                }
-            }
-	    endif;
+		    	$groups = Input::get('groups');
+	            if(isset($groups) && is_array($groups)) {
+	                foreach($groups as $groupId) {
+	                    $group = Sentry::getGroupProvider()->findById($groupId);
+	                    $user->addGroup($group);
+	                }
+	            }
+		    endif;
 
-	    Staff::create($data);
+		    Staff::create($data);
+		    Session::flash('message', 'Input Berhasil.');
+		//});
 
-		Session::flash('message', 'Input Berhasil.');
 		return Redirect::route('staff-list');
 	}
 

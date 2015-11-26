@@ -4,6 +4,9 @@
 // except 'app' ones, 
 requirejs.config({
     "baseUrl": baseUrl+"/assets",
+    enforceDefine: false,
+    urlArgs: "bust=" + (new Date()).getTime(),
+    waitSeconds: 200,
     "paths": {
       "jquery"            : "vendor/jquery/dist/jquery",
       "jqueryui"          : "vendor/jqueryui/jquery-ui.min",
@@ -18,7 +21,6 @@ requirejs.config({
       "bootstrapSwitch"   : "vendor/bootstrap-switch/dist/js/bootstrap-switch.min",
       "nprogress"         : "vendor/nprogress/nprogress",
       "raphael"           : "vendor/raphael/raphael-min",
-      "morris"            : "vendor/morris/morris.min",
       "moment"            : "vendor/moment/min/moment.min",
       "datetimepicker"    : "vendor/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min",
       "amcharts"          : "vendor/amcharts/amcharts",
@@ -41,10 +43,7 @@ requirejs.config({
         'init'          :   ['jquery'],
         'selectpicker'  :   ['jquery'],
         'datetimepicker':   ['jquery'],
-        'morris'        :   {
-                                deps:['jquery', 'raphael'],
-                                exports : 'Morris'
-                            },
+        
         'serial'        :   {
                                 deps: ['amcharts'],
                                 exports: 'AmCharts',

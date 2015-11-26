@@ -8,7 +8,7 @@
         <meta name="author" content="">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-        <title>Budi Hariyana - Web Developer</title>
+        <title>{{ Config::get('app.siteName') }}</title>
 
         <!-- Bootstrap core CSS -->
         {{ HTML::style('assets/css/normalize.css') }}
@@ -41,10 +41,10 @@
                     <div class="container">
                         <div class="row">
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted">Call Me : </span> 087825770432
+                                <span class="navbar-info-icon"><i class="fa fa-phone"></i></span> <span class="text-muted"> {{ Config::get('cms.phone') }}</span> 
                             </div>
                             <div class="navbar-info-item">
-                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted">Email Me : </span> budihariyana@gmail.com
+                                <span class="navbar-info-icon"><i class="fa fa-envelope"></i></span> <span class="text-muted"> {{ Config::get('cms.email') }}</span> 
                             </div>
                         </div>
                     </div>
@@ -52,36 +52,36 @@
                 <div class="navbar" role="navigation" id="navigations">
                     <div class="container">
                         <a class="navbar-brand center" href="#">                       
-                            {{ HTML::image('images/logo-b.png') }}
+                            {{ HTML::image('images/blogo.png') }}
                         </a>
-                        <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2x">
-                            <li class="current">
+                        <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2">
+                            <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
                                     <span data-hover="Home">Home</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="@if (Route::currentRouteName() == 'service') current @endif">
                                 <a href="{{ URL::route('service') }}" class="hover-effect">
                                     <span data-hover="Product & Services">Product & Services</span>
                                 </a>
                             </li>
-                            <li>
+                            <li class="@if (Route::currentRouteName() == 'about') current @endif">
                                 <a href="{{ URL::route('about') }}" id="link-services" class="hover-effect">
                                     <span data-hover="About Us">About Us</span>
                                 </a>
                             </li>
-                            <li class="">
+                            <li  class="@if (Route::currentRouteName() == 'portfolio') current @endif">
                                 <a href="{{ URL::route('portfolio') }}" class="hover-effect">
                                     <span data-hover="Portfolio">Portfolio</span>
                                 </a>
                             </li>
-                            <li class="">
+                            <li class="@if (Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'read') current @endif">
                                 <a href="{{ URL::route('blog') }}" class="hover-effect">
                                     <span data-hover="Blog">Blog</span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="#article" class="hover-effect">
+                            <li class="@if (Route::currentRouteName() == 'contact') current @endif">
+                                <a href="{{ URL::route('contact') }}" class="hover-effect">
                                     <span data-hover="Contact Us">Contact Us</span>
                                 </a>
                             </li>
@@ -107,51 +107,89 @@
         <footer>
             <div id="footer-top">
                 <div class="container">
-                    
-                    <div class="col-md-12">
-                        <div class="footer-title">
-                            Contact <span>Me</span>
-                        </div>
-                        <form id="form-contact" class="form">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email">name</label>
-                                        <div class="input-group">
-                                            <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                            <input type="text" class="form-control" id="name" placeholder="name">
-                                        </div>
-                                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="footer-title">
+                                Our <span>Office</span>
+                            </div>
+                            <div id="footer-address">
+                                <div class="">
+                                    Jln. Kh. Soleh Iskandar Km. 8 No. 10 <br />
+                                    Kota Bogor Jawa Barat
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="email">email</label>
-                                        <div class="input-group">
-                                            <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                            <input type="text" class="form-control" id="email" placeholder="email">
-                                        </div>
-                                    </div>
+                                <div class="">
+                                    {{ Config::get('cms.phone') }} <br />
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="email">email</label>
-                                        <div class="input-group">
-                                            <div class="input-group-addon"><i class="fa fa-heart"></i></div>
-                                            <input type="text" class="form-control" id="email" placeholder="subject">
-                                        </div>
-                                    </div>
+                                <div class="">
+                                    {{ Config::get('cms.email') }} <br />
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <label for="email">name</label>
-                                        <textarea name="message" class="form-control" id="email" placeholder="message"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="submit" class="btn btn-main pull-right" value="send" />
-                                    </div>
+                                <div class="">
+                                    &nbsp;
+                                </div>
+                                <div class="">
+                                    {{ HTML::image('images/logo-text.png') }}
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="footer-title">
+                                Other <span>Links</span>
+                            </div>
+                            <div class="footer-link">
+                                <a href="{{ URL::route('home') }}">Help</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="{{ URL::route('home') }}">Frequently Asked Questions</a>
+                            </div>
+                            <div class="footer-link">
+                                <a href="{{ URL::route('home') }}">Login to CPanel</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-title">
+                                Contact <span>Us</span>
+                            </div>
+                            {{ Form::open(array('route'=>'email-us', 'method'=>'POST', 'class'=>'form', 'id'=>'form-contact')) }}
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">name</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                                <input type="text" name="name" class="form-control" required="required" id="name" placeholder="name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email">email</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                                <input type="text" name="email" class="form-control" required="required" id="email" placeholder="email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="email">email</label>
+                                            <div class="input-group">
+                                                <div class="input-group-addon"><i class="fa fa-heart"></i></div>
+                                                <input type="text" name="subject" class="form-control" required="required" id="subject" placeholder="subject">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <label for="email">name</label>
+                                            <textarea name="content" class="form-control" required="required" id="content" placeholder="message"></textarea>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="submit" class="btn btn-main pull-right" value="send" />
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::close() }}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -187,9 +225,13 @@
     {{ HTML::script('assets/js/classie.js'); }}
     {{ HTML::script('assets/js/jquery.mlens-1.3.min.js'); }}
     {{ HTML::script('assets/vendor/holderjs/holder.js'); }}
+    {{ HTML::script('assets/js/TweenLite.min.js'); }}
+    {{ HTML::script('assets/js/EasePack.min.js'); }}
+    {{ HTML::script('assets/js/rAF.js'); }}
+    {{ HTML::script('assets/js/demo-1.js'); }}
     
     
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA9x1eyjMKLAln_0LTAkMPcIJFC0M9os&sensor=false">
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA9x1eyjMKLAln_0LTAkMPcIJFC0M9os">
         </script>
     <script>
 
@@ -201,9 +243,9 @@
                 sectionElement: $('.section'),
                 containerSectionElement: $('#nav-section'),
                 gmap:{
-                    element: $('#map'),
-                    latitude: -6.897457,
-                    longitude: 106.938772
+                    element: $('#map-section'),
+                    latitude: -6.555209,
+                    longitude:  106.777140
                 },
                 toTopNav:$('.totop'),
                 toBottomNav:$('.tobotom'),
@@ -213,6 +255,9 @@
                 s = this.settings;                
                 this.generateElement();
                 this.bindUIActions();
+                this.generateMap();
+
+                google.maps.event.addDomListener(window, "load", this.generateMap);
             },
 
             generateElement:function(){
@@ -280,15 +325,15 @@
                     mapTypeId: google.maps.MapTypeId.ROADMAP
                 };
 
-                var map = new google.maps.Map(document.getElementById("map-info"), settings);
+                var map = new google.maps.Map(document.getElementById('map-section'), settings);
 
                 var companyMarker = new google.maps.Marker({
                     position: latlng,
                     map: map,
-                    title:"Budi Hariyana Studio \n Jalan Selabintana no.667 Sukabumi 43151"
+                    title:"PT. Berkah Developer Solutions \n Jln. Kh. Soleh Iskandar Km. 8 No. 10 Kota Bogor Jawa Barat"
                 });
 
-                var contentString = '<div class="hexagon-logo" id=""><div class="hexagon-icon"><span class="fa-stack fa-lg font-map"><i class="fa fa-circle fa-stack-2x black"></i><i class="fa fa-rocket fa-stack-1x fa-inverse"></i></span></div></div><div class="center bold">Jl. Selabintana NO.667 SUKABUMI</div>';
+                var contentString = '<div class="hexagon-logo" id=""><div class="hexagon-icon"><span class="fa-stack fa-lg font-map"><i class="fa fa-circle fa-stack-2x black"></i><i class="fa fa-rocket fa-stack-1x fa-inverse"></i></span></div></div><div class="center bold">Jln. Kh. Soleh Iskandar Km. 8 No.10 Kota Bogor Jawa Barat</div>';
                  
                 var infowindow = new google.maps.InfoWindow({
                     content: contentString
@@ -297,6 +342,8 @@
                 google.maps.event.addListener(companyMarker, 'click', function() {
                   infowindow.open(map,companyMarker);
                 });
+
+
             },
 
             pasteImage:function(){

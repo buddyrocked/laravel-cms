@@ -37,7 +37,6 @@
         <![endif]-->
         <script>
             var url_tag = "{{ URL::route('tag_autocomplete') }}";
-            var path = "{{ public_path() }}";
             var baseUrl = "{{ Config::get('app.url') }}";
             var countPostByCategory = "{{ URL::route('posts-category') }}";
         </script>

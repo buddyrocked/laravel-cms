@@ -1,27 +1,99 @@
 @extends('layouts.budi-layout.frontend')
 @section('content')
-<div class="section" id="about">
-	<div class="title-section animated" data-anim="fadeInDown">
-		<div class="text-main line">About Me</div>
-    	<div class="text-mute">Little Fun, Fact About Me.</div>
+<div class="section" id="about-section">
+	<div id="home-pattern">
+    	<div id="large-header" class="large-header">
+			<canvas id="demo-canvas"></canvas>
+		</div>
     </div>
 	<div class="container">
 		<div class="row">
-			<div class="col-md-4 center">
-				<div class="about-pic animated" data-anim="rotateIn">
-					{{ HTML::image('assets/images/c7aca4c80c89eb7d8a257fab6822fa9a_PicsArt_1383219124176.jpg') }}
+			<div class="col-md-4 col-md-offset-8">
+				<div class="about-section-content">
+					<div class="title-section2-container animated" data-anim="fadeInDown">
+		        		<div class="title-section2 inverse">
+	                        Welcome to <span>B-DEV</span>
+	                    </div>
+			        	<div class="text-white text-semibold">PT. Berkah Developer Solution</div>
+			        </div>
+					<div class="content animated" data-anim="bounceInRight">
+						PT. Berkah Developer Solution adalah sebuah perusahaan yang bergerak di bidang teknologi informasi. PT. Berkah Developer Solution memiliki core bisnis utama yaitu Pengembangan perangkat lunak dan website, Perbaikan hardware, Sewa Hosting, Desain grafis, Pelatihan komputer.
+					</div>
 				</div>
 			</div>
-			<div class="col-md-8">
-				<div class="about-content animated" data-anim="zoomIn">
-					My name is <span class="text-main text-bold">Budi Hariyana.</span> I'm Freelance Web Designer & Web Developer. I was born in Sukabumi located in Indonesia, I mean the capital city. I started to develop websites in 2008 with PHP based structure. I've been a freelance Web designer and Web developer since 2013. Gradually, I began to use HTML5 and CSS3 to design websites more responsive and user friendly. So I founded The Swan Design Studio in 2012 to achieve the high ability of developing which I needed. The professional experience in design, making fresh and creative ideas and advanced web programming made us dependable team for customers. All in all I love design and it shows in my works.
-				</div>
-				<div class="">
-    				<div class="animated" data-anim="fadeInRight">
-    					 <a href="#" class="btn btn-main btn-lg pull-right"><i class="fa fa-envelope"></i> Get In Touch</a>
-    				</div>
-    			</div>
+		</div>
+	</div>
+</div>
+<div class="section">
+    <div class="container">
+    	<div class="title-section2-container center animated" data-anim="fadeInDown">
+	        <div class="title-section2">
+	            Our Business <span>Process</span>
+	        </div>
+	        <div class="text-mute text-semibold">Our Business Process.</div>
+	    </div>
+        <div class="layer">
+            <div class="layer-item layer-1 animated" data-anim="fadeInLeft">
+                <div class="layer-content">
+                    <i class="fa fa-lightbulb-o fa-lg fa-2x"></i> Tell us your idea by describing it to us and we will give the best suggestion to ensure the success of your idea into reality.
+                </div>
+                <div class="layer-info">
+                    <div class="layer-title">Web Development</div>
+                </div>
+                <div class="perspective-container layer-image">
+                    {{ HTML::image('assets/images/img6.png', '', ['class'=>'perspective no-shadow']) }}
+                </div>
+            </div>
+            <div class="layer-item layer-2 animated" data-anim="fadeInRight">
+                <div class="layer-info">
+                    <div class="layer-title">Web Development</div>
+                    <div class="layer-content">
+                        <i class="fa fa-code fa-lg fa-2x"></i> Execute the idea. We turn your ideas and needs to be reality. We develope with clean & high quality code.
+                    </div>
+                    
+                </div>
+                <div class="perspective-container layer-image">
+                    {{ HTML::image('assets/images/img5.png', '', ['class'=>'perspective no-shadow']) }}
+                </div>
+            </div>
+            <div class="layer-item layer-3 animated" data-anim="fadeInDown">
+                <div class="layer-info">
+                    <div class="layer-title">Web Development</div>
+                    <div class="layer-content">
+                        <i class="fa fa-trophy fa-lg fa-2x"></i> Run your business and get profit.
+                    </div>
+                    
+                </div>
+                <div class="perspective-container layer-image">
+                    {{ HTML::image('assets/images/img4.png', '', ['class'=>'perspective no-shadow']) }}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section" id="about">
+	<div class="title-section2-container center animated" data-anim="fadeInDown">
+        <div class="title-section2">
+            Our <span>Team</span>
+        </div>
+        <div class="text-mute text-semibold">Meet Our Team.</div>
+    </div>
+	<div class="container">
+		<div class="row">
+			@foreach($staffs as $staff)
+			<div class="col-md-2">
+				<div class="hexagon  animated" data-anim="fadeInDown" style="background-image: url({{ url('/') }}/profile/thumb_{{ $staff->file }})">
+				  	<div class="hexTop"></div>
+				  	<div class="hexBottom"></div>
+				  	<div class="team-name text-center">
+				  		<div>{{ $staff->name }}</div>
+				  		<div class="team-position">{{ $staff->position->name }}</div>
+				  		<div class="teamTop"></div>
+				  		<div class="teamBottom"></div>
+				  	</div>
+				</div>				
 			</div>
+			@endforeach		
 		</div>
 	</div>
 </div>
