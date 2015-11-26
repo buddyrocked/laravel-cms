@@ -35,7 +35,7 @@
         <div class="layer">
             <div class="layer-item layer-1 animated" data-anim="fadeInLeft">
                 <div class="layer-content">
-                    Discuss your needs and idea.
+                    <i class="fa fa-lightbulb-o fa-lg fa-2x"></i> Tell us your idea by describing it to us and we will give the best suggestion to ensure the success of your idea into reality.
                 </div>
                 <div class="layer-info">
                     <div class="layer-title">Web Development</div>
@@ -48,7 +48,7 @@
                 <div class="layer-info">
                     <div class="layer-title">Web Development</div>
                     <div class="layer-content">
-                        Execute the idea.
+                        <i class="fa fa-code fa-lg fa-2x"></i> Execute the idea. We turn your ideas and needs to be reality. We develope with clean & high quality code.
                     </div>
                     
                 </div>
@@ -60,7 +60,7 @@
                 <div class="layer-info">
                     <div class="layer-title">Web Development</div>
                     <div class="layer-content">
-                        Run your business.
+                        <i class="fa fa-trophy fa-lg fa-2x"></i> Run your business and get profit.
                     </div>
                     
                 </div>

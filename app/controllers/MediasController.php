@@ -113,7 +113,7 @@ class MediasController extends \BaseController {
 		});
 
 		Session::flash('message', 'Input Berhasil.');
-		return Redirect::route('medias.index');
+		return Redirect::route('media-list');
 	}
 
 	/**
@@ -227,7 +227,7 @@ class MediasController extends \BaseController {
 	{
 		Media::destroy($id);
 		Session::flash('message', 'Update Berhasil');
-		return Redirect::route('medias.index');
+		return Redirect::route('media-list');
 	}
 
 }
