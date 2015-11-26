@@ -91,13 +91,18 @@
             </div>
         </div>
         <div class="main-content">
-            @yield('content')   
+            @yield('content')
         </div>    
         <div id="home-affiliate">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div id="mini-profile" class="animated text-center text-bigger" data-anim="fadeInLeft">
+                    <div class="col-md-3">
+                        <div id="cloud-container">
+                            <div id="cloud" class="animated" data-anim="fadeInTop"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div id="mini-profile" class="animated text-bigger" data-anim="fadeInLeft">
                             <span class="text-main">"Be Wonderfull, </span> <span class="text-mute">Success will come by it self."</span>
                         </div>
                     </div>
