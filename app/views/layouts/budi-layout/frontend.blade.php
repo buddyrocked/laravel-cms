@@ -3,17 +3,20 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="robots" content="index, follow" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+        <meta lang="id" name="description" content="{{ $description }}">
+        <meta lang="id" name="keywords" content="{{ $keywords }}" />
+        <meta name="author" content="{{ $author }}">
         <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
 
-        <title>{{ Config::get('app.siteName') }}</title>
+        <title>{{ $title }}</title>
 
         <!-- Bootstrap core CSS -->
         {{ HTML::style('assets/css/normalize.css') }}
         {{ HTML::style('assets/vendor/bootstrap/dist/css/bootstrap.css') }}
         {{ HTML::style('assets/css/font-awesome.min.css') }}
+        {{ HTML::style('assets/css/human.css'); }}
         {{ HTML::style('assets/vendor/animate.css/animate.css'); }}
         {{ HTML::style('assets/css/front.css') }}
         {{ HTML::script('assets/vendor/jquery/dist/jquery.js'); }}
@@ -55,6 +58,13 @@
                             {{ HTML::image('images/blogo.png') }}
                         </a>
                         <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2">
+                            <li class="visible-xs" id="nav-control">
+                                <a href="#" class="text-right">
+                                    <span data-hover="">
+                                        <i class="fa fa-bars"></i>
+                                    </span>
+                                </a>
+                            </li>
                             <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
                                     <span data-hover="Home">Home</span>
@@ -103,7 +113,7 @@
                     </div>
                     <div class="col-md-9">
                         <div id="mini-profile" class="animated text-bigger" data-anim="fadeInLeft">
-                            <span class="text-main">"Be Wonderfull, </span> <span class="text-mute">Success will come by it self."</span>
+                            <span class="text-main">Be Wonderfull, </span> <span class="text-mute">Success will come by it self.</span>
                         </div>
                     </div>
                 </div>

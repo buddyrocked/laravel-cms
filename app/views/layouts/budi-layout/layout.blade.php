@@ -40,7 +40,7 @@
             var baseUrl = "{{ Config::get('app.url') }}";
             var countPostByCategory = "{{ URL::route('posts-category') }}";
         </script>
-        {{ HTML::script('assets/vendor/requirejs/require.js', array('data-main'=>'http://localhost:8000/assets/app')); }}
+        {{ HTML::script('assets/vendor/requirejs/require.js', array('data-main'=>Config::get('app.url').'/assets/app')); }}
         {{ HTML::script('assets/vendor/jquery/dist/jquery.js'); }}
         {{ HTML::script('assets/vendor/bootstrap/dist/js/bootstrap.js'); }}
         @include('layouts.budi-layout.script')        

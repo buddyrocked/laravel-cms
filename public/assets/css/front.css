@@ -984,7 +984,7 @@ a:hover {
 .home-about-image {
 		background: rgba(0,0,0,0);
 		display: block;
-		min-height: 500px;
+		min-height: 480px;
 }
 
 .home-about-image img {
@@ -2337,7 +2337,6 @@ footer {
 @media (max-width: 768px) {
 	#navigation2 {
 		background: #FFF;
-		border: 1px solid #f0f0f0;
 		border-radius: 4px;
 		margin-right: 0px;
 		max-height: 50px;
@@ -2356,8 +2355,56 @@ footer {
 
 	#navigation2 li {
 		padding: 5px 10px;
-		border-top: 1px solid #f0f0f0;
-		margin-top: -1px;
+		border: 1px solid #f0f0f0;
+		margin-top: 0px;
 	}
+
+	#nav-control {
+		text-align: right;
+		border: 0px solid #f0f0f0 !important;
+		padding: 0px !important;
+	}
+
+	#nav-control a {
+		border: 1px solid #f0f0f0;
+		display: inline-block;
+		height: 50px;
+		font-size: 2em !important;
+	}
+}
+
+.process {
+	margin: 30px;
+}
+
+.process-item {
+	margin: 10px 0;
+}
+
+.process-icon {
+	text-align: center;
+	line-height: 1em;
+}
+
+.process-icon i {
+	font-size: 15em;
+	text-align: center;
+	color: #fca704;
+}
+
+.process-title {
+	font-size: 2em;
+	font-family: 'BebasNeueRegular';
+	line-height: 1em;
+	padding: 10px 0;
+	text-align: center;
+	min-height: 70px;
+}
+
+.process-content {
+	font-size: 1em;
+	line-height: 1.5em;
+	padding: 10px 0;
+	text-align: center;
 }
 

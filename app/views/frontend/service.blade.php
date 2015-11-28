@@ -336,12 +336,12 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-12">
                 <div class="box-ads">
                     <div class="row">
                         <div class="col-xs-2 text-center">
-                            <span class="fa-stack fa-lg fa-5x">
+                            <span class="fa-stack fa-lg fa-5x hide-xs">
                                 <i class="fa fa-square-o fa-stack-2x"></i>
                                 <i class="fa fa-phone fa-stack-1x"></i>
                             </span>
@@ -355,7 +355,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
     </div>
 </div>
 @stop

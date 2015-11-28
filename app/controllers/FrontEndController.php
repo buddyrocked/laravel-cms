@@ -7,6 +7,13 @@ class FrontEndController extends \BaseController {
      */
     protected $layout = 'layouts.budi-layout.frontend';
 
+    public function __construct(){
+    	View::share('title', 'B-DEV - PT. Berkah Developer Solutions');
+    	View::share('description', 'Software House Jasa Pembauatn Website Murah dan berkualitas di Kota Bogor');
+    	View::share('keywords', 'Software House, jasa pembauatn website, website, aplikasi mobile, android, bogor ');
+    	View::share('author', 'Admin');
+    }
+
 	/*
 	|--------------------------------------------------------------------------
 	| Default Home Controller
@@ -22,23 +29,29 @@ class FrontEndController extends \BaseController {
 
 	public function home()
 	{
+		View::share('title', 'Home | B-DEV - PT. Berkah Developer Solutions');
 		$this->layout->content = View::make('frontend.home');
 	}
 
 	public function service(){
+		View::share('title', 'Our Services | B-DEV - PT. Berkah Developer Solutions');
 		$this->layout->content = View::make('frontend.service');	
 	}
 
 	public function about(){
+		View::share('title', 'About Us | B-DEV - PT. Berkah Developer Solutions');
 		$staffs = Staff::all();
-		$this->layout->content = View::make('frontend.about', compact('staffs'));	
+		$this->layout->content = View::make('frontend.about2', compact('staffs'));	
 	}
 
 	public function portfolio(){
+		View::share('title', 'Portfolio | B-DEV - PT. Berkah Developer Solutions');
 		$this->layout->content = View::make('frontend.portfolio');	
 	}
 
 	public function blog($category=null){
+		View::share('title', 'Blog Post | B-DEV - PT. Berkah Developer Solutions');
+
 		$this->layout->title = 'Blog Post';
 		
 		if($category != null):
@@ -63,6 +76,8 @@ class FrontEndController extends \BaseController {
 	}
 
 	public function read($slug=null){
+		View::share('title', 'Read Blog | B-DEV - PT. Berkah Developer Solutions');
+
 		$post = Post::findBySlug($slug);
 		$this->layout->title = 'Blog detail';
 		$this->layout->breadcrumb = array();
@@ -87,9 +102,15 @@ class FrontEndController extends \BaseController {
 	}
 
 	public function emailUs(){
+		$email = Input::get('email');
+		$subject = Input::get('subject');
+		$content = Input::get('content');
+		$name = Input::get('name');
+		$message = '';
+		
 		Mail::send([], [], function($message)
 		{
-		    $message->to('budihariyana2@gmail.com', 'Admin')->subject('test')->setBody('content');
+		    $message->to(Config::get('cms.email'), 'Admin Bdev')->subject('test')->setBody($message);
 		});
 
 		return Redirect::to('/');
