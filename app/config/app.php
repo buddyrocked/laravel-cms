@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://localhost/bdev-web/public',
+	'url' => 'http://localhost/my-cms/public/',
 
 	/*
 	|-------------------------------------------------------------------------

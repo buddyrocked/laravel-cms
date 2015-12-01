@@ -14,7 +14,7 @@
                         <div class="col-md-8">
                             <div class="home-motto">
                                 <div data-svg="headline" class="hides">
-                                    <span class="text-width">B-dev</span>
+                                    <span class="text-width">Bdev</span>
                                     <h2 class="rw-sentence">
                                         <span>We Are</span>
                                         <div class="rw-words rw-words-1">
@@ -42,8 +42,8 @@
         		<div class="row">
         			<div class="col-md-8">
         				<div id="mini-profile" class="animated" data-anim="fadeInLeft">
-        					<div class="text-main text-bigger">Hello, we are b-dev.</div> 
-        					<div class="text-mute">We are information technology solutions.</div>
+        					<div class="text-main text-bigger">Siapakah kami?</div> 
+        					<div class="text-mute">Kami adalah developer perangkat lunak yang memberikan jasa pembuatan dan pengembangan perangkat lunak sebagai solusi untuk mengembangkan usaha anda.</div>
         				</div>
         			</div>
         			<div class="col-md-4">
@@ -66,12 +66,12 @@
         				<div class="home-about-content">
         					<div class="title-section2-container animated" data-anim="fadeInDown">
 				        		<div class="title-section2 inverse">
-			                        Welcome <span>To Our Page</span>
+			                        Siapakah <span>kami</span>
 			                    </div>
 					        	<div class="text-white text-semibold">We Design, Develop & Integrations.</div>
 					        </div>
         					<div class="content animated" data-anim="bounceInRight">
-        						PT. Berkah Developer Solution adalah sebuah perusahaan yang bergerak di bidang teknologi informasi. PT. Berkah Developer Solution memiliki core bisnis utama yaitu Pengembangan perangkat lunak dan website, Perbaikan hardware, Sewa Hosting, Desain grafis, Pelatihan komputer.
+        						Kami adalah developer perangkat lunak yang memberikan jasa pembuatan dan pengembangan perangkat lunak sebagai solusi untuk mengembangkan usaha anda.
         					</div>
         					<div class="animated" data-anim="bounceInUp">
         						{{ HTML::image('assets/images/arrow3.png', '', ['id'=>'', 'class'=>'']) }}
@@ -85,7 +85,7 @@
         	<div>
 	        	<div class="title-section2-container center animated" data-anim="fadeInDown">
 	        		<div class="title-section2">
-                        What <span>We Do</span>
+                        Apa yang kami kerjakan <span>We Do</span>
                     </div>
 		        	<div class="text-mute text-semibold">We Design, Develop & Integrations.</div>
 		        </div>
@@ -101,10 +101,10 @@
 		        						{{ HTML::image('assets/images/bdev.jpg', '', ['id'=>'', 'class'=>'']) }}
 		        					</div>
 		        					<div class="home-service-item-title">
-		        						Bdev
+		        						Website Developer
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Software Development
+		        						Kami menyediakan layanan pembuatan website untuk membantu mengembang usaha anda.
 		        					</div>
 		        				</div>
 		        			</div>
@@ -117,10 +117,10 @@
 		        						{{ HTML::image('assets/images/bsupport.jpg', '', ['id'=>'', 'class'=>'']) }}
 		        					</div>
 		        					<div class="home-service-item-title">
-		        						BSupport
+		        						Mobil Apps Developer
 		        					</div>
 			        				<div class="home-service-item-text">
-		        						Hardware & Network Solutions
+		        						Kami menyediakan layanan pengembangan perangkat lunak berbasis mobile (smartphone, tablet) agar kegiatan usaha anda lebih dinamis.
 		        					</div>
 		        				</div>
 		        			</div>
