@@ -67,17 +67,17 @@
                             </li>
                             <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
-                                    <span data-hover="Home">Home</span>
+                                    <span data-hover="Home">Beranda</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'service') current @endif">
                                 <a href="{{ URL::route('service') }}" class="hover-effect">
-                                    <span data-hover="Product & Services">Product & Services</span>
+                                    <span data-hover="Product & Services">Produk & Layanan</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'about') current @endif">
                                 <a href="{{ URL::route('about') }}" id="link-services" class="hover-effect">
-                                    <span data-hover="About Us">About Us</span>
+                                    <span data-hover="About Us">Tentang Kami</span>
                                 </a>
                             </li>
                             <li  class="@if (Route::currentRouteName() == 'portfolio') current @endif">
@@ -92,7 +92,7 @@
                             </li>
                             <li class="@if (Route::currentRouteName() == 'contact') current @endif">
                                 <a href="{{ URL::route('contact') }}" class="hover-effect">
-                                    <span data-hover="Contact Us">Contact Us</span>
+                                    <span data-hover="Contact Us">Hubungi Kami</span>
                                 </a>
                             </li>
                         </ul>
@@ -125,7 +125,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="footer-title">
-                                Our <span>Office</span>
+                                Alamat Kantor <span></span>
                             </div>
                             <div id="footer-address">
                                 <div class="">
@@ -143,6 +143,9 @@
                                 </div>
                                 <div class="">
                                     {{ HTML::image('images/logo-text.png') }}
+									<div>
+										BDev adalah merk dagang dari PT. Berkah Developer Solution
+									</div>
                                 </div>
                             </div>
                         </div>
@@ -168,35 +171,35 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="email">name</label>
+                                            <label for="email">Nama</label>
                                             <div class="input-group">
                                                 <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                                                <input type="text" name="name" class="form-control" required="required" id="name" placeholder="name">
+                                                <input type="text" name="name" class="form-control" required="required" id="name" placeholder="Nama">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="email">email</label>
+                                            <label for="email">Email</label>
                                             <div class="input-group">
                                                 <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                                                <input type="text" name="email" class="form-control" required="required" id="email" placeholder="email">
+                                                <input type="text" name="email" class="form-control" required="required" id="email" placeholder="Email">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="email">email</label>
+                                            <label for="email">Judul</label>
                                             <div class="input-group">
                                                 <div class="input-group-addon"><i class="fa fa-heart"></i></div>
-                                                <input type="text" name="subject" class="form-control" required="required" id="subject" placeholder="subject">
+                                                <input type="text" name="subject" class="form-control" required="required" id="subject" placeholder="Judul">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <label for="email">name</label>
-                                            <textarea name="content" class="form-control" required="required" id="content" placeholder="message"></textarea>
+                                            <label for="email">Pesan</label>
+                                            <textarea name="content" class="form-control" required="required" id="content" placeholder="Pesan"></textarea>
                                         </div>
                                         <div class="form-group">
                                             <input type="submit" class="btn btn-main pull-right" value="send" />

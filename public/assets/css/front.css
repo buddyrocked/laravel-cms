@@ -164,6 +164,8 @@ a:hover {
 		font-size: 3em;
 		font-family: 'BebasNeueRegular';
 		position: relative;
+		line-height: .9;
+		color:#FCA704;
 }
 
 .title-section2 span {
@@ -2384,6 +2386,10 @@ footer {
 .process-icon {
 	text-align: center;
 	line-height: 1em;
+	width:128px;
+	height:128px;
+	display:block;
+	margin:auto;
 }
 
 .process-icon i {
