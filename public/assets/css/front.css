@@ -126,7 +126,8 @@ a:hover {
 	background: #FFF;
 	display: block;
 	min-height: 200px;
-	padding: 150px 0 50px 0;
+	/**padding: 150px 0 50px 0;**/
+	padding: 50px 0 50px 0;
 }
 
 .title-section {
@@ -454,6 +455,18 @@ a:hover {
 		left: 0px;
 }
 
+.orange-background{
+	background-color:#fca704;
+	
+}
+.orange-background .title-section2{
+	color:#fff;
+}
+
+.orange-background  .title-section2-container  .text-mute {
+		color: #fff;
+		font-size: 0.8em;
+}
 .home-inner {
 		height: 100%;
 		padding: 50px;
@@ -1209,6 +1222,21 @@ a:hover {
 .grid figure p {
 		letter-spacing: 1px;
 		font-size: 68.5%;
+}
+
+@media (max-width: 696px) {
+	.grid figure {
+		width:100%;
+		display: block;
+		margin: 20px auto;
+		float: none;
+		overflow: hidden;
+		min-width: 320px;
+		max-width: 480px;
+		max-height: 360px;
+		background: #3085a3;
+		cursor: pointer;
+	}
 }
 
 /*---------------*/

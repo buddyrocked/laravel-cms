@@ -154,7 +154,7 @@
 			</div>
 		</div>
 	</div>	
-	<div class="section" id="home-portofolio">
+	<div class="section orange-background" id="home-portofolio">
 	<div id="home-portfolio">
 			<div class="title-section2-container center animated" data-anim="fadeInDown">
 				<div class="title-section2">
@@ -212,7 +212,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="section" id="home-what-we-do">
+	<div class="section" id="home-how-we-help">
 		<div class="container">
 			<div class="title-section2-container center animated" data-anim="fadeInDown">
 				<div class="title-section2">

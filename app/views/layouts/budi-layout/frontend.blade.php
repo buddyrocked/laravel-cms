@@ -8,7 +8,7 @@
         <meta lang="id" name="description" content="{{ $description }}">
         <meta lang="id" name="keywords" content="{{ $keywords }}" />
         <meta name="author" content="{{ $author }}">
-        <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+        <link rel="shortcut icon" href="{{asset('images/favicon.png')}}">
 
         <title>{{ $title }}</title>
 
@@ -54,7 +54,7 @@
                 </div>
                 <div class="navbar" role="navigation" id="navigations">
                     <div class="container">
-                        <a class="navbar-brand center" href="#">                       
+                        <a class="navbar-brand center" href="{{ URL::route('home') }}">                       
                             {{ HTML::image('images/blogo.png') }}
                         </a>
                         <ul class="nav navbar-nav cl-effect-5 pull-right" id="navigation2">
