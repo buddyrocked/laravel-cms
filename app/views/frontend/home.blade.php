@@ -11,26 +11,23 @@
 		<div class="home-inner">
 			<div class="">
 				<div class="row">
-					<div class="col-md-8">
+					<div class="col-md-10">
 						<div class="home-motto">
 							<div data-svg="headline" class="hides">
 								<span class="text-width">Bdev</span>
 								<h2 class="rw-sentence">
-									<span>We Are</span>
+									<span>Kami adalah</span>
 									<div class="rw-words rw-words-1">
-										<span>Software Solutions</span>
-										<span>Hardware Solutions</span>
-										<span>Hosting Provider</span>
-										<span>Graphic Designer</span>
-										<span>Computer Trainer</span>
-										<span>Hosting Provider</span>
+										<span>Pengembang Sofware</span>
+										<span>Pengembang Web Apps</span>
+										<span>Pengembang Mobile Apps</span>
 									</div>
 								</h2>
 							</div>
 						</div>
 					</div>
 
-					<div class="col-md-4">
+					<div class="col-md-2">
 						
 					</div>
 				</div>
