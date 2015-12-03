@@ -465,7 +465,18 @@ a:hover {
 
 .orange-background  .title-section2-container  .text-mute {
 		color: #fff;
-		font-size: 0.8em;
+}
+
+.whitesmoke-background{
+	background-color:whitesmoke;
+	
+}
+.whitesmoke-background .title-section2{
+	color:#fca704;
+}
+
+.whitesmoke-background  .title-section2-container  .text-mute {
+		color: #ababab;
 }
 .home-inner {
 		height: 100%;

@@ -49,7 +49,7 @@
 	</div>
 	<div class="section" id="home-what-we-do">
 		<div class="container">
-			<div class="title-section2-container center animated" data-anim="fadeInDown">
+			<div class="title-section2-container center animated" data-anim="fadeIn">
 				<div class="title-section2">
 					Apa yang kami kerjakan? <span></span>
 				</div>
@@ -149,7 +149,7 @@
 	</div>	
 	<div class="section orange-background" id="home-portofolio">
 	<div id="home-portfolio">
-			<div class="title-section2-container center animated" data-anim="fadeInDown">
+			<div class="title-section2-container center animated" data-anim="fadeIn">
 				<div class="title-section2">
 					Apa saja karya kami?<span></span>
 				</div>
@@ -205,9 +205,9 @@
 			</div>
 		</div>
 	</div>
-	<div class="section" id="home-how-we-help">
+	<div class="section whitesmoke-background" id="home-how-we-help">
 		<div class="container">
-			<div class="title-section2-container center animated" data-anim="fadeInDown">
+			<div class="title-section2-container center animated" data-anim="fadeIn">
 				<div class="title-section2">
 					Bagaimana kami membantu anda? <span></span>
 				</div>
@@ -323,7 +323,7 @@
 	</div>
     <div class="section" id="home-partner">
         <div class="container">
-	    	<div class="title-section2-container center animated" data-anim="fadeInDown">
+	    	<div class="title-section2-container center animated" data-anim="fadeIn">
 	        		<div class="title-section2">
                         Siapa saja klien kami?<span></span>
                     </div>
