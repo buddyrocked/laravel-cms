@@ -80,9 +80,14 @@
                                     <span data-hover="About Us">Tentang Kami</span>
                                 </a>
                             </li>
-                            <li  class="@if (Route::currentRouteName() == 'portfolio') current @endif">
+                            <li class="@if (Route::currentRouteName() == 'portfolio') current @endif">
                                 <a href="{{ URL::route('portfolio') }}" class="hover-effect">
-                                    <span data-hover="Portfolio">Portfolio</span>
+                                    <span data-hover="Portfolio">Portofolio</span>
+                                </a>
+                            </li>
+							<li class="@if (Route::currentRouteName() == 'studi') current @endif">
+                                <a href="{{ URL::route('studi') }}" class="hover-effect">
+                                    <span data-hover="Case Study">Studi Kasus</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'read') current @endif">
@@ -304,20 +309,22 @@
                     }
                 }
 
+				/**
                 $('.animated').each(function(){
                     anim = $(this).attr('data-anim');
                     var scrollTop = jQuery('#trigger').offset().top;                
                     if (scrollTop > $(this).offset().top) {                    
                         animatex='up';
-                        $(this).removeClass('fadeOut');
+                        //$(this).removeClass('fadeOut');
                         $(this).addClass(anim);
                     }else{
                         animatex='down';
                         $(this).removeClass(anim);
-                        $(this).addClass('fadeOut');
+                        //$(this).addClass('fadeOut');
                     }
                 });
-
+				**/
+				
                 $(".zoom").each(function()
                 {               
                     $(this).mlens(
@@ -442,15 +449,6 @@
             APP.init();            
             
         });
-
-        
-
-        
-
-        
-
-
-        
     </script>
 
     </body>

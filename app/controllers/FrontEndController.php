@@ -48,6 +48,11 @@ class FrontEndController extends \BaseController {
 		View::share('title', 'Portfolio | B-DEV - PT. Berkah Developer Solutions');
 		$this->layout->content = View::make('frontend.portfolio');	
 	}
+	
+	public function studi(){
+		View::share('title', 'Studi Kasus | B-DEV - PT. Berkah Developer Solutions');
+		$this->layout->content = View::make('frontend.studi');	
+	}
 
 	public function blog($category=null){
 		View::share('title', 'Blog Post | B-DEV - PT. Berkah Developer Solutions');

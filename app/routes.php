@@ -16,6 +16,7 @@ Route::get('/', array('as'=>'home', 'uses'=>'FrontEndController@home'));
 Route::get('/about-me', array('as'=>'about', 'uses'=>'FrontEndController@about'));
 Route::get('/service', array('as'=>'service', 'uses'=>'FrontEndController@service'));
 Route::get('/portfolio', array('as'=>'portfolio', 'uses'=>'FrontEndController@portfolio'));
+Route::get('/studi', array('as'=>'studi', 'uses'=>'FrontEndController@studi'));
 Route::get('/blog/{category?}', array('as'=>'blog', 'uses'=>'FrontEndController@blog'));
 Route::get('/read/{slug?}', array('as'=>'read', 'uses'=>'FrontEndController@read'));
 Route::get('/tag/{tag?}', array('as'=>'tag', 'uses'=>'FrontEndController@tag'));

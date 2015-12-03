@@ -26,10 +26,6 @@
 							</div>
 						</div>
 					</div>
-
-					<div class="col-md-2">
-						
-					</div>
 				</div>
 			</div>
 		</div>     
@@ -63,7 +59,7 @@
 				<div class="col-md-4">
 					<div class="process">
 						<div class="process-icon animated"  data-anim="fadeInDown">
-							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 47.168 47.168" style="enable-background:new 0 0 47.168 47.168;"
 								 xml:space="preserve">
 								<g>
@@ -104,7 +100,7 @@
 				<div class="col-md-4">
 					<div class="process">
 						<div class="process-icon animated"  data-anim="fadeInDown">
-							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 27.442 27.442" style="enable-background:new 0 0 27.442 27.442;" xml:space="preserve">
 								<g>
 									<path d="M19.494,0H7.948C6.843,0,5.951,0.896,5.951,1.999v23.446c0,1.102,0.892,1.997,1.997,1.997h11.546
@@ -126,17 +122,17 @@
 				<div class="col-md-4">
 					<div class="process">
 						<div class="process-icon animated"  data-anim="fadeInDown">
-							<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+							<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 								 viewBox="0 0 452.986 452.986" style="enable-background:new 0 0 452.986 452.986;" xml:space="preserve">
 								<g>
-									<path style="fill:#010002;" d="M0,0v452.986h452.986V0H0z M352.035,24.699c8.089,0,14.625,6.536,14.625,14.625
+									<path d="M0,0v452.986h452.986V0H0z M352.035,24.699c8.089,0,14.625,6.536,14.625,14.625
 										c0,8.111-6.536,14.668-14.625,14.668c-8.175,0-14.711-6.558-14.711-14.668C337.345,31.256,343.86,24.699,352.035,24.699z
 										 M417.912,418.624H35.009V85.744h382.903C417.912,85.744,417.912,418.624,417.912,418.624z M403.223,53.992
 										c-8.003,0-14.582-6.558-14.582-14.668c0-8.067,6.579-14.625,14.582-14.625c8.132,0,14.69,6.536,14.69,14.625
 										C417.912,47.434,411.355,53.992,403.223,53.992z"/>
-									<rect x="66.416" y="123.536" style="fill:#010002;" width="325.891" height="73.211"/>
-									<rect x="66.416" y="220.583" style="fill:#010002;" width="126.34" height="159.236"/>
-									<rect x="218.404" y="220.583" style="fill:#010002;" width="173.904" height="159.236"/>
+									<rect x="66.416" y="123.536" width="325.891" height="73.211"/>
+									<rect x="66.416" y="220.583" width="126.34" height="159.236"/>
+									<rect x="218.404" y="220.583" width="173.904" height="159.236"/>
 								</g>
 							</svg>
 						</div>
