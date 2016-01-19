@@ -4,36 +4,24 @@
 	<div id="host-service">
     	<div class="title-section2-container center animated" data-anim="fadeInDown">
             <div class="title-section2">
-                What <span>We Do</span>
+                What We Do
             </div>
             <div class="text-mute text-semibold">We Design, Develop & Integrations.</div>
         </div>
         <div class="container">
         	<div class="row">
-                <div class="col-md-12">
-                    <div class="row">
-                        <div class="col-md-5">
-                            <div class="home-service-item row animated" data-anim="fadeInLeft">
-                                <div class="home-service-item-icon col-md-3 col-xs-3">
-                                    <i class="fa fa-cube fa-2x"></i>
-                                </div>
-                                <div class="home-service-item-content col-md-9 col-xs-9">
-                                    <div class="home-service-img">
-                                        {{ HTML::image('assets/images/bdev.jpg', '', ['id'=>'', 'class'=>'']) }}
-                                    </div>
-                                </div>
+                <!--<div class="col-md-12">
+                    <div class="">
+                        <div class="my-hexa">
+                            <div class="front">
+                                <i class="human-businessman52"></i>
                             </div>
-                        </div>
-                        <div class="col-md-7 animated" data-anim="fadeInRight">                            
-                            <div class="home-service-item-title text-bigger">
-                                Bdev
-                            </div>
-                            <div class="home-service-item-text">
-                                Bdev adalah unit usaha PT. Berkah Developer Solution yang bergerak di bidang pembuatan dan pengembangan perangkat lunak. Selain membuat dan mengembangkat perangkat lunak, BDev juga melayani jasa pembuatan website dan aplikasi mobile. Focus utama BDev adalah menjadi solusi penyedia sistem informasi yang handal untuk kegiatan bisnis maupun perorangan.
+                            <div class="back">
+                                <i class="human-businessman52"></i>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>-->
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-md-5">

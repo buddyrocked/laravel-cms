@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"bo",
-				"border-radius"
+				"mar",
+				"margin"
 			],
 			[
-				"mar",
-				"margin-top"
+				"bo",
+				"border-radius"
 			],
 			[
 				"borde",
@@ -523,8 +523,41 @@
 			"file": "public/assets/css/front.css",
 			"settings":
 			{
-				"buffer_size": 42169,
+				"buffer_size": 46809,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/assets/css/human.css",
+			"settings":
+			{
+				"buffer_size": 7522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/frontend/service.blade.php",
+			"settings":
+			{
+				"buffer_size": 20102,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/views/frontend/about2.blade.php",
+			"settings":
+			{
+				"buffer_size": 4200,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ".my-hexa:hover .front {\n  -webkit-transform: translateZ(-1px) rotateY(180deg);\n  -moz-transform: translateZ(-1px) rotateY(180deg);\n  z-index: 800;\n}\n.my-hexa:hover .back {\n  -webkit-transform: translateZ(1px) rotateY(0deg);\n  -moz-transform: translateZ(1px) rotateY(0deg);\n  z-index: 900;\n}\n.my-hexa .front {\n  display: block;\n  height: 100px;\n  width: 58.13953488px;\n  position: relative;\n  background: #dc276c;\n  -webkit-transition: all 600ms;\n  -moz-transition: all 600ms;\n  transition: all 600ms;\n  position: absolute;\n  top: 0;\n  -webkit-transform: translateZ(1px) rotateY(0deg);\n  -moz-transform: translateZ(1px) rotateY(0deg);\n  -webkit-transform-style: preserve-3d;\n  -moz-transform-style: preserve-3d;\n  /*-webkit-backface-visibility: hidden;*/\n  /*-moz-backface-visibility: hidden;*/\n  z-index: 900;\n}\n.my-hexa .front:before {\n  content: \"\";\n  display: block;\n  width: 58.13953488px;\n  height: 100px;\n  background: #dc276c;\n  -webkit-transform: rotateZ(-60deg);\n  -moz-transform: rotateZ(-60deg);\n  -moz-transform-style: preserve-3d;\n}\n.my-hexa .front:after {\n  content: \"\";\n  display: block;\n  width: 58.13953488px;\n  height: 100px;\n  background: #dc276c;\n  -webkit-transform: rotateZ(60deg);\n  -moz-transform: rotateZ(60deg);\n  -moz-transform-style: preserve-3d;\n  position: absolute;\n  top: 0;\n}\n.my-hexa .back {\n  display: block;\n  height: 100px;\n  width: 58.13953488px;\n  position: relative;\n  background: #ffb533;\n  -webkit-transition: all 600ms;\n  -moz-transition: all 600ms;\n  transition: all 600ms;\n  position: absolute;\n  top: 0;\n  -webkit-transform: translateZ(-1px) rotateY(-180deg);\n  -moz-transform: translateZ(-1px) rotateY(-180deg);\n  -webkit-transform-style: preserve-3d;\n  -moz-transform-style: preserve-3d;\n  -webkit-backface-visibility: hidden;\n  -moz-backface-visibility: hidden;\n  z-index: 800;\n  opacity: 0.7;\n}\n.my-hexa .back:before {\n  content: \"\";\n  display: block;\n  width: 58.13953488px;\n  height: 100px;\n  background: #ffb533;\n  -webkit-transform: rotateZ(-60deg);\n  -moz-transform: rotateZ(-60deg);\n  -moz-transform-style: preserve-3d;\n}\n.my-hexa .back:after {\n  content: \"\";\n  display: block;\n  width: 58.13953488px;\n  height: 100px;\n  background: #ffb533;\n  -webkit-transform: rotateZ(60deg);\n  -moz-transform: rotateZ(60deg);\n  -moz-transform-style: preserve-3d;\n  position: absolute;\n  top: 0;\n}\n.my-hexa.top {\n  top: -50px;\n}\n",
+			"settings":
+			{
+				"buffer_size": 2371,
+				"line_ending": "Windows",
+				"name": ".my-hexa:hover .front {"
 			}
 		},
 		{
@@ -539,7 +572,7 @@
 			"file": "app/views/layouts/budi-layout/frontend.blade.php",
 			"settings":
 			{
-				"buffer_size": 20555,
+				"buffer_size": 21556,
 				"line_ending": "Windows"
 			}
 		},
@@ -587,7 +620,7 @@
 			"file": "app/views/frontend/home.blade.php",
 			"settings":
 			{
-				"buffer_size": 8932,
+				"buffer_size": 18323,
 				"line_ending": "Windows"
 			}
 		},
@@ -611,7 +644,7 @@
 			"file": "/D/xampp/htdocs/bkom_new/protected/config/main.php",
 			"settings":
 			{
-				"buffer_size": 7855,
+				"buffer_size": 8183,
 				"line_ending": "Windows"
 			}
 		},
@@ -651,7 +684,7 @@
 			"file": "app/controllers/FrontEndController.php",
 			"settings":
 			{
-				"buffer_size": 2701,
+				"buffer_size": 3868,
 				"line_ending": "Windows"
 			}
 		},
@@ -707,7 +740,7 @@
 			"file": "app/views/layouts/budi-layout/layout.blade.php",
 			"settings":
 			{
-				"buffer_size": 9096,
+				"buffer_size": 9098,
 				"line_ending": "Windows"
 			}
 		},
@@ -715,7 +748,7 @@
 			"file": "app/config/app.php",
 			"settings":
 			{
-				"buffer_size": 25069,
+				"buffer_size": 25079,
 				"line_ending": "Windows"
 			}
 		},
@@ -739,7 +772,7 @@
 			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 13986,
+				"buffer_size": 14066,
 				"line_ending": "Windows"
 			}
 		},
@@ -755,7 +788,7 @@
 			"file": "app/config/database.php",
 			"settings":
 			{
-				"buffer_size": 3327,
+				"buffer_size": 3317,
 				"line_ending": "Windows"
 			}
 		},
@@ -806,11 +839,9 @@
 	[
 		"/D/xampp/htdocs/bdev-web",
 		"/D/xampp/htdocs/bdev-web/app",
-		"/D/xampp/htdocs/bdev-web/app/config",
-		"/D/xampp/htdocs/bdev-web/app/controllers",
-		"/D/xampp/htdocs/bdev-web/app/models",
 		"/D/xampp/htdocs/bdev-web/app/views",
-		"/D/xampp/htdocs/bdev-web/app/views/staffs",
+		"/D/xampp/htdocs/bdev-web/app/views/category",
+		"/D/xampp/htdocs/bdev-web/app/views/frontend",
 		"/D/xampp/htdocs/bdev-web/public",
 		"/D/xampp/htdocs/bdev-web/vendor",
 		"/D/xampp/htdocs/bdev-web/vendor/mrjuliuss",
@@ -984,6 +1015,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"i {",
+			"58.13953488",
+			"100px",
+			".hexa",
+			"rotate",
 			"footer",
 			"medias",
 			"medias.i",
@@ -1106,12 +1142,7 @@
 			"masonry",
 			"slider",
 			"default",
-			"nivo",
-			"from ",
-			"news-content-title",
-			"news-content",
-			"37B3F0",
-			"2980B9"
+			"nivo"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1119,6 +1150,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"116.27906976",
+			".my-hexa",
 			"fca704",
 			"animatedx",
 			"teamBottom",
@@ -1244,9 +1277,7 @@
 			"route('album",
 			"SettingController",
 			"setting",
-			"album",
-			"AlbumController",
-			"TagController"
+			"album"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -1266,15 +1297,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 42169,
+						"buffer_size": 46809,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								40976,
-								40976
+								44394,
+								44394
 							]
 						],
 						"settings":
@@ -1284,7 +1315,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 40924.0,
+						"translation.y": 43840.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -1292,6 +1323,125 @@
 				},
 				{
 					"buffer": 1,
+					"file": "public/assets/css/human.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								442,
+								442
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/frontend/service.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 20102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								828,
+								828
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 99.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/views/frontend/about2.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1524,
+								1536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 459.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2371,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								2371
+							]
+						],
+						"settings":
+						{
+							"auto_name": ".my-hexa:hover .front {",
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1049.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
 					"file": "public/assets/vendor/bootstrap/dist/css/bootstrap.css",
 					"semi_transient": false,
 					"settings":
@@ -1314,27 +1464,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 70516.0,
+						"translation.y": 66599.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
+					"buffer": 6,
 					"file": "app/views/layouts/budi-layout/frontend.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 20555,
+						"buffer_size": 21556,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5411,
-								5411
+								20598,
+								20598
 							]
 						],
 						"settings":
@@ -1344,14 +1494,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1510.0,
+						"translation.y": 6661.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 7,
 					"file": "vendor/mrjuliuss/syntara/src/routes.php",
 					"semi_transient": false,
 					"settings":
@@ -1374,14 +1524,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 486.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "app/views/category/create.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1406,11 +1556,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "app/views/frontend/about.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1433,14 +1583,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 49.0,
-						"translation.y": 540.0,
+						"translation.y": 510.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 10,
 					"file": "app/views/staffs/edit.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1462,14 +1612,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 496.0,
+						"translation.y": 469.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 17,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 11,
 					"file": "app/views/frontend/read.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1491,42 +1641,43 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 288.0,
-						"translation.y": 1110.0,
+						"translation.y": 1049.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 12,
 					"file": "app/views/frontend/home.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8932,
+						"buffer_size": 18323,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5735,
-								5735
+								12035,
+								12035
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2120.0,
+						"translation.y": 3703.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 13,
 					"file": "app/models/Staff.php",
 					"semi_transient": false,
 					"settings":
@@ -1551,11 +1702,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 14,
 					"file": "app/controllers/StaffsController.php",
 					"semi_transient": false,
 					"settings":
@@ -1577,27 +1728,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1728.0,
+						"translation.y": 1632.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 15,
 					"file": "/D/xampp/htdocs/bkom_new/protected/config/main.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7855,
+						"buffer_size": 8183,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5639,
-								5639
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1606,14 +1757,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2714.0,
+						"translation.y": 2564.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 14,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 16,
 					"file": "/D/xampp/htdocs/bkom_new/protected/controllers/AlbumController.php",
 					"semi_transient": false,
 					"settings":
@@ -1635,14 +1786,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 7491.0,
+						"translation.y": 7075.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 17,
 					"file": "app/controllers/GalleryController.php",
 					"semi_transient": false,
 					"settings":
@@ -1667,11 +1818,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 18,
 					"file": "/D/xampp/htdocs/bkom_new/protected/controllers/GalleryController.php",
 					"semi_transient": false,
 					"settings":
@@ -1696,11 +1847,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 19,
 					"file": "app/views/frontend/blog.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1721,27 +1872,27 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 26.0,
-						"translation.y": 903.0,
+						"translation.y": 853.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 20,
 					"file": "app/controllers/FrontEndController.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2701,
+						"buffer_size": 3868,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2490,
-								2490
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1750,14 +1901,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1350.0,
+						"translation.y": 1275.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 18,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 21,
 					"file": "app/config/mail.php",
 					"semi_transient": false,
 					"settings":
@@ -1779,14 +1930,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 792.0,
+						"translation.y": 748.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 22,
 					"file": "public/assets/css/style.css",
 					"semi_transient": false,
 					"settings":
@@ -1812,11 +1963,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 30,
+					"stack_index": 34,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 23,
 					"file": "app/views/posts/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1838,14 +1989,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 772.0,
+						"translation.y": 730.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 29,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
+					"buffer": 24,
 					"file": "app/views/menus/index.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1867,14 +2018,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 377.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
-					"buffer": 21,
+					"buffer": 25,
 					"file": "app/views/adminDefault.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1899,11 +2050,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 29,
+					"stack_index": 33,
 					"type": "text"
 				},
 				{
-					"buffer": 22,
+					"buffer": 26,
 					"file": "app/views/layouts/layout.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -1928,16 +2079,16 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 28,
+					"stack_index": 32,
 					"type": "text"
 				},
 				{
-					"buffer": 23,
+					"buffer": 27,
 					"file": "app/views/layouts/budi-layout/layout.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9096,
+						"buffer_size": 9098,
 						"regions":
 						{
 						},
@@ -1955,27 +2106,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 268.0,
+						"translation.y": 254.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 27,
+					"stack_index": 31,
 					"type": "text"
 				},
 				{
-					"buffer": 24,
+					"buffer": 28,
 					"file": "app/config/app.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 25069,
+						"buffer_size": 25079,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								798,
-								798
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1984,14 +2135,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 258.0,
+						"translation.y": 244.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 25,
+					"buffer": 29,
 					"file": "app/controllers/MediasController.php",
 					"semi_transient": false,
 					"settings":
@@ -2013,14 +2164,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1529.0,
+						"translation.y": 1445.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
+					"buffer": 30,
 					"file": "public/assets/js/budi-layout2.js",
 					"semi_transient": false,
 					"settings":
@@ -2042,27 +2193,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 11998.0,
+						"translation.y": 11332.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 30,
 					"type": "text"
 				},
 				{
-					"buffer": 27,
+					"buffer": 31,
 					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 13986,
+						"buffer_size": 14066,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8228,
-								8234
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2072,14 +2223,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 4222.0,
+						"translation.y": 3988.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 12,
 					"type": "text"
 				},
 				{
-					"buffer": 28,
+					"buffer": 32,
 					"file": "app/config/packages/mrjuliuss/syntara/permissions.php",
 					"semi_transient": false,
 					"settings":
@@ -2102,27 +2253,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1284.0,
+						"translation.y": 1213.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 29,
+					"buffer": 33,
 					"file": "app/config/database.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3327,
+						"buffer_size": 3317,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1708,
-								1708
+								0,
+								0
 							]
 						],
 						"settings":
@@ -2131,14 +2282,14 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 852.0,
+						"translation.y": 805.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
-					"buffer": 30,
+					"buffer": 34,
 					"file": "app/views/frontend/contact.blade.php",
 					"semi_transient": false,
 					"settings":
@@ -2156,13 +2307,15 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 89.0,
-						"translation.y": 731.0,
+						"translation.y": 691.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]

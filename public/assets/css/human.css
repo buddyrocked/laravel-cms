@@ -1,0 +1,465 @@
+@font-face {
+	font-family: "human";
+	src: url("human.eot");
+	src: url("human.eot#iefix") format("embedded-opentype"),
+	url("human.woff") format("woff"),
+	url("human.ttf") format("truetype"),
+	url("human.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="human-"]:before, [class*=" human-"]:before,
+[class^="human-"]:after, [class*=" human-"]:after {   
+	font-family: human;
+    font-size: inherit;
+	font-style: normal;
+}.human-arrows63:before {
+	content: "\e000";
+}
+.human-balancing3:before {
+	content: "\e001";
+}
+.human-best:before {
+	content: "\e002";
+}
+.human-black196:before {
+	content: "\e003";
+}
+.human-books12:before {
+	content: "\e004";
+}
+.human-business49:before {
+	content: "\e005";
+}
+.human-business52:before {
+	content: "\e006";
+}
+.human-business53:before {
+	content: "\e007";
+}
+.human-business55:before {
+	content: "\e008";
+}
+.human-businessman29:before {
+	content: "\e009";
+}
+.human-businessman30:before {
+	content: "\e00a";
+}
+.human-businessman31:before {
+	content: "\e00b";
+}
+.human-businessman32:before {
+	content: "\e00c";
+}
+.human-businessman33:before {
+	content: "\e00d";
+}
+.human-businessman34:before {
+	content: "\e00e";
+}
+.human-businessman35:before {
+	content: "\e00f";
+}
+.human-businessman36:before {
+	content: "\e010";
+}
+.human-businessman37:before {
+	content: "\e011";
+}
+.human-businessman38:before {
+	content: "\e012";
+}
+.human-businessman39:before {
+	content: "\e013";
+}
+.human-businessman40:before {
+	content: "\e014";
+}
+.human-businessman41:before {
+	content: "\e015";
+}
+.human-businessman42:before {
+	content: "\e016";
+}
+.human-businessman43:before {
+	content: "\e017";
+}
+.human-businessman44:before {
+	content: "\e018";
+}
+.human-businessman45:before {
+	content: "\e019";
+}
+.human-businessman46:before {
+	content: "\e01a";
+}
+.human-businessman47:before {
+	content: "\e01b";
+}
+.human-businessman48:before {
+	content: "\e01c";
+}
+.human-businessman49:before {
+	content: "\e01d";
+}
+.human-businessman50:before {
+	content: "\e01e";
+}
+.human-businessman51:before {
+	content: "\e01f";
+}
+.human-businessman52:before {
+	content: "\e020";
+}
+.human-businessman53:before {
+	content: "\e021";
+}
+.human-businessman54:before {
+	content: "\e022";
+}
+.human-businessman55:before {
+	content: "\e023";
+}
+.human-businessman56:before {
+	content: "\e024";
+}
+.human-businessman57:before {
+	content: "\e025";
+}
+.human-businessman58:before {
+	content: "\e026";
+}
+.human-businessman59:before {
+	content: "\e027";
+}
+.human-businessman60:before {
+	content: "\e028";
+}
+.human-businessman61:before {
+	content: "\e029";
+}
+.human-businessman62:before {
+	content: "\e02a";
+}
+.human-businessman63:before {
+	content: "\e02b";
+}
+.human-businessmen10:before {
+	content: "\e02c";
+}
+.human-businessmen5:before {
+	content: "\e02d";
+}
+.human-businessmen6:before {
+	content: "\e02e";
+}
+.human-businessmen7:before {
+	content: "\e02f";
+}
+.human-businessmen8:before {
+	content: "\e030";
+}
+.human-businessmen9:before {
+	content: "\e031";
+}
+.human-cake6:before {
+	content: "\e032";
+}
+.human-carnet:before {
+	content: "\e033";
+}
+.human-certificate10:before {
+	content: "\e034";
+}
+.human-cheers:before {
+	content: "\e035";
+}
+.human-chief2:before {
+	content: "\e036";
+}
+.human-city13:before {
+	content: "\e037";
+}
+.human-cogwheels4:before {
+	content: "\e038";
+}
+.human-coins10:before {
+	content: "\e039";
+}
+.human-connection11:before {
+	content: "\e03a";
+}
+.human-daily3:before {
+	content: "\e03b";
+}
+.human-delete29:before {
+	content: "\e03c";
+}
+.human-demographics:before {
+	content: "\e03d";
+}
+.human-desktop19:before {
+	content: "\e03e";
+}
+.human-document62:before {
+	content: "\e03f";
+}
+.human-dollar86:before {
+	content: "\e040";
+}
+.human-dollar87:before {
+	content: "\e041";
+}
+.human-dollar89:before {
+	content: "\e042";
+}
+.human-dollar90:before {
+	content: "\e043";
+}
+.human-earth20:before {
+	content: "\e044";
+}
+.human-employee:before {
+	content: "\e045";
+}
+.human-file30:before {
+	content: "\e046";
+}
+.human-folder74:before {
+	content: "\e047";
+}
+.human-globe18:before {
+	content: "\e048";
+}
+.human-graduate5:before {
+	content: "\e049";
+}
+.human-group47:before {
+	content: "\e04a";
+}
+.human-handbags:before {
+	content: "\e04b";
+}
+.human-head15:before {
+	content: "\e04c";
+}
+.human-highest:before {
+	content: "\e04d";
+}
+.human-human45:before {
+	content: "\e04e";
+}
+.human-human46:before {
+	content: "\e04f";
+}
+.human-human55:before {
+	content: "\e050";
+}
+.human-human56:before {
+	content: "\e051";
+}
+.human-human57:before {
+	content: "\e052";
+}
+.human-human63:before {
+	content: "\e053";
+}
+.human-human65:before {
+	content: "\e054";
+}
+.human-human66:before {
+	content: "\e055";
+}
+.human-human68:before {
+	content: "\e056";
+}
+.human-human74:before {
+	content: "\e057";
+}
+.human-incomes:before {
+	content: "\e058";
+}
+.human-international6:before {
+	content: "\e059";
+}
+.human-leadership:before {
+	content: "\e05a";
+}
+.human-legal4:before {
+	content: "\e05b";
+}
+.human-magnifying32:before {
+	content: "\e05c";
+}
+.human-magnifying34:before {
+	content: "\e05d";
+}
+.human-male111:before {
+	content: "\e05e";
+}
+.human-male120:before {
+	content: "\e05f";
+}
+.human-male122:before {
+	content: "\e060";
+}
+.human-male127:before {
+	content: "\e061";
+}
+.human-male129:before {
+	content: "\e062";
+}
+.human-male132:before {
+	content: "\e063";
+}
+.human-male133:before {
+	content: "\e064";
+}
+.human-male144:before {
+	content: "\e065";
+}
+.human-man160:before {
+	content: "\e066";
+}
+.human-man161:before {
+	content: "\e067";
+}
+.human-man162:before {
+	content: "\e068";
+}
+.human-man165:before {
+	content: "\e069";
+}
+.human-man167:before {
+	content: "\e06a";
+}
+.human-man168:before {
+	content: "\e06b";
+}
+.human-man169:before {
+	content: "\e06c";
+}
+.human-man170:before {
+	content: "\e06d";
+}
+.human-man172:before {
+	content: "\e06e";
+}
+.human-man173:before {
+	content: "\e06f";
+}
+.human-man175:before {
+	content: "\e070";
+}
+.human-man176:before {
+	content: "\e071";
+}
+.human-man180:before {
+	content: "\e072";
+}
+.human-man183:before {
+	content: "\e073";
+}
+.human-meeting2:before {
+	content: "\e074";
+}
+.human-men9:before {
+	content: "\e075";
+}
+.human-money12:before {
+	content: "\e076";
+}
+.human-office21:before {
+	content: "\e077";
+}
+.human-office22:before {
+	content: "\e078";
+}
+.human-personal10:before {
+	content: "\e079";
+}
+.human-personal11:before {
+	content: "\e07a";
+}
+.human-personal9:before {
+	content: "\e07b";
+}
+.human-phone56:before {
+	content: "\e07c";
+}
+.human-phone58:before {
+	content: "\e07d";
+}
+.human-placeholder2:before {
+	content: "\e07e";
+}
+.human-police21:before {
+	content: "\e07f";
+}
+.human-professional5:before {
+	content: "\e080";
+}
+.human-professional6:before {
+	content: "\e081";
+}
+.human-salute:before {
+	content: "\e082";
+}
+.human-search22:before {
+	content: "\e083";
+}
+.human-search23:before {
+	content: "\e084";
+}
+.human-security19:before {
+	content: "\e085";
+}
+.human-skyscraper2:before {
+	content: "\e086";
+}
+.human-speedometer7:before {
+	content: "\e087";
+}
+.human-suitcase28:before {
+	content: "\e088";
+}
+.human-tablet49:before {
+	content: "\e089";
+}
+.human-talk2:before {
+	content: "\e08a";
+}
+.human-three67:before {
+	content: "\e08b";
+}
+.human-three68:before {
+	content: "\e08c";
+}
+.human-two137:before {
+	content: "\e08d";
+}
+.human-two138:before {
+	content: "\e08e";
+}
+.human-verified2:before {
+	content: "\e08f";
+}
+.human-woman53:before {
+	content: "\e090";
+}
+.human-worker2:before {
+	content: "\e091";
+}
+.human-worker3:before {
+	content: "\e092";
+}
+.human-worker:before {
+	content: "\e093";
+}
+.human-working2:before {
+	content: "\e094";
+}
+.human-writing14:before {
+	content: "\e095";
+}
