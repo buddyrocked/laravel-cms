@@ -11,6 +11,11 @@ class HomeController extends BaseController {
 
 	public function __construct(GA_Service $ga){
 		$this->ga = $ga;
+
+		View::share('title', 'B-DEV - PT. Berkah Developer Solutions');
+    	View::share('description', 'Software House Jasa Pembauatn Website Murah dan berkualitas di Kota Bogor');
+    	View::share('keywords', 'Software House, jasa pembauatn website, website, aplikasi mobile, android, bogor ');
+    	View::share('author', 'Admin');
 	}
 
 	public function index(){
@@ -20,7 +25,7 @@ class HomeController extends BaseController {
 			$dimensions = $metadata['dimensions'];
 			$metrics = $metadata['metrics'];
 
-			$this->layout->title = 'List positions';
+			$this->layout->title = 'Google Analytics';
 
 			$this->layout->breadcrumb = array(
 									        array(
@@ -47,7 +52,7 @@ class HomeController extends BaseController {
 	        $code = Input::get('code');
 	        $this->ga->login($code);
 	         
-	        return "Go to the home <a href='/google'>page</a>";
+	        return "Go to the home <a href='/dashboard'>page</a>";
 	    }
 	    else{
 	        return "Invalide request parameters";
