@@ -122,7 +122,21 @@ Class PostsController extends BaseController {
 				$post->status = Input::get('status');
 				$post->category_id = Input::get('category_id');
 				$post->user_id = Sentry::getUser()->id;
+				//Post to Facebook
+				if(Session::get('facebook_token') != null):
+					//Facebook::setAccessToken(Session::get('facebook_token'));
+					$status = ['message'=>$post->title, 'link'=>'http://b-dev.biz/'];
+					//$facebook_user = Facebook::object('me/accounts')->get();
+					//echo '<pre />';
+					//print_r($facebook_user);
+					//exit;
+					Facebook::setAccessToken(Config::get('facebook.fbPageToken'));
+					$response = Facebook::object(Config::get('facebook.fbPageId').'/feed')->with($status)->post();
+				endif;
+
 				$post->save();
+
+				
 
 				if(Input::has('tags')){
 					$tags = explode(',', Input::get('tags'));
@@ -274,6 +288,14 @@ Class PostsController extends BaseController {
 				$post->category_id = Input::get('category_id');
 				$post->user_id = Sentry::getUser()->id;
 				$post->save();
+
+				if(Session::get('facebook_token') != null):
+					$status = ['message'=>$post->title, 'link'=>(string)URL::route('read', $post->slug)];
+					Facebook::setAccessToken(Config::get('facebook.fbPageToken'));
+					$response = Facebook::object(Config::get('facebook.fbPageId').'/feed')->with($status)->post();
+					echo URL::route('read', $post->slug);
+					var_dump($response); exit;
+				endif;
 
 				if(Input::has('tags')){
 					$tags = explode(',', Input::get('tags'));

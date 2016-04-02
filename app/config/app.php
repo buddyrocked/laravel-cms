@@ -26,7 +26,7 @@ return array(
 	|
 	*/
 
-	'url' => 'http://b-dev.biz',
+	'url' => 'http://localhost:8000',
 
 	/*
 	|-------------------------------------------------------------------------
@@ -608,6 +608,7 @@ return array(
 		'Way\Generators\GeneratorsServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
 		'Cviebrock\EloquentSluggable\SluggableServiceProvider',
+		'SammyK\LaravelFacebookSdk\LaravelFacebookSdkServiceProvider',
 
 	),
 
@@ -677,7 +678,8 @@ return array(
 		'View'              => 'Illuminate\Support\Facades\View',
 		'Sentry'            => 'Cartalyst\Sentry\Facades\Laravel\Sentry',
 		'Menu'       		=> 'Lavary\Menu\Facade',
-		'Image'             => 'Intervention\Image\Facades\Image'
+		'Image'             => 'Intervention\Image\Facades\Image',
+		'Facebook' => 'SammyK\LaravelFacebookSdk\FacebookFacade'
 
 	),
 

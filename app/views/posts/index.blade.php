@@ -5,6 +5,9 @@
 			<div class="col-md-6">
 				<div class="btn-group">
 					{{ HTML::link(URL::route('posts-create'), 'New Post', ['class'=>'btn btn-default-full btn-add']) }}
+					@if(Session::get('facebook_token') == null)
+						{{ HTML::linkicon(URL::route('facebookLogin'), '<i class="fa fa-facebook"></i> Facebook Login', ['class'=>'btn btn-default-full']) }}
+					@endif
 				</div>
 			</div>
 			<div class="col-md-6">	

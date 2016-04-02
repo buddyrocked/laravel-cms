@@ -18,7 +18,11 @@
         {{ HTML::style('assets/css/font-awesome.min.css') }}
         {{ HTML::style('assets/css/human.css'); }}
         {{ HTML::style('assets/vendor/animate.css/animate.css'); }}
+        {{ HTML::style('assets/css/hexagons.min.css'); }}
+        {{ HTML::style('assets/css/hero-slider.css'); }} 
         {{ HTML::style('assets/css/front.css') }}
+        {{ HTML::script('assets/js/modernizr.js'); }}
+        
         {{ HTML::script('assets/vendor/jquery/dist/jquery.js'); }}
 
        
@@ -76,27 +80,22 @@
                             </li>
                             <li class="@if (Route::currentRouteName() == 'home') current @endif">
                                 <a href="{{ URL::route('home') }}" class="hover-effect">
-                                    <span data-hover="Home">Beranda</span>
+                                    <span data-hover="Home">Home</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'service') current @endif">
                                 <a href="{{ URL::route('service') }}" class="hover-effect">
-                                    <span data-hover="Product & Services">Produk & Layanan</span>
+                                    <span data-hover="Product & Services">Product & Services</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'about') current @endif">
                                 <a href="{{ URL::route('about') }}" id="link-services" class="hover-effect">
-                                    <span data-hover="About Us">Tentang Kami</span>
+                                    <span data-hover="About Us">About Us</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'portfolio') current @endif">
                                 <a href="{{ URL::route('portfolio') }}" class="hover-effect">
-                                    <span data-hover="Portfolio">Portofolio</span>
-                                </a>
-                            </li>
-							<li class="@if (Route::currentRouteName() == 'studi') current @endif">
-                                <a href="{{ URL::route('studi') }}" class="hover-effect">
-                                    <span data-hover="Case Study">Studi Kasus</span>
+                                    <span data-hover="Our Works">Our Works</span>
                                 </a>
                             </li>
                             <li class="@if (Route::currentRouteName() == 'blog' || Route::currentRouteName() == 'read') current @endif">
@@ -106,7 +105,7 @@
                             </li>
                             <li class="@if (Route::currentRouteName() == 'contact') current @endif">
                                 <a href="{{ URL::route('contact') }}" class="hover-effect">
-                                    <span data-hover="Contact Us">Hubungi Kami</span>
+                                    <span data-hover="Contact Us">Contact Us</span>
                                 </a>
                             </li>
                         </ul>
@@ -127,7 +126,7 @@
                     </div>
                     <div class="col-md-9">
                         <div id="mini-profile" class="animated text-bigger" data-anim="fadeInLeft">
-                            <span class="text-main">Be Wonderfull, </span> <span class="text-mute">Success will come by it self.</span>
+                            <!--<span class="text-main">Be Wonderfull, </span> <span class="text-mute">Success will come by it self.</span>-->
                         </div>
                     </div>
                 </div>
@@ -139,7 +138,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="footer-title">
-                                Alamat Kantor <span></span>
+                                Our Office <span></span>
                             </div>
                             <div id="footer-address">
                                 <div class="">
@@ -260,12 +259,15 @@
     {{ HTML::script('assets/js/TweenLite.min.js'); }}
     {{ HTML::script('assets/js/EasePack.min.js'); }}
     {{ HTML::script('assets/js/rAF.js'); }}
-    {{ HTML::script('assets/js/demo-1.js'); }}
+    {{ HTML::script('assets/js/hexagons.min.js'); }}
+    {{ HTML::script('assets/js/hero-slider.js'); }}
+    {{ HTML::script('assets/js/svg.min.js'); }}
     
     
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgA9x1eyjMKLAln_0LTAkMPcIJFC0M9os">
         </script>
     <script>
+        
 
         var s, 
         APP = {
@@ -447,6 +449,17 @@
                             animatex='down';
                             $(this).removeClass(anim);
                             $(this).addClass('fadeOut');
+                        }
+                    });
+
+                    $('.example1').each(function(){                        
+                        
+                        var scrollTop = jQuery('#trigger').offset().top;                
+                        if (scrollTop > $(this).offset().top) { 
+                            $(this).addClass('oke');                  
+                            //new SvgAnimation({ "elem" : $(this), "timeout" : 1 }).animate();
+                        }else{
+                            
                         }
                     });
                 });

@@ -291,6 +291,6 @@ class HomeController extends BaseController {
 		$this->layout->content = View::make('adminDefault', compact(array('comments', 'schedules')));
 	}
 
-
+	
 
 }

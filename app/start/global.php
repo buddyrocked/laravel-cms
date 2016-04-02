@@ -143,3 +143,5 @@ View::composer('layouts.budi-layout.menu-item', 'NavigationViewComposer');
 View::composer('layouts.budi-layout.comment', 'CommentViewComposer');
 
 View::composer('layouts.budi-layout.sidebarBlog', 'SidebarBlogViewComposer');
+
+View::composer('layouts.budi-layout.fblogin', 'FacebookViewComposer');

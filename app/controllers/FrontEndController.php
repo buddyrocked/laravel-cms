@@ -9,7 +9,7 @@ class FrontEndController extends \BaseController {
 
     public function __construct(){
     	View::share('title', 'B-DEV - PT. Berkah Developer Solutions');
-    	View::share('description', 'Software House Jasa Pembauatn Website Murah dan berkualitas di Kota Bogor');
+    	View::share('description', 'Software House Jasa Pembuatan Website Murah dan berkualitas di Kota Bogor');
     	View::share('keywords', 'Software House, jasa pembauatn website, website, aplikasi mobile, android, bogor ');
     	View::share('author', 'Admin');
     }
@@ -57,7 +57,7 @@ class FrontEndController extends \BaseController {
 	public function blog($category=null){
 		View::share('title', 'Blog Post | B-DEV - PT. Berkah Developer Solutions');
 
-		$this->layout->title = 'Blog Post';
+		$this->layout->title = 'Blog Post | B-DEV - PT. Berkah Developer Solutions';
 		
 		if($category != null):
 			$posts = Category::where('name', '=', $category)->first();
@@ -81,10 +81,11 @@ class FrontEndController extends \BaseController {
 	}
 
 	public function read($slug=null){
-		View::share('title', 'Read Blog | B-DEV - PT. Berkah Developer Solutions');
 
 		$post = Post::findBySlug($slug);
-		$this->layout->title = 'Blog detail';
+		$this->layout->title = 'B-dev | Read Blog - '.$post->title;		
+		View::share('title', 'Read Blog | B-DEV - PT. Berkah Developer Solutions');
+    	View::share('description', $post->headline);
 		$this->layout->breadcrumb = array();
 		$this->layout->content = View::make('frontend.read', compact('post'));
 

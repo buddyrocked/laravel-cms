@@ -449,3 +449,15 @@ Route::get('login', array('as'=>'login', 'uses'=>'UserController@login'));
 Route::post('login', array('as'=>'postLogin', 'uses'=>'UserController@doLogin'));
 Route::get('logout', array('as'=>'logout', 'uses'=>'UserController@doLogout'));
 
+// Fancy wrapper for login URL
+Route::get('/facebook/login', array('as'=>'facebookLogin', 'uses'=>'FacebookController@login'));
+
+// Endpoint that is redirected to after an authentication attempt
+Route::get('/facebook/auth', array('as'=>'facebookAuth', 'uses'=>'FacebookController@auth'));
+
+//catch error message
+Route::get('/facebook/status', array('as'=>'facebookStatus', 'uses'=>'FacebookController@status'));
+
+//display facebook data
+Route::get('/facebook/success', array('as'=>'facebookSuccess', 'uses'=>'FacebookController@success'));
+

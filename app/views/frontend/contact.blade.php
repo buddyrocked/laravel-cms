@@ -4,7 +4,7 @@
 	<div id="home-portfolio">
 		<div class="title-section2-container center animated" data-anim="fadeInDown">
 	        <div class="title-section2">
-	            Our <span>Contact</span>
+	            Our Contact
 	        </div>
 	        <div class="text-mute text-semibold">Our Contact.</div>
 	    </div>
@@ -20,13 +20,13 @@
 		
 	</div>
 </div>
-<div class="section">
+<div class="section orange-background" >
 <div class="container">
 	<div class="row">
         <div class="col-md-6">
             <div class="title-section2-container animated" data-anim="fadeInDown">
                  <div class="title-section2">
-		            Our <span>Office</span>
+		            Our Office
 		        </div>
 		        <div class="text-mute text-semibold">Our Contact.</div>
             </div>
@@ -52,7 +52,7 @@
         <div class="col-md-6">
             <div class="title-section2-container animated" data-anim="fadeInDown">
                  <div class="title-section2">
-		            Email <span>Us</span>
+		            Email Us
 		        </div>
 		        <div class="text-mute text-semibold">Feel free to talk with us.</div>
             </div>

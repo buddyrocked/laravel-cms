@@ -34,7 +34,10 @@
 			"app/tests/TestCase.php",
 			"app/viewComposers",
 			"app/src"
-		]
+		],
+		"psr-4" : {
+	        "Facebook\\":"vendor/facebook/php-sdk-v4/src/Facebook/"
+	    }
 	},
 	"scripts": {
 		"post-install-cmd": [

@@ -10,15 +10,7 @@
 		<div class="row">
 			<div class="col-md-4 col-md-offset-8">
 				<div class="about-section-content">
-					<div class="title-section2-container animated" data-anim="fadeInDown">
-		        		<div class="title-section2 inverse">
-	                        Welcome to <span>B-DEV</span>
-	                    </div>
-			        	<div class="text-white text-semibold">PT. Berkah Developer Solution</div>
-			        </div>
-					<div class="content animated" data-anim="bounceInRight">
-						PT. Berkah Developer Solution adalah sebuah perusahaan yang bergerak di bidang teknologi informasi. PT. Berkah Developer Solution memiliki core bisnis utama yaitu Pengembangan perangkat lunak dan website, Perbaikan hardware, Sewa Hosting, Desain grafis, Pelatihan komputer.
-					</div>
+					
 				</div>
 			</div>
 		</div>
