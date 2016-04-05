@@ -4,7 +4,7 @@
 	<div id="home-portfolio">
 		<div class="title-section2-container center animated" data-anim="fadeInDown">
 	        <div class="title-section2">
-	            Our <span>Portfolio</span>
+	            Our Portfolio
 	        </div>
 	        <div class="text-mute text-semibold">Our recent works and project.</div>
 	    </div>
@@ -62,7 +62,7 @@
     <div class="container">
     	<div class="title-section2-container center animated" data-anim="fadeInDown">
         		<div class="title-section2">
-                    Our <span>Clients</span>
+                    Our Clients
                 </div>
         	<div class="text-mute text-semibold">Our Partners & Clients.</div>
         </div>

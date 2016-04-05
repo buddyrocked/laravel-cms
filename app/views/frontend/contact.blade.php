@@ -20,7 +20,7 @@
 		
 	</div>
 </div>
-<div class="section orange-background" >
+<!--<div class="section orange-background" >
 <div class="container">
 	<div class="row">
         <div class="col-md-6">
@@ -30,7 +30,7 @@
 		        </div>
 		        <div class="text-mute text-semibold">Our Contact.</div>
             </div>
-            <div id="">
+            <div class="text-white">
                 <div class="">
                     Jln. Kh. Soleh Iskandar Km. 8 No. 10 <br />
                     Kota Bogor Jawa Barat
@@ -99,6 +99,6 @@
         </div>
     </div>
 </div>
-
 </div>
+-->
 @stop

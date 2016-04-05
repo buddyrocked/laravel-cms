@@ -129,7 +129,7 @@
 				<div class="title-section2">
 					What We Do <span></span>
 				</div>
-				<div class="text-mute text-semibold">We hear, analyze, design & build.</div>
+				<div class="text-mute text-semibold">We Design, Develop & Integration.</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4">
@@ -170,7 +170,7 @@
 							SYSTEM & SOFTWARE DEVELOPMENT
 						</div>
 						<div class="process-content">
-							...
+							We're here to listen and make your idea happens to start becoming awesome, not just your business, but also your personal branding. With our web app, you can achieve everything and become anyone you could only imagine in your dreams. Contact us now to get special price just for you!
 						</div>
 					</div>
 				</div>

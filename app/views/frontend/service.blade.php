@@ -24,7 +24,7 @@
                                 System & Software Development
                             </div>
                             <div class="home-service-item-text">
-                                BSupport adalah Unit usaha PT Berkah Developer Solution yang menyediakan jasa pengadaan, perbaikan dan perawatan untuk perangkat keras dan perangakat lunak.
+                                We're here to listen and make your idea happens to start becoming awesome, not just your business, but also your personal branding. With our web app, you can achieve everything and become anyone you could only imagine in your dreams. Contact us now to get special price just for you!
                             </div>
                         </div>
                     </div>
@@ -64,6 +64,87 @@
                     </div>
                 </div>
         	</div>
+        </div>
+    </div>
+</div>
+<div class="section" id="service-content">
+    <div id="host-service">
+        <div class="title-section2-container center animated" data-anim="fadeInDown">
+            <div class="title-section2">
+                Our Products
+            </div>
+            <div class="text-mute text-semibold">Our Products.</div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6  animated fadeInDown">
+                    <div class="cd-product-wrapper">
+                        {{ HTML::image('assets/images/hexa.png') }}
+                        <ul>
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-top">
+                                    <h2>Title</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae distinctio esse placeat minus fugit, voluptate, quos, ea, nisi temporibus repudiandae perspiciatis natus quasi ipsa corrupti ipsum amet facere ut nihil.
+                                    </p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-top">
+                                    <h2>Title</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae distinctio esse placeat minus fugit, voluptate, quos, ea, nisi temporibus repudiandae perspiciatis natus quasi ipsa corrupti ipsum amet facere ut nihil.
+                                    </p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-right">
+                                    <h2>Title</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae distinctio esse placeat minus fugit, voluptate, quos, ea, nisi temporibus repudiandae perspiciatis natus quasi ipsa corrupti ipsum amet facere ut nihil.
+                                    </p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+
+                            <li class="cd-single-point">
+                                <a class="cd-img-replace" href="#0">More</a>
+                                <div class="cd-more-info cd-left">
+                                    <h2>Title</h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae distinctio esse placeat minus fugit, voluptate, quos, ea, nisi temporibus repudiandae perspiciatis natus quasi ipsa corrupti ipsum amet facere ut nihil.
+                                    </p>
+                                    <a href="#0" class="cd-close-info cd-img-replace">Close</a>
+                                </div>
+                            </li> <!-- .cd-single-point -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6 animated fadeInRight">
+                    <div class="product-title">
+                        Hexa POS
+                    </div>
+                    <div class="product-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br />
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                    <div class="product-link">
+                        <a href="#" class="btn btn-main">
+                            <i class="fa fa-cloud-download"></i> Download Trial Version
+                        </a>
+                        <a href="#" class="btn btn-main">
+                            <i class="fa fa-desktop"></i> Visit Website
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>

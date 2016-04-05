@@ -14,7 +14,7 @@ class GA_Service{
 		$this->client->setDeveloperKey(Config::get('analytics.api_key'));
 		$this->client->setAccessType('offline');
 		$this->client->setApprovalPrompt('force');
-		$this->client->setRedirectUri('http://localhost:8000/google/login');
+		$this->client->setRedirectUri(Config::get('app.url').'google/login');
 		$this->client->setScopes(array('https://www.googleapis.com/auth/analytics'));
 
 	}
